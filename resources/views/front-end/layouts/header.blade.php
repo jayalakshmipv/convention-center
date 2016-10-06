@@ -30,46 +30,30 @@
     <![endif]-->
 </head>
 <body>
-<div class="header">
+<div class="collapse" id="searcharea"><!-- top search -->
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search for...">
+    <span class="input-group-btn">
+    <button class="btn btn-primary" type="button">Search</button>
+    </span> </div>
+</div>
+<!-- /.top search -->
+<div class="top-bar">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 logo">
-        <div class="navbar-brand"> <a href="index.html"><img src="images/logo.png" alt="Wedding Vendors" class="img-responsive"></a></div>
+      <div class="col-md-6 top-message">
+        <p>Welcome to Convention Centre.</p>
       </div>
-      <div class="col-md-9">
-        <div class="navigation">
-          <div class="menu-button">Menu</div>
-          <ul data-breakpoint="800" class="flexnav">
-            <li class="active"><a href="index.html">Home</a>
-            </li>
-            <li><a href="#">Search List</a>
-              <ul>
-                <li><a href="vendor-listing-row-map.html" title="Home" class="animsition-link">List / Half Map</a></li>
-                <li><a href="vendor-listing-bubba.html">Bubba Style Listing</a></li>  
-              </ul>
-            </li>
-            <li><a href="event.html">Event</a> 
-            </li>
-            <li><a href="pricing-plan.html">Pricing Table</a>
-            </li>
-            <li><a href="about-us.html">About Us</a>
-            </li>
-            <li><a href="contact-us.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div class="col-md-6 top-links">
+        <ul class="listnone">
+          <li><a href="faq.html"> Help </a></li>
+          <li><a href="pricing-plan.html">Pricing</a></li>
+          <li><a href="signup-couple.html" class=" ">I m couple</a></li>
+          <li><a href="signup-vendor.html">Are you vendor?</a></li>
+          <li><a href="login-page.html">Log in</a></li>
+          <li><a role="button" data-toggle="collapse" href="#searcharea" aria-expanded="false" aria-controls="searcharea"> <i class="fa fa-search"></i> </a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
-<script src="js/jquery.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.min.js"></script> 
-<!-- Flex Nav Script --> 
-<script src="js/jquery.flexnav.js" type="text/javascript"></script> 
-<script src="js/navigation.js"></script>  
-<!-- sticky header --> 
-<script src="js/jquery.sticky.js"></script> 
-<script src="js/header-sticky.js"></script>
-</body>
-</html>
