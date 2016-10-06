@@ -265,10 +265,18 @@ class ComposerStaticInit78a2bbdbf402b2bd25ede481a6646c12
     );
 
     public static $classMap = array (
+<<<<<<< Updated upstream
         'BasicCenterDetails' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_104616_basic_center_details.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
+=======
+        'Aminities' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_104633_aminities.php',
+        'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
+        'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
+        'Events' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_112635_events.php',
+>>>>>>> Stashed changes
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
@@ -341,7 +349,10 @@ class ComposerStaticInit78a2bbdbf402b2bd25ede481a6646c12
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
         'IlluminateQueueClosure' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
+<<<<<<< Updated upstream
         'Images' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_110918_images.php',
+=======
+>>>>>>> Stashed changes
         'PHPUnit_Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit_Extensions_GroupTestSuite' => __DIR__ . '/..' . '/phpunit/phpunit/src/Extensions/GroupTestSuite.php',
         'PHPUnit_Extensions_PhptTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/src/Extensions/PhptTestCase.php',
@@ -737,11 +748,14 @@ class ComposerStaticInit78a2bbdbf402b2bd25ede481a6646c12
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
+<<<<<<< Updated upstream
         'PremiumAminities' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_114801_premium_aminities.php',
         'PremiumCenterDetails' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_111539_premium_center_details.php',
         'PremiumPhoto' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_112347_premium_photo.php',
         'PremiumRating' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_113225_premium_rating.php',
         'Rating' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_113536_rating.php',
+=======
+>>>>>>> Stashed changes
         'SebastianBergmann\\Comparator\\ArrayComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ArrayComparator.php',
         'SebastianBergmann\\Comparator\\Comparator' => __DIR__ . '/..' . '/sebastian/comparator/src/Comparator.php',
         'SebastianBergmann\\Comparator\\ComparisonFailure' => __DIR__ . '/..' . '/sebastian/comparator/src/ComparisonFailure.php',
