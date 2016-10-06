@@ -33,10 +33,10 @@ Description:Wedding Vendor | Vendor Directory HTML Template for All Vendor Listi
 /*-----------------------------
 	01 - General CSS - Basic setup Typography and Template CSS
 ------------------------------*/
+
 body { font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 1.6; background-color: #faf9f5; color: #706a68;
  -webkit-font-smoothing: antialiased;}
-h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; margin: 0px 0 10px 0px; color: #3c3634;}
-h1 {font-size: 30px;}
+ h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; margin: 0px 0 10px 0px; color: #3c3634;}
 h2 {font-size: 22px;}
 h3 {font-size: 18px;}
 h4 {font-size: 16px;}
@@ -1956,3 +1956,17 @@ section.module.parallax h1 { color: #fff; font-size: 38px; font-weight: 700; tex
 .gd-form{}
 .gd-form .form-control{margin-bottom: 20px;}
 
+#b
+{
+  font-style: "Comic Sans MS", cursive, sans-serif;
+}
+#a
+{
+   font-style: oblique;
+}
+}
+<meta name="description" content="Creative Button Styles  - Modern and subtle styles &amp; effects for buttons" />
+    <meta name="keywords" content="button styles, css3, modern, flat button, subtle, effects, hover, web design" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    
