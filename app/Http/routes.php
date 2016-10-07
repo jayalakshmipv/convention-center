@@ -26,3 +26,12 @@ Route::get('/contact-us', function () {
 Route::get('/pricing-plan', function () {
     return view('front-end.pricing-plan');
 });
+Route::get('/vendor-listing-bubba', function () {
+    return view('front-end.vendor-listing-bubba');
+});
+Route::get('/listing-row-map', function () {
+    return view('front-end.listing-row-map');
+});
+Route::get('/admin', function () {
+    return view('back-end.layouts.layout');
+});

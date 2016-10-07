@@ -12,7 +12,7 @@
             </li>
             <li><a href="#">Search List</a>
                  <ul>
-                <li><a href="#" title="Home" class="animsition-link">List / Half Map</a></li>
+                <li><a href="{{ url('/listing-row-map') }}" title="Home" class="animsition-link">List / Half Map</a></li>
 <!--                <li><a href="vendor-listing-sidebar.html" title="Home" class="animsition-link">List / Sidebar Left</a></li>
                 <li><a href="vendor-listing-no-sidebar.html" title="Home" class="animsition-link">List / No Sidebar</a></li>
                 <li><a href="vendor-listing-top-map.html" title="Home" class="animsition-link">Top Map / List</a></li>
@@ -20,7 +20,7 @@
                 <li><a href="vendor-list-3-colmun.html" title="Home" class="animsition-link">3 Column List</a></li>
                 <li><a href="vendor-list-horizontal.html" title="Home" class="animsition-link">Horizontal List </a></li>
                 <li><a href="vendor-list-new.html" title="Home" class="animsition-link">List Variations </a></li>-->
-                <li><a href="#">Bubba Style Listing</a></li>
+                <li><a href="{{ url('/vendor-listing-bubba') }}">Bubba Style Listing</a></li>
 <!--                <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>-->
               </ul>
                 

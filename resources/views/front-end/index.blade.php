@@ -3,9 +3,9 @@
 
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
-    <div class="item"><img src="images/convention_slider.jpg" alt="Wedding couple just married"></div>
-    <div class="item"><img src="images/convention centre2jpg" alt="Wedding couple just married"></div>
-    <div class="item"><img src="images/conventioncentre.jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/convention-center-marriage.jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/convention-center-catering.jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/convention-center-parking.jpg" alt="Wedding couple just married"></div>
   </div>
   <div class="find-section"><!-- Find search section-->
     <div class="container">
