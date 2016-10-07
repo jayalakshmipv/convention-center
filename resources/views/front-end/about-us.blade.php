@@ -77,14 +77,14 @@
         <div class="row">
           <div class="col-md-12">
             <div class="aboutus" id="aboutus">
-              <h1>We are Weddings Finder.</h1>
+              <h1>We Make Your Dreams.</h1>
               <p class="lead">Welcome to wedding vendor, launch in 2015. We pride our selves on being a trusted friend someone to take on this journey with you making it fun from the start.</p>
               <p>We will  support you and advise you. We are never short of suggestions or inspiring ideas.Our matchless, which makes finding beautiful wedding venue easier and one less thing for you to worry about.With our inspir blog, suggestions and sensational offers, no one understands weddings better than we do.</p>
             </div>
           </div>
           <div class="col-md-12">
             <div class="call-to-action well-box mt30">
-              <h1>Online Wedding Planning </h1>
+              <h1>We Plan Your Dreams</h1>
               <h3 class="point">Advice &amp; Guide. | Save your date. | Forever free.</h3>
               <img src="images/cycle-graphic.png" alt="" class="graphic img-responsive"> <a href="#" class="btn btn-default btn-lg">Get start today</a> </div>
           </div>

@@ -118,20 +118,20 @@
       <div class="col-md-4"><!-- vendor box start-->
         <div class="vendor-box">
           <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/vendor-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <a href="#"><img src="images/convention-center-event-venue.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="feature-label"></div>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
           </div>
           <!-- /.vendor pic -->
           <div class="vendor-detail"><!-- vendor details -->
             <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title">Venue Vendor Title</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> Street Address, Name of Town, 12345, Country.</p>
+              <h2><a href="#" class="title">Al Saj Convention Centre</a></h2>
+              <p class="location"><i class="fa fa-map-marker"></i> Al Saj Convention Centre, Kazhakuttam, Trivandrum, India.</p>
               <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
             </div>
             <!-- /.caption -->
             <div class="vendor-price">
-              <div class="price">$190 - $600</div>
+              <div class="price">$490 - $900</div>
             </div>
           </div>
           <!-- vendor details --> 
@@ -142,15 +142,15 @@
       <div class="col-md-4"><!-- vendor box start-->
         <div class="vendor-box">
           <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/vendor-4.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <a href="#"><img src="images/convention-center-stage-decoration--arrangement.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="rated-label"></div>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
           </div>
           <!-- /.vendor pic -->
           <div class="vendor-detail"><!-- vendor details -->
             <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title"> Wedding Dress Vendor Title</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> Street Address, Name of Town, 12345, Country.</p>
+              <h2><a href="#" class="title"> RD Convention Centre</a></h2>
+              <p class="location"><i class="fa fa-map-marker"></i> RD Convention Centre, Paalayam, Trivandrum, India.</p>
               <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
             </div>
             <!-- /.caption -->
@@ -164,15 +164,15 @@
       <!-- /.vendor box start-->
       <div class="col-md-4 vendor-box"><!-- vendor box start-->
         <div class="vendor-image"><!-- vendor pic --> 
-          <a href="#"><img src="images/vendor-3.jpg" alt="wedding vendor" class="img-responsive"></a>
+          <a href="#"><img src="images/convention-center-TVMClub.jpg" alt="wedding vendor" class="img-responsive"></a>
           <div class="popular-label"></div>
           <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
         </div>
         <!-- /.vendor pic -->
         <div class="vendor-detail"><!-- vendor details -->
           <div class="caption"><!-- caption -->
-            <h2><a href="#" class="title">Vendor Photographer Title</a></h2>
-            <p class="location"><i class="fa fa-map-marker"></i> Street Address, Name of Town, 12345, Country.</p>
+            <h2><a href="#" class="title">Trivandrum Club</a></h2>
+            <p class="location"><i class="fa fa-map-marker"></i> Trivandrum Club, v, 12345, Vazhuthacadu, Trivandrm, India.</p>
             <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
           </div>
           <!-- /.caption -->
@@ -185,7 +185,7 @@
     </div>
   </div>
 </div>
-<!--<div class="section-space80"> top location 
+<!--div class="section-space80">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
