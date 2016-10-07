@@ -160,7 +160,7 @@
 </div>
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
-    <div class="item"><img src="images/convention centre .jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/event.jpg" alt="Wedding couple just married"></div>
     <div class="item"><img src="images/convention centre2jpg" alt="Wedding couple just married"></div>
     <div class="item"><img src="images/conventioncentre.jpg" alt="Wedding couple just married"></div>
   </div>

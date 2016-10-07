@@ -2,16 +2,16 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 ft-aboutus">
-        <h2>Wedding.Vendor</h2>
-        <p>At Wedding Vendor our purpose is to help people find  great online network connecting wedding suppliers and wedding couples who use those suppliers. <a href="#">Start Find Vendor!</a></p>
-        <a href="#" class="btn btn-default">Find a Vendor</a> </div>
+        <h2>Convention Center</h2>
+        <p>At Convention Center our purpose is to help people find great online network connecting of the Convention Center. <a href="#">Start Find Convention Center!</a></p>
+        <a href="#" class="btn btn-default">Find a Convention Center</a> </div>
       <div class="col-md-3 ft-link">
         <h2>Useful links</h2>
         <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact us</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Career</a></li>
+         <!-- <li><a href="#">News</a></li>-->
+          <!--<li><a href="#">Career</a></li>-->
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Use</a></li>
         </ul>
@@ -35,7 +35,7 @@
             <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
             <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+           <!-- <li><a href="#"><i class="fa fa-flickr"></i></a></li>-->
           </ul>
         </div>
       </div>
@@ -46,7 +46,7 @@
 <div class="tiny-footer"><!-- Tiny footer -->
   <div class="container">
     <div class="row">
-      <div class="col-md-12">Copyright © 2014. All Rights Reserved</div>
+      <div class="col-md-12">Copyright © {{ Html::link('http://imrokraft.com' ,'Imrokraft' ) }} 2016. All Rights Reserved</div>
     </div>
   </div>
 </div>
