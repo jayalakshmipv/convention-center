@@ -63,8 +63,8 @@
             <div class="well-box">
               <div class="sticky-sign"><i class="fa fa-bookmark"></i></div>
               <!-- blog holder -->
-              <div class="post-image"><a href="#"><img src="images/post-pic-2.jpg" class="img-responsive" alt=""></a></div>
-              <h1 class="post-title"><a href="#">Heading of stiky post</a></h1>
+              <div class="post-image"><a href="#"><img src="images/clive-marriage.jpg" class="img-responsive" alt=""></a></div>
+              <h1 class="post-title"><a href="#">BOLLYWOOD ICON RESHMA MARRIAGE  </a></h1>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p>Tncidunt auris vestibulum turpis aliquam pretium nisl nec urna tincidunt, ut molestie sem  a ex molestie Donec viverra mauris ut nulla eleifend accumsan fficitur orem ipsum dolor sit amet consectetur adipiscing elit. Duis id imperdiet ex.</p>
               <a href="#" class="btn btn-default">Read More</a> </div>
@@ -72,8 +72,8 @@
           <!-- /.blog holder -->
           <div class="col-md-12 post-holder"><!-- blog holder -->
             <div class="well-box">
-              <div class="post-image"><a href="#"><img src="images/post-pic.jpg" class="img-responsive" alt=""></a></div>
-              <h1 class="post-title"><a href="#">Heading Title of Image Post</a></h1>
+              <div class="post-image"><a href="#"><img src="images/Fotolia_4727411_M-735006.jpg" class="img-responsive" alt=""></a></div>
+              <h3 class="post-title"><a href="#">Heading Title of Image Post</a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p> Aliquam pretium nisl nec urna tincidunt, ut molestie sem tincidunt. Mauris vestibulum turpis a ex molestie Donec viverra mauris ut nulla eleifend accumsan. efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id imperdiet ex.</p>
               <a href="#" class="btn btn-default">Read More</a> </div>
@@ -92,7 +92,7 @@
           <!-- /.blog holder -->
           <div class="col-md-12 post-holder "><!-- blog holder -->
             <div class="well-box">
-              <div class="post-image"><a href="#"><img src="images/post-pic-3.jpg" class="img-responsive" alt=""></a></div>
+              <div class="post-image"><a href="#"><img src="images/convention-center-event-stage-decor.jpg" class="img-responsive" alt=""></a></div>
               <h1 class="post-title"><a href="#">Heading Title of Video Post</a></h1>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p>Donec viverra mauris ut nulla eleifend accumsan. Aliquam pretium nisl nec urna tincidunt, ut molestie sem tincidunt. Mauris vestibulum turpis a ex molestie efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id imperdiet ex.</p>

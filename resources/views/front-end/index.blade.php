@@ -1,6 +1,11 @@
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
-
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</style>
+</head>
+<body>
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
     <div class="item"><img src="images/convention-center-marriage.jpg" alt="Wedding couple just married"></div>
@@ -61,9 +66,10 @@
     <div class="row">
       <div class="col-md-12">
         <div class="section-title mb60 text-center">
-          <h1>Your Convention Centre Start Here</h1>
-          <p>Various versions have evolved over the years sometimes by accident sometimes on purpose.</p>
-        </div>
+          <h1>OUR VISION</h1>
+          <p class="italic">
+"Our site is aim to provide all the informations of convention center in <span> God's own country"</span>
+</p>        </div>
       </div>
     </div>
     <div class="row"><!-- feature center -->
@@ -71,7 +77,7 @@
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
           <h2><a href="find Conventioncentre.html">Find Convention centre</a></h2>
-          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+          <p>Here you can find all the convention centers in kerala </p><br>
         </div>
       </div>
       <!-- /.feature block -->
@@ -291,3 +297,5 @@
 </div>-->
 <!-- /. Call to action -->
 @extends('front-end.layouts.footer')
+</body>
+</html>
