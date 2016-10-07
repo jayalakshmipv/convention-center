@@ -67,7 +67,7 @@
         <div class="navigation">
           <div class="menu-button">Menu</div>
           <ul data-breakpoint="800" class="flexnav">
-            <li class="active"><a href="index_blade.php.html">Home</a>
+            <li class="active"><a href="index.blade.php.html">Home</a>
               <ul>
                 <li><a href="index_blade.php.html" title="Home" class="animsition-link">Home</a></li>
                 <li><a href="index-2.html" title="Home v.2" class="animsition-link">Home v.2</a></li>
@@ -87,7 +87,7 @@
                 <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>
               </ul>
             </li>
-            <li><a href="vendor-details.html">About us</a>
+            <li><a href="{{ URL::to('about_us') }}.">Aboutus</a>
               <ul>
                 <li><a href="vendor-details.html">Vendor Simple</a></li>
                 <li><a href="vendor-details-tabbed.html">Vendor Tabbed</a></li>

@@ -11,29 +11,29 @@
             <li class="active"><a href="index_blade.php.html">Home</a>
               <ul>
                 <li><a href="index_blade.php.html" title="Home" class="animsition-link">Home</a></li>
-                <li><a href="index-2.html" title="Home v.2" class="animsition-link">Home v.2</a></li>
+<!--                <li><a href="index-2.html" title="Home v.2" class="animsition-link">Home v.2</a></li>-->
               </ul>
             </li>
             <li><a href="#">Events</a>
               <ul>
                 <li><a href="vendor-listing-row-map.html" title="Home" class="animsition-link">List / Half Map</a></li>
-                <li><a href="vendor-listing-sidebar.html" title="Home" class="animsition-link">List / Sidebar Left</a></li>
+<!--                <li><a href="vendor-listing-sidebar.html" title="Home" class="animsition-link">List / Sidebar Left</a></li>
                 <li><a href="vendor-listing-no-sidebar.html" title="Home" class="animsition-link">List / No Sidebar</a></li>
                 <li><a href="vendor-listing-top-map.html" title="Home" class="animsition-link">Top Map / List</a></li>
                 <li><a href="vendor-list-4-colmun.html" title="Home" class="animsition-link">4 Column List</a></li>
                 <li><a href="vendor-list-3-colmun.html" title="Home" class="animsition-link">3 Column List</a></li>
                 <li><a href="vendor-list-horizontal.html" title="Home" class="animsition-link">Horizontal List </a></li>
-                <li><a href="vendor-list-new.html" title="Home" class="animsition-link">List Variations </a></li>
+                <li><a href="vendor-list-new.html" title="Home" class="animsition-link">List Variations </a></li>-->
                 <li><a href="vendor-listing-bubba.html">Bubba Style Listing</a></li>
-                <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>
+<!--                <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>-->
               </ul>
             </li>
-            <li><a href="vendor-details.html">About us</a>
-              <ul>
+            <li><a href="{{ url('/about-us') }}">About us</a>
+<!--              <ul>
                 <li><a href="vendor-details.html">Vendor Simple</a></li>
                 <li><a href="vendor-details-tabbed.html">Vendor Tabbed</a></li>
                 <li><a href="vendor-profile.html">Vendor Profile</a></li>
-              </ul>
+              </ul>-->
             </li>
             <li><a href="venue-listing.html" title="Home" class="animsition-link">Suppliers</a>
               <ul>

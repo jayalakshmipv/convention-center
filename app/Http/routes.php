@@ -14,9 +14,9 @@
 Route::get('/', function () {
     return view('front-end.index');
 });
-//Route::get('/', function () {
-//    return view('front-end.layouts.about us');
-//});
+Route::get('about-us', function () {
+    return view('about-us');
+});
 //Route::get('/', function () {
 //    return view('front-end.layouts.contact us');
 //});

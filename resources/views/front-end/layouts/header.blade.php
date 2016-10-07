@@ -30,14 +30,14 @@
     <![endif]-->
 </head>
 <body>
-<div class="collapse" id="searcharea"><!-- top search -->
+<!--<div class="collapse" id="searcharea"> top search 
   <div class="input-group">
     <input type="text" class="form-control" placeholder="Search for...">
     <span class="input-group-btn">
     <button class="btn btn-primary" type="button">Search</button>
     </span> </div>
 </div>
-<!-- /.top search -->
+ /.top search 
 <div class="top-bar">
   <div class="container">
     <div class="row">
@@ -56,4 +56,4 @@
       </div>
     </div>
   </div>
-</div>
+</div>-->
