@@ -1,3 +1,5 @@
+@extends('front-end.layouts.header')
+@include('front-end.layouts.menu')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Wedding Vendor | Find The Best Wedding Vendors</title>
+<title>Convention center| Find The Best convention centers</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +35,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="page-header">
-          <h1>Wedding Vendor Blog</h1>
+          <h1>Convention Center Blog</h1>
         </div>
       </div>
     </div>
@@ -45,7 +47,7 @@
     <div class="row">
       <div class="col-md-8">
         <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
+          <li><a href="{{ url('/') }}>Home</a></li>
           <li class="active">News</li>
         </ol>
       </div>
@@ -215,3 +217,4 @@
 <script src="js/header-sticky.js"></script>
 </body>
 </html>
+@extends('front-end.layouts.footer')

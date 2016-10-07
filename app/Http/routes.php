@@ -14,9 +14,12 @@
 Route::get('/', function () {
     return view('front-end.index');
 });
-Route::get('about-us', function () {
-    return view('about-us');
+Route::get('/about-us', function () {
+    return view('front-end.about-us');
 });
-//Route::get('/', function () {
-//    return view('front-end.layouts.contact us');
-//});
+Route::get('/event', function () {
+    return view('front-end.event');
+});
+Route::get('/contact-us', function () {
+    return view('front-end.contact-us');
+});
