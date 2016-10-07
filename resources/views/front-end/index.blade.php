@@ -3,7 +3,7 @@
 
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
-    <div class="item"><img src="images/convention centre .jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/convention_slider.jpg" alt="Wedding couple just married"></div>
     <div class="item"><img src="images/convention centre2jpg" alt="Wedding couple just married"></div>
     <div class="item"><img src="images/conventioncentre.jpg" alt="Wedding couple just married"></div>
   </div>
@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-md-offset-1 col-md-10 finder-block">
           <div class="finder-caption">
-            <h1>Find your perfect Wedding Vendor</h1>
+            <h1>CONVENTION CENTER</h1>
             <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
           </div>
           <div class="finderform">

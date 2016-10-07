@@ -8,14 +8,10 @@
         <div class="navigation">
           <div class="menu-button">Menu</div>
           <ul data-breakpoint="800" class="flexnav">
-            <li class="active"><a href="index_blade.php.html">Home</a>
-             <!-- <ul>
-                <li><a href="index_blade.php.html" title="Home" class="animsition-link">Home</a></li>
-              <li><a href="index-2.html" title="Home v.2" class="animsition-link">Home v.2</a></li>
-              </ul>-->
+            <li class="active"><a href="{{ url('/') }}">Home</a>
             </li>
             <li><a href="#">Search List</a>
-              <ul>
+                 <ul>
                 <li><a href="#" title="Home" class="animsition-link">List / Half Map</a></li>
 <!--                <li><a href="vendor-listing-sidebar.html" title="Home" class="animsition-link">List / Sidebar Left</a></li>
                 <li><a href="vendor-listing-no-sidebar.html" title="Home" class="animsition-link">List / No Sidebar</a></li>
@@ -27,11 +23,14 @@
                 <li><a href="#">Bubba Style Listing</a></li>
 <!--                <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>-->
               </ul>
+                
+            <li><a href="{{ url('/event') }}">Events</a>
+             
             </li>
-            <li><a href="#">Event</a></li>
-            <li><a href="#">Pricing List</a></li>
+<!--            <li><a href="#">Event</a></li>-->
+            <li><a href="{{ url('/pricing-plan') }}">Pricing List</a></li>
             <li><a href="{{ url('/about-us') }}">About us</a></li>
-             <li><a href="#">Contact us</a></li>
+             <li><a href="{{ url('/contact-us') }}">Contact us</a></li>
 <!--              <ul>
                 <li><a href="vendor-details.html">Vendor Simple</a></li>
                 <li><a href="vendor-details-tabbed.html">Vendor Tabbed</a></li>
@@ -49,6 +48,9 @@
               </ul>
             </li>-->
            <!-- <li><a href="#">Contact us</a>
+            </li>
+            <li><a href="{{ url('/contact-us') }}">Contact us</a>
+
               <ul>
                 <li><a href="planning-to-do.html">To Do List</a></li>
                 <li><a href="planning-budget.html">Budget Planner</a></li>

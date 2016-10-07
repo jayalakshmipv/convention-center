@@ -23,3 +23,6 @@ Route::get('/event', function () {
 Route::get('/contact-us', function () {
     return view('front-end.contact-us');
 });
+Route::get('/pricing-plan', function () {
+    return view('front-end.pricing-plan');
+});
