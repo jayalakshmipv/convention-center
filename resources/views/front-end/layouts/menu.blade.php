@@ -9,14 +9,14 @@
           <div class="menu-button">Menu</div>
           <ul data-breakpoint="800" class="flexnav">
             <li class="active"><a href="index_blade.php.html">Home</a>
-              <ul>
+             <!-- <ul>
                 <li><a href="index_blade.php.html" title="Home" class="animsition-link">Home</a></li>
-<!--                <li><a href="index-2.html" title="Home v.2" class="animsition-link">Home v.2</a></li>-->
-              </ul>
+              <li><a href="index-2.html" title="Home v.2" class="animsition-link">Home v.2</a></li>
+              </ul>-->
             </li>
-            <li><a href="#">Events</a>
+            <li><a href="#">Search List</a>
               <ul>
-                <li><a href="vendor-listing-row-map.html" title="Home" class="animsition-link">List / Half Map</a></li>
+                <li><a href="#" title="Home" class="animsition-link">List / Half Map</a></li>
 <!--                <li><a href="vendor-listing-sidebar.html" title="Home" class="animsition-link">List / Sidebar Left</a></li>
                 <li><a href="vendor-listing-no-sidebar.html" title="Home" class="animsition-link">List / No Sidebar</a></li>
                 <li><a href="vendor-listing-top-map.html" title="Home" class="animsition-link">Top Map / List</a></li>
@@ -24,18 +24,20 @@
                 <li><a href="vendor-list-3-colmun.html" title="Home" class="animsition-link">3 Column List</a></li>
                 <li><a href="vendor-list-horizontal.html" title="Home" class="animsition-link">Horizontal List </a></li>
                 <li><a href="vendor-list-new.html" title="Home" class="animsition-link">List Variations </a></li>-->
-                <li><a href="vendor-listing-bubba.html">Bubba Style Listing</a></li>
+                <li><a href="#">Bubba Style Listing</a></li>
 <!--                <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>-->
               </ul>
             </li>
-            <li><a href="{{ url('/about-us') }}">About us</a>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Pricing List</a></li>
+            <li><a href="{{ url('/about-us') }}">About us</a></li>
+             <li><a href="#">Contact us</a></li>
 <!--              <ul>
                 <li><a href="vendor-details.html">Vendor Simple</a></li>
                 <li><a href="vendor-details-tabbed.html">Vendor Tabbed</a></li>
                 <li><a href="vendor-profile.html">Vendor Profile</a></li>
               </ul>-->
-            </li>
-            <li><a href="venue-listing.html" title="Home" class="animsition-link">Suppliers</a>
+            <!--<li><a href="venue-listing.html" title="Home" class="animsition-link">Suppliers</a>
               <ul>
                 <li><a href="venue-listing.html">Venue List</a></li>
                 <li><a href="photography-listing.html">Photographer List</a></li>
@@ -45,8 +47,8 @@
                 <li><a href="cake-listing.html">Cake List</a></li>
                 <li><a href="music-listing.html">Music List</a></li>
               </ul>
-            </li>
-            <li><a href="#">Contact us</a>
+            </li>-->
+           <!-- <li><a href="#">Contact us</a>
               <ul>
                 <li><a href="planning-to-do.html">To Do List</a></li>
                 <li><a href="planning-budget.html">Budget Planner</a></li>
@@ -65,15 +67,15 @@
                     <li><a href="blog.html">Blog Listing</a></li>
                     <li><a href="blog-single.html">Blog Single</a></li>
                   </ul>
-                </li>
-                <li><a href="about-us.html">About us</a></li>
-                <li><a href="contact-us.html">Contact us</a></li>
-                <li><a href="pricing-plan.html">Pricing Table</a></li>
+                </li>-->
+                <!--<li><a href="about-us.html">About us</a></li>-->
+               
                 
-                <li><a href="faq.html">FAQ's</a></li>
-                <li><a href="404-error.html">404 Error</a></li>
+                
+                <!--<li><a href="faq.html">FAQ's</a></li>
+                <li><a href="404-error.html">404 Error</a></li>-->
               
-                <li><a href="#">Shortcodes</a>
+                <!--<li><a href="#">Shortcodes</a>
                   <ul>
                     <li><a href="shortcode-columns.html">Column</a></li>
                     <li><a href="shortcode-accordion.html">Accordion</a></li>
@@ -92,7 +94,7 @@
                 <li><a href="real-wedding-listing.html">Listing</a></li>
                 <li><a href="real-wedding-single.html">Real Wedding Single</a></li>
               </ul>
-            </li>
+            </li>-->
           </ul>
         </div>
       </div>
