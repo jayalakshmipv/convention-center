@@ -86,8 +86,7 @@
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
           <h2><a href="find Contact.html">Contact</a></h2>
-          <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
-            (injected humour and the like).</p>
+          <p>24hrs we were here for the clarifications of your doubts.</p>
         </div>
       </div>
       <!-- /.feature block -->
@@ -95,7 +94,7 @@
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/couple.svg" alt=""></div>
           <h2><a href="find Contact.html">Special Events</a></h2>
-          <p>The generated Lorem Ipsum is therefore always free from repetition injected humour or non-characteristic words etc.</p>
+          <p>All the special event through our hands.. You can check and join.</p>
         </div>
       </div>
       <!-- /.feature block --> 
@@ -131,7 +130,7 @@
             </div>
             <!-- /.caption -->
             <div class="vendor-price">
-              <div class="price">$490 - $900</div>
+              <div class="price">₹85000 - ₹500000</div>
             </div>
           </div>
           <!-- vendor details --> 
@@ -149,13 +148,13 @@
           <!-- /.vendor pic -->
           <div class="vendor-detail"><!-- vendor details -->
             <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title"> RD Convention Centre</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> RD Convention Centre, Paalayam, Trivandrum, India.</p>
+              <h2><a href="#" class="title"> RDR Convention Centre</a></h2>
+              <p class="location"><i class="fa fa-map-marker"></i> RDR Convention Centre, Palayam, Trivandrum, India.</p>
               <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
             </div>
             <!-- /.caption -->
             <div class="vendor-price">
-              <div class="price">$290 - $600</div>
+              <div class="price">₹69000 - ₹200000</div>
             </div>
           </div>
         </div>
@@ -177,7 +176,7 @@
           </div>
           <!-- /.caption -->
           <div class="vendor-price">
-            <div class="price">$390 - $600</div>
+            <div class="price">₹90000 - ₹300000</div>
           </div>
         </div>
         <!-- vendor details --> 
@@ -191,13 +190,13 @@
       <div class="col-md-12">
         <div class="section-title mb60 text-center">
           <h1>Top Wedding Locations</h1>
-          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+          <p>Here are the Top Wedding Locations in Kerala that may change your Wedding Concepts...</p>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-4 location-block"> 
-        <div class="vendor-image"><a href="#"><img src="images/convention-center-kerala-trivandrum-al saj-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Trivandrum</span></a> </div>
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-trivandrum-al saj-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Trivandrum </span></a> </div>
       </div>
         
       <div class="col-md-4 location-block">  
@@ -279,7 +278,7 @@
   </div>
 </div>-->
 <!-- /. Testimonial Section -->
-<!--<div class="section-space80"> Call to action 
+<!--div class="section-space80"> Call to action 
   <div class="container">
     <div class="row">
       <div class="col-md-6 couple-block">
