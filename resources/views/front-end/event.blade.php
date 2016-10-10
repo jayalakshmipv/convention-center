@@ -6,6 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Convention center| Find The Best convention centers</title>
 
@@ -64,22 +65,24 @@
               <div class="sticky-sign"><i class="fa fa-bookmark"></i></div>
               <!-- blog holder -->
               <div class="post-image"><a href="#"><img src="images/clive-marriage.jpg" class="img-responsive" alt=""></a></div>
-              <h1 class="post-title"><a href="#">BOLLYWOOD ICON RESHMA MARRIAGE  </a></h1>
+              <h3 class="post-title"><a href="#">BOLLYWOOD ICON RESHMA MARRIAGE  </a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p>Tncidunt auris vestibulum turpis aliquam pretium nisl nec urna tincidunt, ut molestie sem  a ex molestie Donec viverra mauris ut nulla eleifend accumsan fficitur orem ipsum dolor sit amet consectetur adipiscing elit. Duis id imperdiet ex.</p>
-              <a href="#" class="btn btn-default">Read More</a> </div>
+              <a href="#" button class="button"><span>Hover </span></a></button> </div>
           </div>
           <!-- /.blog holder -->
           <div class="col-md-12 post-holder"><!-- blog holder -->
             <div class="well-box">
               <div class="post-image"><a href="#"><img src="images/Fotolia_4727411_M-735006.jpg" class="img-responsive" alt=""></a></div>
-              <h3 class="post-title"><a href="#">Heading Title of Image Post</a></h3>
+              <h3 class="post-title"><a href="#"><marquee>FOOD FOR YOUR FEST</a></marquee></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p> Aliquam pretium nisl nec urna tincidunt, ut molestie sem tincidunt. Mauris vestibulum turpis a ex molestie Donec viverra mauris ut nulla eleifend accumsan. efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id imperdiet ex.</p>
-              <a href="#" class="btn btn-default">Read More</a> </div>
+              <a href="#" button class="button"><span>Hover </span></a></button> </div>
           </div>
           <!-- /.blog holder -->
+          <!--
           <div class="col-md-12 post-holder"><!-- /.blog holder -->
+          <!--
             <div class="well-box">
               <h1 class="post-title">Quote of The Day Post</h1>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
@@ -89,14 +92,15 @@
                 <span>- Johnson deynies</span> </blockquote>
             </div>
           </div>
+
           <!-- /.blog holder -->
           <div class="col-md-12 post-holder "><!-- blog holder -->
             <div class="well-box">
-              <div class="post-image"><a href="#"><img src="images/convention-center-event-stage-decor.jpg" class="img-responsive" alt=""></a></div>
-              <h1 class="post-title"><a href="#">Heading Title of Video Post</a></h1>
+              <div class="post-image"><a href="#"><img src="images/convention-cnter-kerala-trivandrum-conerence-hall (1).jpg" class="img-responsive" alt=""></a></div>
+              <h3 class="post-title"><a href="#">10th ANNUAL MEETING FOR WOMEN FORUM</a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p>Donec viverra mauris ut nulla eleifend accumsan. Aliquam pretium nisl nec urna tincidunt, ut molestie sem tincidunt. Mauris vestibulum turpis a ex molestie efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id imperdiet ex.</p>
-              <a href="#" class="btn btn-default">Read More</a> </div>
+              <a href="#" button class="button"><span>Hover </span></a></button> </div>
           </div>
           <!-- /.blog holder -->
           <div class="col-md-12 post-holder "><!-- blog holder -->
@@ -104,7 +108,7 @@
               <h1 class="post-title"><a href="#">Heading Title for Standard Post</a></h1>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p>Integer non erat vel diam feugiat blandit. Nam id consequat elit. Nulla facilisi. Proin feugiat sapien neque, vulputate faucibus eros rutrum non. Integer et malesuada est, eget ultrices libero. Praesent iaculis suscipit massa, quis semper risus. hasellus et rutrum diam.</p>
-              <a href="#" class="btn btn-default">Read More</a> </div>
+              <a href="#" button class="button"><span>Hover </span></a></button></div>
           </div>
           <!-- /.blog holder -->
           <div class="col-md-12 tp-pagination">
