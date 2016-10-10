@@ -1,14 +1,14 @@
 
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
-<!DOCTYPE html>
-<html lang="en">
+<!--<!DOCTYPE html>
+<html lang="en">-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Wedding Vendor | Find The Best Wedding Vendors</title>
+<title>Convention center | Find The Best Convention center</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -124,7 +124,7 @@
             </li>
             <li class="email">
               <h2><i class="fa fa-envelope"></i>E-Mail</h2>
-              <p>Info@weddingvendor.com</p>
+              <p>Info@conventioncenter.com</p>
             </li>
             <li class="call">
               <h2><i class="fa fa-phone"></i>Contact</h2>
@@ -184,5 +184,5 @@ var infowindow = new google.maps.InfoWindow({
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 </body>
-</html>
-@extends('front-end.layouts.footer')
+<!--</html>-->
+@include('front-end.layouts.footer')

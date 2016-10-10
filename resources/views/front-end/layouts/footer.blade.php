@@ -8,8 +8,8 @@
       <div class="col-md-3 ft-link">
         <h2>Useful links</h2>
         <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="{{ url('/about-us') }}">About Us</a></li>
+          <li><a href="{{ url('/contact-us') }}">Contact us</a></li>
          <!-- <li><a href="#">News</a></li>-->
           <!--<li><a href="#">Career</a></li>-->
           <li><a href="#">Privacy Policy</a></li>
