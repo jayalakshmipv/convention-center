@@ -41,7 +41,7 @@
               <i class="icon icon-size-60 icon-budget icon-white"></i>
           </div>
           <h1>Pricing Table</h1>
-          <p>We offer three main class of price range to the vendors with lot of benifits depending on the class which they choose.Gold class being the supreme one have lot of benefits, the silver class have less benefits than gold class and platinum class being the less than silver.. </p>
+          <p>We offer three main class of price range to the vendors with lot of benifits depending on the class which they choose.Gold class being the supreme one have lot of benefits, the silver class have less benefits than gold class and platinum being the lowest.. </p>
          
         </div>
       </div>
@@ -68,11 +68,11 @@
       <div class="col-md-4 pricing-box pricing-box-regualr">
         <div class="well-box">
           <h2 class="price-title">silver</h2>
-          <h1 class="price-plan"><span class="dollor-sign"> ₹</span>1000<span class="permonth">/month</span></h1>
-          <p>As a <strong>Silver Member</strong>, you can enjoy exclusive otions of making your convention center upto mark... </p>
+          <h1 class="price-plan"><span class="dollor-sign">₹&nbsp</span>1000<span class="permonth">/month</span></h1>
+          <p>As a <strong>Silver Member</strong>, you can enjoy exclusive options of making your convention center upto mark... </p>
           <a href="#" class="btn btn-default btn-sm">Select Plan</a> </div>
         <ul class="check-circle list-group">
-          <li class="list-group-item">24/7 Email Support</li>
+          <li class="list-group-item">24x7 Email Support</li>
           <li class="list-group-item">ePayments &amp; eInvoices</li>
           <li class="list-group-item">Advanced Review Management</li>
           <li class="list-group-item">Management Webinars</li>
@@ -81,11 +81,11 @@
       <div class="col-md-4 pricing-box pricing-box-top">
         <div class="well-box">
           <h2 class="price-title">gold</h2>
-          <h1 class="price-plan"><span class="dollor-sign"> ₹</span>3500<span class="permonth">/month</span></h1>
-          <p>As a <strong>Gold Member</strong>, you can enjoy exclusive otions of making your convention center upto mark... </p>
+          <h1 class="price-plan"><span class="dollor-sign">₹&nbsp</span>3500<span class="permonth">/month</span></h1>
+          <p>As a <strong>Gold Member</strong>, you can enjoy exclusive options of making your convention center upto mark... </p>
           <a href="#" class="btn btn-primary btn-sm">Select Plan</a> </div>
         <ul class="check-circle list-group">
-          <li class="list-group-item">24/7 Email Support</li>
+          <li class="list-group-item">24x7 Email Support</li>
           <li class="list-group-item">Unlimited User Accounts</li>
           <li class="list-group-item">Secure Client Transactions</li>
           <li class="list-group-item">Online Appointment Scheduling</li>
@@ -94,11 +94,11 @@
       <div class="col-md-4 pricing-box pricing-box-regualr">
         <div class="well-box">
           <h2 class="price-title">Platinum</h2>
-          <h1 class="price-plan"><span class="dollor-sign"> ₹</span>2500<span class="permonth">/month</span></h1>
-          <p>As a <strong>Platinum Member</strong>, you can enjoy exclusive otions of making your convention center upto mark... </p>
+          <h1 class="price-plan"><span class="dollor-sign">₹&nbsp</span>2500<span class="permonth">/month</span></h1>
+          <p>As a <strong>Platinum Member</strong>, you can enjoy exclusive options of making your convention center upto mark... </p>
           <a href="#" class="btn btn-default btn-sm">Select Plan</a> </div>
         <ul class="check-circle list-group">
-          <li class="list-group-item">24/7 Email Support</li>
+          <li class="list-group-item">24x7 Email Support</li>
           <li class="list-group-item">ePayments &amp; eInvoices</li>
           <li class="list-group-item">Advanced Review Management</li>
           <li class="list-group-item">Management Webinars</li>
