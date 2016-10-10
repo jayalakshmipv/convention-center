@@ -67,14 +67,14 @@
               <div class="post-image"><a href="#"><img src="images/clive-marriage.jpg" class="img-responsive" alt=""></a></div>
               <h3 class="post-title"><a href="#">BOLLYWOOD ICON RESHMA MARRIAGE  </a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
-              <p>Bollywood icon <strong>Reshma</strong> who had engaged with the business typcoon <strong>Anand </strong>on last monday.It was a grand ceremony in which many of the celebrity have been attented.It has been our prestige event and we just made in a grand level.</p>
+              <p>Bollywood icon <strong>Reshma</strong> who had engaged with the business typcoon <strong>Anand </strong>on last monday.It was a grand ceremony in which many of the celebrity have been attended.It has been our prestigious event and we just made it as a memorable one.</p>
               <a href="#" button class="button"><span>Read more </span></a></button> </div>
           </div>
           <!-- /.blog holder -->
           <div class="col-md-12 post-holder"><!-- blog holder -->
             <div class="well-box">
               <div class="post-image"><a href="#"><img src="images/Fotolia_4727411_M-735006.jpg" class="img-responsive" alt=""></a></div>
-              <h3 class="post-title"><a href="#">FOOD FOR YOUR FEST</a></h3>
+              <h3 class="post-title"><a href="#">FOOD FOR YOUR FEAST</a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p> We caught up with the multi award winning Purple Poppadom chef, Anand George at the Street Food Circus in Cardiff to find out a little more about the inspiration behind his contemporary Indian dishes and get a taste of what he’ll be cooking in the Market Hall on Saturday 17 Sept.
  </p>
@@ -170,7 +170,7 @@
                   <div class="post-image"><a href="#"><img src="images/convention-center-kerala-trivandrum-marriage-ring exchange.jpg" class="img-responsive" alt=""></a></div>
                 </div>
                 <div class="rc-post col-md-7">
-                  <h3><a href="#" class="link">Herra babus son's marraige</a></h3>
+                  <h3><a href="#" class="link">Heera babu son's marraige</a></h3>
                   <div class="post-meta"> <span class="date-meta">ON <a href="#">October 6, 2015</a></span> </div>
                 </div>
               </div>
