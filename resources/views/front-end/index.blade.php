@@ -185,7 +185,7 @@
     </div>
   </div>
 </div>
-<!--div class="section-space80">
+<div class="section-space80">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -196,29 +196,29 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 location-block"> location block 
-        <div class="vendor-image"><a href="#"><img src="images/location-pic.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">New York City</span></a> </div>
+      <div class="col-md-4 location-block"> 
+        <div class="vendor-image"><a href="#"><img src="images/convention-center-kerala-trivandrum-al saj-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Trivandrum</span></a> </div>
       </div>
-       /.location block 
-      <div class="col-md-4 location-block">  location block 
-        <div class="vendor-image"><a href="#"><img src="images/location-pic-2.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Sydney</span></a> </div>
+        
+      <div class="col-md-4 location-block">  
+        <div class="vendor-image"><a href="#"><img src="images/convention-center-kerala-kollam-raviz-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kollam</span></a> </div>
       </div>
-       /.location block 
-      <div class="col-md-4 location-block">  location block 
-        <div class="vendor-image"> <a href="#"><img src="images/location-pic-3.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Russia</span></a> </div>
+        
+      <div class="col-md-4 location-block">  
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-kottayam-pala-sunstar-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kottayam</span></a> </div>
       </div>
-       /.location block 
-      <div class="col-md-8 location-block"> location block 
-        <div class="vendor-image"> <a href="#"><img src="images/location-pic-4.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Germany</span></a> </div>
+        
+      <div class="col-md-8 location-block"> 
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-alappuzha-camelot-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Alappuzha</span></a> </div>
       </div>
-       /.location block 
-      <div class="col-md-4 location-block">  location block 
-        <div class="vendor-image"> <a href="#"><img src="images/location-pic-5.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Paris</span></a> </div>
+       
+      <div class="col-md-4 location-block">  
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-ernakulam-lee meridian-kochi-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kochi</span></a> </div>
       </div>
-       /.location block  
+         
     </div>
   </div>
-</div>-->
+</div>
 <!-- /.top location -->
 <!--<div class="section-space80 bg-light"> Testimonial Section 
   <div class="container">
