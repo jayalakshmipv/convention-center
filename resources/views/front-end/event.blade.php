@@ -67,17 +67,18 @@
               <div class="post-image"><a href="#"><img src="images/clive-marriage.jpg" class="img-responsive" alt=""></a></div>
               <h3 class="post-title"><a href="#">BOLLYWOOD ICON RESHMA MARRIAGE  </a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
-              <p>Tncidunt auris vestibulum turpis aliquam pretium nisl nec urna tincidunt, ut molestie sem  a ex molestie Donec viverra mauris ut nulla eleifend accumsan fficitur orem ipsum dolor sit amet consectetur adipiscing elit. Duis id imperdiet ex.</p>
-              <a href="#" button class="button"><span>Hover </span></a></button> </div>
+              <p>Bollywood icon <strong>Reshma</strong> who had engaged with the business typcoon <strong>Anand </strong>on last monday.It was a grand ceremony in which many of the celebrity have been attented.It has been our prestige event and we just made in a grand level.</p>
+              <a href="#" button class="button"><span>Read more </span></a></button> </div>
           </div>
           <!-- /.blog holder -->
           <div class="col-md-12 post-holder"><!-- blog holder -->
             <div class="well-box">
               <div class="post-image"><a href="#"><img src="images/Fotolia_4727411_M-735006.jpg" class="img-responsive" alt=""></a></div>
-              <h3 class="post-title"><a href="#"><marquee>FOOD FOR YOUR FEST</a></marquee></h3>
+              <h3 class="post-title"><a href="#">FOOD FOR YOUR FEST</a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
-              <p> Aliquam pretium nisl nec urna tincidunt, ut molestie sem tincidunt. Mauris vestibulum turpis a ex molestie Donec viverra mauris ut nulla eleifend accumsan. efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id imperdiet ex.</p>
-              <a href="#" button class="button"><span>Hover </span></a></button> </div>
+              <p> We caught up with the multi award winning Purple Poppadom chef, Anand George at the Street Food Circus in Cardiff to find out a little more about the inspiration behind his contemporary Indian dishes and get a taste of what he’ll be cooking in the Market Hall on Saturday 17 Sept.
+ </p>
+              <a href="#" button class="button"><span>Read more</span></a></button> </div>
           </div>
           <!-- /.blog holder -->
           <!--
@@ -99,16 +100,16 @@
               <div class="post-image"><a href="#"><img src="images/convention-cnter-kerala-trivandrum-conerence-hall (1).jpg" class="img-responsive" alt=""></a></div>
               <h3 class="post-title"><a href="#">10th ANNUAL MEETING FOR WOMEN FORUM</a></h3>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
-              <p>Donec viverra mauris ut nulla eleifend accumsan. Aliquam pretium nisl nec urna tincidunt, ut molestie sem tincidunt. Mauris vestibulum turpis a ex molestie efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id imperdiet ex.</p>
-              <a href="#" button class="button"><span>Hover </span></a></button> </div>
+              <p>The Women’s Forum for the Economy & Society is proud to launch Women in Sport, with a dedicated programme at the 2016 Women’s Forum Global Meeting on last monday. Gender equality is long overdue in professional sport. The future of sport belongs to women.</p>
+              <a href="#" button class="button"><span>Read more </span></a></button> </div>
           </div>
-          <!-- /.blog holder -->
-          <div class="col-md-12 post-holder "><!-- blog holder -->
+          <!-- /.blog holder --><!--
+          <div class="col-md-12 post-holder ">
             <div class="well-box">
               <h1 class="post-title"><a href="#">Heading Title for Standard Post</a></h1>
               <div class="post-meta"> <span class="date-meta">ON <a href="#">August 5, 2015</a> /</span> <span class="admin-meta">BY <a href="#">Lerry Martho</a> /</span> <span class="tag-meta">IN <a href="#">Writing</a> /</span> <span class="comment-meta">2 <a href="#">Comments</a></span> </div>
               <p>Integer non erat vel diam feugiat blandit. Nam id consequat elit. Nulla facilisi. Proin feugiat sapien neque, vulputate faucibus eros rutrum non. Integer et malesuada est, eget ultrices libero. Praesent iaculis suscipit massa, quis semper risus. hasellus et rutrum diam.</p>
-              <a href="#" button class="button"><span>Hover </span></a></button></div>
+              <a href="#" button class="button"><span>Read more </span></a></button></div>
           </div>
           <!-- /.blog holder -->
           <div class="col-md-12 tp-pagination">
@@ -157,28 +158,28 @@
               <h2 class="widget-title">Recent Posts</h2>
               <div class="rc-post-holder row">
                 <div class="col-md-5">
-                  <div class="post-image"><a href="#"><img src="images/post-pic.jpg" class="img-responsive" alt=""></a></div>
+                  <div class="post-image"><a href="#"><img src="images/convention-center-kerala-trivandrum-catering-auditorium.jpg" class="img-responsive" alt=""></a></div>
                 </div>
                 <div class="rc-post col-md-7">
-                  <h3><a href="#" class="link">Heading title here</a></h3>
+                  <h3><a href="#" class="link">Isro Annual Meet 2016</a></h3>
                   <div class="post-meta"> <span class="date-meta">ON <a href="#">October 7, 2015</a></span> </div>
                 </div>
               </div>
               <div class="rc-post-holder row">
                 <div class="col-md-5">
-                  <div class="post-image"><a href="#"><img src="images/post-pic-2.jpg" class="img-responsive" alt=""></a></div>
+                  <div class="post-image"><a href="#"><img src="images/convention-center-kerala-trivandrum-marriage-ring exchange.jpg" class="img-responsive" alt=""></a></div>
                 </div>
                 <div class="rc-post col-md-7">
-                  <h3><a href="#" class="link">Heading title here</a></h3>
+                  <h3><a href="#" class="link">Herra babus son's marraige</a></h3>
                   <div class="post-meta"> <span class="date-meta">ON <a href="#">October 6, 2015</a></span> </div>
                 </div>
               </div>
               <div class="rc-post-holder row">
                 <div class="col-md-5">
-                  <div class="post-image"><a href="#"><img src="images/post-pic-3.jpg" class="img-responsive" alt=""></a></div>
+                  <div class="post-image"><a href="#"><img src="images/convention-center-kerala-alappuzha-camelot-conference-conventions.jpg" class="img-responsive" alt=""></a></div>
                 </div>
                 <div class="rc-post col-md-7">
-                  <h3><a href="#" class="link">Heading title here</a></h3>
+                  <h3><a href="#" class="link">Amazon web service seminar 2016</a></h3>
                   <div class="post-meta"> <span class="date-meta">ON <a href="#">October 5, 2015</a></span> </div>
                 </div>
               </div>
