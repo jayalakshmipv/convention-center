@@ -294,7 +294,7 @@
 </div>
 @extends('front-end.layouts.footer')
 <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g&callback=initMap"></script>
 <script>
 // The following example creates complex markers to indicate beaches near
  
@@ -375,6 +375,5 @@ function initMap() {
  // }
 //}
 </script> 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g&callback=initMap"></script>
 </body>
 </html>
