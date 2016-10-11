@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3 logo">
-        <div class="navbar-brand"> <a href="{{ url('/') }}"><img src="images/logo.png" alt="Wedding Vendors" class="img-responsive"></a></div>
+        <div class="navbar-brand"> <a href="{{ url('/') }}"Home><img src="images/logo.png" alt="Wedding Vendors" class="img-responsive"></a></div>
       </div>
       <div class="col-md-9">
         <div class="navigation">

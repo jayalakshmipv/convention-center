@@ -85,7 +85,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
-          <h2><a href="find Conventioncentre.html">Find Convention centre</a></h2>
+          <h2><a href="#">Find Convention centre</a></h2>
           <p>Here you can find all the convention centers in kerala </p><br>
         </div>
       </div>
@@ -94,7 +94,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
-          <h2><a href="find Contact.html">Contact</a></h2>
+          <h2><a href="#">Contact</a></h2>
           <p>24hrs we were here for the clarifications of your doubts.</p>
         </div>
       </div>
@@ -102,7 +102,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/couple.svg" alt=""></div>
-          <h2><a href="find Contact.html">Special Events</a></h2>
+          <h2><a href="#">Special Events</a></h2>
           <p>All the special event through our hands.. You can check and join.</p>
         </div>
       </div>
