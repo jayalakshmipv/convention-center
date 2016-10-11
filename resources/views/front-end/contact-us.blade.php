@@ -61,7 +61,7 @@
             </div>
             
             <!-- Select Basic -->
-            <div class="form-group">
+<!--            <div class="form-group">
               <label class=" control-label" for="category">Category <span class="required">*</span></label>
               <select id="category" name="category" class="form-control selectpicker">
                 <option value="Couple">Couple</option>
@@ -69,7 +69,7 @@
                 <option value="Advertisement">Advertisement</option>
                 <option value="Suggestion">Suggestion</option>
               </select>
-            </div>
+            </div>-->
             
             <!-- Textarea -->
             <div class="form-group">
@@ -89,16 +89,18 @@
           <ul class="listnone">
             <li class="address">
               <h2><i class="fa fa-map-marker"></i>Location</h2>
-              <p>1228 Hawks Nest Lane
-                Saint Louis, MO 63143</p>
+              <p>  Head Office,</p><p>
+                  Smart Business Centre,</p><p> No-29,Thejaswini 
+                   Technopark,Trivandrum-695 581
+                 </p>
             </li>
             <li class="email">
               <h2><i class="fa fa-envelope"></i>E-Mail</h2>
-              <p>Info@conventioncenter.com</p>
+              <p>info@imrokraft.com</p>
             </li>
             <li class="call">
               <h2><i class="fa fa-phone"></i>Contact</h2>
-              <p>+1800-123-4567</p>
+              <p>(0471) 6555644 </p>
             </li>
           </ul>
         </div>
