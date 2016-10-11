@@ -117,14 +117,14 @@
       <div class="col-md-4"><!-- vendor box start-->
         <div class="vendor-box">
           <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/convention-center-event-venue.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <a href="{{url('details')}}"><img src="images/convention-center-event-venue.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="feature-label"></div>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
           </div>
           <!-- /.vendor pic -->
           <div class="vendor-detail"><!-- vendor details -->
             <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title">Al Saj Convention Centre</a></h2>
+              <h2><a href="{{url('details')}}" class="title">Al Saj Convention Centre</a></h2>
               <p class="location"><i class="fa fa-map-marker"></i> Al Saj Convention Centre, Kazhakuttam, Trivandrum, India.</p>
               <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
             </div>

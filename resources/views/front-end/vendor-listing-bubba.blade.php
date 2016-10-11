@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Wedding Vendor | Find The Best Wedding Vendors</title>
+<title>Convention Center | Find The Best Convention Center</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -47,9 +47,9 @@
           <div class="icon-circle"> 
               <i class="icon icon-size-60  icon-list icon-white"></i>
           </div>
-          <h1>Venue Listing Bubba Style</h1>
-          <p>Venue Listing Bubba Style for multiple use.</p>
-         
+          <h1>All Convention Center</h1>
+          <!--<p>Venue Listing Bubba Style for multiple use.</p>-->
+        
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
       <div class="col-md-12">
         <ol class="breadcrumb">
           <li><a href="{{ url('/') }}">Home</a></li>
-          <li class="active">Venue Listing Bubba Style</li>
+          <li class="active">All Convention Center</li>
         </ol>
       </div>
     
@@ -77,74 +77,8 @@
         <div class="grid">
           <figure class="effect-bubba"> <img src="images/vendor-1.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
-              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="col-md-4 vendor-box">
-        <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-2.jpg" alt="wedding venue" class="img-responsive">
-            <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
-              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="col-md-4 vendor-box">
-        <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-3.jpg" alt="wedding venue" class="img-responsive">
-            <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
-              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="col-md-4 vendor-box">
-        <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-4.jpg" alt="wedding venue" class="img-responsive">
-            <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
-              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="col-md-4 vendor-box">
-        <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-5.jpg" alt="wedding venue" class="img-responsive">
-            <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
-              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="col-md-4 vendor-box">
-        <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-6.jpg" alt="wedding venue" class="img-responsive">
-            <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
-              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-      <div class="col-md-4 vendor-box">
-        <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-7.jpg" alt="wedding venue" class="img-responsive">
-            <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
+             <h2><a href="{{url('details')}}"><font color="white">Al Saj International</font></a></h2>
+              <p> <a href="{{url('details')}}"><font color="white">NH.47 Kazhakoottam, Thiruvananthapuram, Kerala.</font></a></p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
           </figure>
@@ -154,8 +88,74 @@
         <div class="grid">
           <figure class="effect-bubba"> <img src="images/vendor-8.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
+              <h2>CRYSTAL</h2>
+              <p>Crystal Convention Center ,Nagaroor Attingal, Trivandrum.</p>
+              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md-4 vendor-box">
+        <div class="grid">
+          <figure class="effect-bubba"> <img src="images/vendor-3.jpg" alt="wedding venue" class="img-responsive">
+            <figcaption>
+              <h2>Soorya Prabha</h2>
+              <p>Electrical Section KSEB, Mannanthala, Thiruvananthapuram,Kerala.</p>
+              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md-4 vendor-box">
+        <div class="grid">
+          <figure class="effect-bubba"> <img src="images/vendor-4.jpg" alt="wedding venue" class="img-responsive">
+            <figcaption>
+              <h2>Kottackattu</h2>
+              <p>MC Road, Nava Jeevan, Thiruvananthapuram, Kerala.</p>
+              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md-4 vendor-box">
+        <div class="grid">
+          <figure class="effect-bubba"> <img src="images/vendor-5.jpg" alt="wedding venue" class="img-responsive">
+            <figcaption>
+              <h2>Girideepam</h2>
+              <p>Mar Ivanios, Thiruvananthapuram, Kerala.</p>
+              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md-4 vendor-box">
+        <div class="grid">
+          <figure class="effect-bubba"> <img src="images/vendor-6.jpg" alt="wedding venue" class="img-responsive">
+            <figcaption>
+              <h2>Quilon Beach</h2>
+              <p>Beach Road, Thamarakulam, Kollam, Kerala.</p>
+              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md-4 vendor-box">
+        <div class="grid">
+          <figure class="effect-bubba"> <img src="images/vendor-7.jpg" alt="wedding venue" class="img-responsive">
+            <figcaption>
+              <h2>C.S.I</h2>
+              <p>Chinnakada, Kollam, Kerala, 691001.</p>
+              <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md-4 vendor-box">
+        <div class="grid">
+          <figure class="effect-bubba"> <img src="images/vendor-8.jpg" alt="wedding venue" class="img-responsive">
+            <figcaption>
+              <h2>Younus</h2>
+              <p>Asramam, Kollam, Kerala, 691001.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
           </figure>
@@ -165,8 +165,8 @@
         <div class="grid">
           <figure class="effect-bubba"> <img src="images/vendor-9.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Wedding Venue Name Title</h2>
-              <p>Street Address, Name of Town, 12345, Country.</p>
+              <h2>Camelot</h2>
+              <p>NH 47, Pathirapally, Alleppey, kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
           </figure>

@@ -20,7 +20,7 @@
                 <li><a href="vendor-list-3-colmun.html" title="Home" class="animsition-link">3 Column List</a></li>
                 <li><a href="vendor-list-horizontal.html" title="Home" class="animsition-link">Horizontal List </a></li>
                 <li><a href="vendor-list-new.html" title="Home" class="animsition-link">List Variations </a></li>-->
-                <li><a href="{{ url('/vendor-listing-bubba') }}">Bubba Style Listing</a></li>
+                <li><a href="{{ url('/vendor-listing-bubba') }}">All Centers</a></li>
 <!--                <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>-->
               </ul>
                 

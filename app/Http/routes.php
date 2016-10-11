@@ -35,3 +35,6 @@ Route::get('/listing-row-map', function () {
 Route::get('/admin', function () {
     return view('back-end.layouts.layout');
 });
+Route::get('/details', function () {
+    return view('front-end.details');
+});
