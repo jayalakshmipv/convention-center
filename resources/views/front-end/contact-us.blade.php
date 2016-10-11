@@ -114,7 +114,7 @@
     </div>
   </div>
 </div>
-<div class="map" id="googleMap"><div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=NH%2047%20%26%2Ckazhakootam%2Cthiruvananthapuram+(Technopark)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> by <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br /></div>
+<div class="map" id="googleMap"><<div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=Technopark%2CTrivandrum+(Imrokraft%20solutions)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> by <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br /></div>
 
 
 @include('front-end.layouts.footer')
