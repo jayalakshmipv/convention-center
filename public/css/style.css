@@ -513,7 +513,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 .venue-detail{padding: 0px; border: 1px solid #e9e6e0; border-radius: 0px; border-top: transparent; background-color: #fff;}
 .venue-detail .caption { padding: 30px;}
 .venue-detail .location{font-size: 12px; margin-bottom: 10px; color: #9c9693;}
-.venue-lable{position: absolute; bottom: 20px; left: 20px;}
+.venue-lable{position: relative; bottom: 20px; left: 20px;}
 .venue-lable .label{display: inline; padding: 5px 10px; font-size: 12px; font-weight: 700; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 4px;}
 .venue-lable .label-default {background-color: #222; font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
 .venue-info{ background-color: #fcfbf9; border-top: 1px solid #e9e6e0; height: 84px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: 700;}
@@ -533,6 +533,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 .vendor-image { position: relative; overflow: hidden;}
 .vendor-image img { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transition: all .5s ease; transition: all .5s ease; opacity: .9;}
 .vendor-image a:hover img { -webkit-transform: scale(1); transform: scale(1); opacity: 1;}
+.vendor-image .text{position:relative; bottom:150px; left:0px; color:#fff; visibility:hidden; text-align:center;}
+.vendor-image:hover .text{visibility:visible;}
 .vendor-price{background-color: #fcfbf9;padding: 9px 29px; border-top: 1px solid #e9e6e0;}
 .vendor-price .price {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #3c3634 }
 .rating .rating-count{font-size: 14px; font-family: 'Montserrat', sans-serif; padding-left: 5px; color: #706a68}
@@ -2007,3 +2009,10 @@ section.module.parallax h1 { color: #fff; font-size: 38px; font-weight: 700; tex
   opacity: 1;
   right: 0;
 }
+.fa-style{
+	font-size:25px !important;
+}
+.form-button .text{
+	osition:relative; left:0px; color:#fff; visibility:hidden; text-align:center;
+}
+.form-button:hover .text{visibility:visible;}
