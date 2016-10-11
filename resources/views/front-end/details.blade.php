@@ -7,8 +7,8 @@
       <div class="col-md-offset-2 col-md-8">
         <div class="page-header text-center">
           
-          <h1>Venue Single Tab Style</h1>
-          <p>You can present your item detail page with tab style.</p>
+          <h1>Al Saj International microsite</h1>
+          <p>Microsite only available for premium members only.</p>
          
         </div>
       </div>
@@ -21,7 +21,7 @@
       <div class="col-md-8">
         <ol class="breadcrumb">
           <li><a href="{{ url('/') }}">Home</a></li>
-          <li class="active">Convention Center Title Goes Here</li>
+          <li class="active">Al Saj International</li>
         </ol>
       </div>
     </div>
@@ -40,7 +40,7 @@
         <div class="venue-info"><!-- venue-info-->
           <div class="capacity">
             <div>Capacity:</div>
-            <span class="cap-people"> 100 - 500 </span> </div>
+            <span class="cap-people"> 50000 - 100000 </span> </div>
           <div class="pricebox">
             <div>Avg price:</div>
             <span class="price">₹100000</span></div>
