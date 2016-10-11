@@ -10,9 +10,9 @@
           <ul data-breakpoint="800" class="flexnav">
             <li class="active"><a href="{{ url('/') }}">Home</a>
             </li>
-            <li><a href="#">Search List</a>
+            <li><a href="#">Search</a>
                  <ul>
-                <li><a href="{{ url('/listing-row-map') }}" title="Home" class="animsition-link">List / Half Map</a></li>
+                <li><a href="{{ url('/listing-row-map') }}" title="Home" class="animsition-link">Filter</a></li>
 <!--                <li><a href="vendor-listing-sidebar.html" title="Home" class="animsition-link">List / Sidebar Left</a></li>
                 <li><a href="vendor-listing-no-sidebar.html" title="Home" class="animsition-link">List / No Sidebar</a></li>
                 <li><a href="vendor-listing-top-map.html" title="Home" class="animsition-link">Top Map / List</a></li>
@@ -25,7 +25,7 @@
               </ul>
             </li>
                 
-            <li><a href="{{ url('/event') }}">Events</a>
+            <li><a href="{{ url('/event') }}">Blog</a>
              
             </li>
 <!--            <li><a href="#">Event</a></li>-->

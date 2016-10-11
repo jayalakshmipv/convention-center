@@ -114,7 +114,7 @@
           <div role="tabpanel" class="tab-pane fade" id="video"> 
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9"> 
-              <!--<iframe class="embed-responsive-item" src=" Video URL HERE"></iframe>--> 
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/djT7wgrMzZY" frameborder="0" allowfullscreen></iframe>"></iframe>
               <a href="javascript:void(0)"><img src="images/video.jpg" alt="" class="img-responsive"></a> </div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="amenities">
