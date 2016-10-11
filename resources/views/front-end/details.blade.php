@@ -1,41 +1,6 @@
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Convention Center | Find The Best Convention Center</title>
 
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Template style.css -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
-<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
-
-<!-- Font used in template -->
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
-<!--font awesome icon -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<!-- favicon icon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-
- 
 <div class="tp-page-head"><!-- page header -->
   <div class="container">
     <div class="row">
@@ -143,7 +108,8 @@
             
           </div>
           <div role="tabpanel" class="tab-pane fade" id="onmap">
-            <div id="googleMap" class="map"></div>
+            <div id="googleMap" class="map"><div style="width: 100%"><iframe width="100%" height="400" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=NH%20%24%26%2Ckazhakootam%2Cthiruvananthapuram+(al%20saj)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> 
+    by <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br /></div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="video"> 
             <!-- 16:9 aspect ratio -->
@@ -391,10 +357,10 @@
           </form>
         </div>
       </div>
-      <!--<div class="col-md-4">
+<!--      <div class="col-md-4">
         <div class="profile-sidebar side-box"> 
-          <!-- SIDEBAR USERPIC -->
-         <!-- <div class="profile-userpic"> <img src="images/profile_user.jpg" class="img-responsive img-circle" alt=""> </div>
+          <!-- SIDEBAR USERPIC 
+          <div class="profile-userpic"> <img src="images/profile_user.jpg" class="img-responsive img-circle" alt=""> </div>
           <div class="profile-usertitle">
             <div class="profile-usertitle-name">
               <h2>John Wilburn</h2>
@@ -421,21 +387,12 @@
   </div>
 </div>
  
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.min.js"></script> 
-<!-- Flex Nav Script -->
-<script src="js/jquery.flexnav.js" type="text/javascript"></script>  
-<script src="js/navigation.js"></script> 
-<script src="js/owl.carousel.min.js"></script> 
-<script type="text/javascript" src="js/thumbnail-slider.js"></script> 
+@include('front-end.layouts.footer')
 
-<script src="js/jquery.sticky.js"></script>
-<script src="js/header-sticky.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js"></script> 
 <script>
-var myCenter=new google.maps.LatLng(23.0203458,72.5797426);
+var myCenter=new google.maps.LatLng(23.0314489,72.5788925);
+
 
 function initialize()
 {
@@ -470,4 +427,3 @@ google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 </body>
 </html>
-@extends('front-end.layouts.footer')

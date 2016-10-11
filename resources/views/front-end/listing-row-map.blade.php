@@ -68,13 +68,15 @@
                   </select>
                 </div>
                 <div class="col-md-3">
-              <div class="price-range default-range">
-                    <label for="amount" class="control-label">Price range:</label>
-                    <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                    <div id="slider-range" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                      
-                    </div>
-                  </div>
+                  <label class="control-label" for="capacity">Price Range</label>
+                  <select id="capacity" name="capacity" class="form-control">
+                      <option value="">Select Price</option>
+                     <option value="0 - 99">2500-5000</option>
+                    <option value="100 - 199">5000 - 10000</option>
+                    <option value="200 - 299">10000 - 20000</option>
+                    <option value="300 - 399">25000- 30000</option>
+                    <option value="400+">above 30000</option>
+                  </select>
                 </div>
                 <div class="col-md-3">
                   <button type="submit" class="btn btn-primary btn-lg btn-block">Search</button>
@@ -294,7 +296,7 @@
 </div>
 @extends('front-end.layouts.footer')
 <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g&callback=initMap"></script>
 <script>
 // The following example creates complex markers to indicate beaches near
  
@@ -375,6 +377,5 @@ function initMap() {
  // }
 //}
 </script> 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g&callback=initMap"></script>
 </body>
 </html>
