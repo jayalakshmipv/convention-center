@@ -23,6 +23,7 @@
                 <li><a href="{{ url('/vendor-listing-bubba') }}">All Centers</a></li>
 <!--                <li><a href="vendor-listing-ocean.html">Ocean Style Listing</a></li>-->
               </ul>
+            </li>
                 
             <li><a href="{{ url('/event') }}">Events</a>
              
