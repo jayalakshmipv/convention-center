@@ -143,7 +143,8 @@
             
           </div>
           <div role="tabpanel" class="tab-pane fade" id="onmap">
-            <div id="googleMap" class="map"></div>
+            <div id="googleMap" class="map"><div style="width: 100%"><iframe width="100%" height="400" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=NH%20%24%26%2Ckazhakootam%2Cthiruvananthapuram+(al%20saj)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> 
+    by <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br /></div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="video"> 
             <!-- 16:9 aspect ratio -->
@@ -433,8 +434,14 @@
 
 <script src="js/jquery.sticky.js"></script>
 <script src="js/header-sticky.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js"></script> 
-<script>
+
+
+@extends('front-end.layouts.footer')
+<!--<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>-->
+
+
+<!--<script src="http://maps.googleapis.com/maps/api/js"></script> -->
+<!--<script>
 var myCenter=new google.maps.LatLng(23.0203458,72.5797426);
 
 function initialize()
@@ -460,7 +467,8 @@ var infowindow = new google.maps.InfoWindow({
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+</script>-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g&callback=initMap"></script>
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script> 
 <script type="text/javascript" src="js/price-slider.js"></script>
 <script>

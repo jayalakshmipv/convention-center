@@ -112,11 +112,13 @@
     </div>
   </div>
 </div>
-<div class="map" id="googleMap"></div>
+<div class="map" id="googleMap"><div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=NH%2047%20%26%2Ckazhakootam%2Cthiruvananthapuram+(Technopark)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> by <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br /></div>
 
-<script src="http://maps.googleapis.com/maps/api/js"></script> 
+
 @include('front-end.layouts.footer')
-<script>
+
+
+<!--<script>
 var myCenter=new google.maps.LatLng(23.0203458,72.5797426);
 
 function initialize()
@@ -143,6 +145,6 @@ var infowindow = new google.maps.InfoWindow({
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+</script>-->
 </body>
 </html>

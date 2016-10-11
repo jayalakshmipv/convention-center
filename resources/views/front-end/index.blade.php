@@ -8,9 +8,9 @@
 <body>
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
-    <div class="item"><img src="images/convention-center-marriage.jpg" alt="Wedding couple just married"></div>
-    <div class="item"><img src="images/convention-center-catering.jpg" alt="Wedding couple just married"></div>
-    <div class="item"><img src="images/convention-center-parking.jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/convention-center-marriage (1).jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/convention-center-kerala-trivandrum-al saj-dj party (1).jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img src="images/convention-center-marriages (1).jpg" alt="Wedding couple just married"></div>
   </div>
   <div class="find-section"><!-- Find search section-->
     <div class="container">

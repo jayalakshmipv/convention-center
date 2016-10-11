@@ -47,7 +47,7 @@
             <div class="aboutus" id="aboutus">
 
               <h1>We Make Your Dreams.</h1>
-              <p class="lead">Welcome to wedding vendor, launch in 2015. We pride our selves on being a trusted friend someone to take on this journey with you making it fun from the start.</p>
+              <p class="lead">Welcome to convention, launch in 2015. We pride our selves on being a trusted friend someone to take on this journey with you making it fun from the start.</p>
               <p>We will  support you and advise you. We are never short of suggestions or inspiring ideas.Our matchless, which makes finding beautiful wedding venue easier and one less thing for you to worry about.With our inspir blog, suggestions and sensational offers, no one understands weddings better than we do.</p>
             </div>
           </div>
@@ -186,8 +186,8 @@
                     <h1>2015</h1>
                   </div>
                   <div class="tl-body">
-                    <h3>Today Wedding Vandor </h3>
-                    <p>Nullam ultricies venenatis enim sed sagittis. Donec sodales, eros necerisque suscipitonec
+                    <h3>Today Convention Vandor </h3>
+                    <p> Nullam ultricies venenatis enim sed sagittis. Donec sodales, eros necerisque suscipitonec
                       vitae elit dictum lectus gravida malesuadaInteger sapien nibh, bibendum a arcu quis.</p>
                   </div>
                 </div>
