@@ -68,10 +68,12 @@
                   </select>
                 </div>
                 <div class="col-md-3">
-             <div class="price-range default-range">
+              <div class="price-range default-range">
                     <label for="amount" class="control-label">Price range:</label>
                     <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                    <div id="slider-range"></div>
+                    <div id="slider-range" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                      
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-3">

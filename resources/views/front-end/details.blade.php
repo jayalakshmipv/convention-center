@@ -55,8 +55,7 @@
     <div class="row">
       <div class="col-md-8">
         <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Convention Center Listing</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li class="active">Convention Center Title Goes Here</li>
         </ol>
       </div>
