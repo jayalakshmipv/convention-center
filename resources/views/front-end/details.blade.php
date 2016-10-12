@@ -402,7 +402,9 @@
 
 <script src="js/jquery.sticky.js"></script>
 <script src="js/header-sticky.js"></script>
-var myCenter=new google.maps.LatLng(23.0314489,72.5788925);
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g&callback=initMap"></script> 
+<script>
+var myCenter=new google.maps.LatLng(8.575493,76.8698815);
 
 
 function initialize()

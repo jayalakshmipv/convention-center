@@ -347,7 +347,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('googleMap'), {
     zoom: 12,
      scrollwheel: false,
-    center: {lat: 23.0314489, lng: 72.5788925}
+    center: {lat: 8.4997266, lng: 76.854321}
   });
 
   setMarkers(map);
@@ -357,7 +357,7 @@ function initMap() {
 // order in which these markers should display on top of each other.
 //var beaches = [
 
- // ['Florist Vendor', 23.0676033, 72.5735364, 4, 'florist.png'],
+ // ['Al Saj', 8.575493, 76.8698815, 1,],
 //  ['Dresses Vendor', 23.0676413, 72.560375, 5, 'dress.png'],
  // ['Venue Vendor', 23.0683954, 72.5306521, 3, 'venue.png'],
 //  ['Venue Vendor', 23.0715393, 72.5849452, 2, 'venue.png'],
