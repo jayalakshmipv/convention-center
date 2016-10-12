@@ -25,7 +25,7 @@
             </li>
             <li class="header">Settings</li>
             <li><a href="#"><i class="fa fa-circle-o text-orange"></i> <span>Change Password</span></a></li>
-        </ul>
+       
         
         <li class="treeview">
                 <a href="#">
@@ -40,6 +40,7 @@
                     <li><a href="#"><i class="fa fa-circle-o"></i> List Events</a></li>
                 </ul>
             </li>
+             </ul>
     </section>
     <!-- /.sidebar -->
 </aside>
