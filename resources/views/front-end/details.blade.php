@@ -389,6 +389,21 @@
  
 @include('front-end.layouts.footer')
 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- Flex Nav Script -->
+<script src="js/jquery.flexnav.js" type="text/javascript"></script>  
+<script src="js/navigation.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/thumbnail-slider.js"></script> 
+
+<script src="js/jquery.sticky.js"></script>
+<script src="js/header-sticky.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script> 
+<script>
+
 <script src="http://maps.googleapis.com/maps/api/js"></script> 
 <script>
 var myCenter=new google.maps.LatLng(23.0314489,72.5788925);
