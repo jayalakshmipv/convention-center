@@ -1,4 +1,4 @@
-@extends('front-end.layouts.header')
+@include('front-end.layouts.header')
 @include('front-end.layouts.menu')
 
 <div class="tp-page-head"><!-- page header -->
@@ -66,7 +66,7 @@
         
         <!-- Tab panes -->
         <div class="tab-content"><!-- tab content start-->
-          <div role="tabpanel" class="tab-pane fade in active" id="photo">
+           <div role="tabpanel" class="tab-pane fade in active" id="photo">
             <div id="sync1" class="owl-carousel">
               <div class="item"> <img src="images/vendor-1.jpg" alt="" class="img-responsive"> </div>
               <div class="item"> <img src="images/vendor-2.jpg" alt="" class="img-responsive"> </div>
@@ -108,8 +108,7 @@
             
           </div>
           <div role="tabpanel" class="tab-pane fade" id="onmap">
-            <div id="googleMap"class="map"><div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=Kazhakoottam%2CTrivandrum+(Al%20Saj)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> by 
-                    <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br/></div>
+            <div id="googleMap" class="map"><br /></div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="video"> 
             <!-- 16:9 aspect ratio -->
@@ -389,22 +388,7 @@
  
 @include('front-end.layouts.footer')
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.min.js"></script> 
-<!-- Flex Nav Script -->
-<script src="js/jquery.flexnav.js" type="text/javascript"></script>  
-<script src="js/navigation.js"></script> 
-<script src="js/owl.carousel.min.js"></script> 
-<script type="text/javascript" src="js/thumbnail-slider.js"></script> 
-
-<script src="js/jquery.sticky.js"></script>
-<script src="js/header-sticky.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js"></script> 
-<script>
-
-<script src="http://maps.googleapis.com/maps/api/js"></script> 
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g"></script> 
 <script>
 var myCenter=new google.maps.LatLng(23.0314489,72.5788925);
 

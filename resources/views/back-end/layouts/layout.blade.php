@@ -28,11 +28,11 @@
              folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="{{ URL::asset('backend-style/dist/css/skins/_all-skins.min.css') }}">
 <!--        <link rel="stylesheet" href="{{ URL::asset('backend-style/css/style.css') }}">-->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+        <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">-->
 
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css">
-     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css">-->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" rel="stylesheet">-->
 
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -86,7 +86,7 @@
                                             <a href="{{url('profile')}}" class="btn btn-default profile_new btn-flat">Profile</a>
                                         </div-->
                                         <div class="pull-right">
-                                            <a href="{{ url('/logout') }}" class="btn btn-default sign_new btn-flat">Sign out</a>
+                                            <a href="#" class="btn btn-default sign_new btn-flat">Sign out</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -96,6 +96,7 @@
                 </nav>
 
             </header>
+             @include('back-end.layouts.menu')
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->

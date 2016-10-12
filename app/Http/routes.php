@@ -33,7 +33,7 @@ Route::get('/listing-row-map', function () {
     return view('front-end.listing-row-map');
 });
 Route::get('/admin', function () {
-    return view('back-end.layouts.layout');
+    return view('back-end.home');
 });
 Route::get('/details', function () {
     return view('front-end.details');

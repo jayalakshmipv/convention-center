@@ -68,5 +68,3 @@
 <!-- sticky header --> 
 <script src="js/jquery.sticky.js"></script> 
 <script src="js/header-sticky.js"></script>
-</body>
-</html>

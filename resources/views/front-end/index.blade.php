@@ -1,11 +1,5 @@
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css">
-</style>
-</head>
-<body>
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
     <div class="item"><img src="images/convention-center-marriagee.jpg" alt="Wedding couple just married"></div>
@@ -304,6 +298,6 @@
   </div>
 </div>-->
 <!-- /. Call to action -->
-@extends('front-end.layouts.footer')
+@include('front-end.layouts.footer')
 </body>
 </html>
