@@ -33,7 +33,7 @@ Route::get('/listing-row-map', function () {
     return view('front-end.listing-row-map');
 });
     
-  Route::resource('/admin/events', 'EventsController');
+  Route::resource('events', 'EventsController');
 
 Route::get('/details', function () {
     return view('front-end.details');

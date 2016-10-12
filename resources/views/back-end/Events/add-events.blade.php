@@ -9,7 +9,7 @@
 @endif-->
 
 @section('body')
-{!! Form::open(['method'=>'post','enctype' => 'multipart/form-data']) !!}
+{!! Form::open(['route' => 'events.store','method'=>'post','enctype' => 'multipart/form-data']) !!}
 <div class="box box-primary">
     <div class="box-body">
 
@@ -30,14 +30,14 @@
 
         </div>
          <div class="form-group">
-            {!! Form::label('syllabus', 'Syllabus') !!}
-            {!! Form::text('syllabus', null, ['class' => 'form-control', 'placeholder'=>'Enter Syllabus']) !!}
+            {!! Form::label('event-hoster', 'Event-hoster') !!}
+            {!! Form::text('event-hoster', null, ['class' => 'form-control', 'placeholder'=>'Enter event hoster']) !!}
         </div>
         <div class="form-group">
-            {!! Form::label('time_shift', 'Time_shift') !!}
-            {!! Form::select('time_shift',array('Morning' => 'Morning', 'AfterNoon' => 'AfterNoon','Evening' =>'Evening'),null, ['class' => 'form-control', 'placeholder'=>'00.00-00.00','id' => 'calendar1'])!!}
-
+            {!! Form::label('phone number', 'phone-number') !!}
+            {!! Form::text('phone number', null, ['class' => 'form-control', 'placeholder'=>'Enter event']) !!}
         </div>
+        
        
 
        
