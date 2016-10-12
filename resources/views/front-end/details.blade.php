@@ -108,8 +108,8 @@
             
           </div>
           <div role="tabpanel" class="tab-pane fade" id="onmap">
-            <div id="googleMap" class="map"><div style="width: 100%"><iframe width="100%" height="400" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=NH%20%24%26%2Ckazhakootam%2Cthiruvananthapuram+(al%20saj)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> 
-    by <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br /></div>
+            <div id="googleMap"class="map"><div style="width: 100%"><iframe width="100%" height="600" src="http://www.mapsdirections.info/en/custom-google-maps/map.php?width=100%&height=600&hl=ru&q=Kazhakoottam%2CTrivandrum+(Al%20Saj)&ie=UTF8&t=&z=14&iwloc=A&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> by 
+                    <a href="http://www.mapsdirections.info/en/">UK Maps</a></iframe></div><br/></div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="video"> 
             <!-- 16:9 aspect ratio -->
