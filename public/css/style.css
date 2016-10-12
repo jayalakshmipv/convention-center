@@ -462,7 +462,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 .finder-caption{ margin-bottom: 20px;display: inline-block;}
 .finder-caption h1 { font-size: 42px; letter-spacing: -1px; font-weight: 700;}
 .finder-caption h1, .finder-caption p { margin-bottom: 20px; color: #fff;}
-.finderform { background-color: rgba(0, 0, 0, 0.6); padding: 30px;}
+.finderform { background-color: rgba(0, 0, 0, 0.6); padding:25px 20px 0px 20px;}
 .finderform .form-group, .finder-form-transparent .form-group{margin-bottom: 0px;}
 .finderform .col-md-5 { padding-right: 15px;}
 .finderform .btn-lg { font-size: 14px;}
@@ -2010,7 +2010,7 @@ section.module.parallax h1 { color: #fff; font-size: 38px; font-weight: 700; tex
   right: 0;
 }
 .fa-style{
-	font-size:25px !important;
+	font-size:28px !important;
 }
 .form-button .text{
 	osition:relative; left:0px; color:#fff; visibility:hidden; text-align:center;
