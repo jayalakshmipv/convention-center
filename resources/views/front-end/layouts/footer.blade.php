@@ -48,6 +48,7 @@
     <div class="row">
       <div class="col-md-12">
 	  Powered by {{ Html::link('http://imrokraft.com' ,'Imrokraft' ) }} 2016. All Rights Reserved</div>
+	  Powered by {{ Html::link('http://imrokraft.com' ,'Imrokraft' ) }}  2016. All Rights Reserved</div>
     </div>
   </div>
 </div>
