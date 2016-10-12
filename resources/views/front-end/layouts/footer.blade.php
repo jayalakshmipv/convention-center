@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-md-5 ft-aboutus">
         <h2>Convention Center</h2>
-        <p>At Convention Center our purpose is to help people find great online network connecting of the Convention Center. <a href="#">Start Find Convention Center!</a></p>
-        <a href="#" class="btn btn-default">Find a Convention Center</a> </div>
+        <p>At Convention Center our purpose is to help people find great online network connecting of the Convention Center. <a href="{{ url('/vendor-listing-bubba') }}">Start Find Convention Center!</a></p>
+        <a href="{{ url('/vendor-listing-bubba') }}" class="btn btn-default">Find a Convention Center</a> </div>
       <div class="col-md-3 ft-link">
         <h2>Useful links</h2>
         <ul>
@@ -52,6 +52,7 @@
     </div>
   </div>
 </div>
+    </div>
 <!-- /. Tiny Footer --> 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery.min.js"></script> 

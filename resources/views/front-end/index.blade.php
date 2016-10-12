@@ -79,7 +79,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
-          <h2><a href="#">Find Convention centre</a></h2>
+          <h2><a href="{{ url('/vendor-listing-bubba') }}">Find Convention centre</a></h2>
           <p>Here you can find all the convention centers in kerala </p><br>
         </div>
       </div>
@@ -88,7 +88,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
-          <h2><a href="#">Contact</a></h2>
+          <h2><a href="{{ url('/contact-us') }}">Contact</a></h2>
           <p>24hrs we were here for the clarifications of your doubts.</p>
         </div>
       </div>
