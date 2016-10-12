@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-offset-2 col-md-8">
         <div class="page-header text-center">
-          <div class="icon-circle"> <i class="icon icon-size-60 icon-loving-home icon-white"></i> </div>
+          <div class="icon-circle"><i class="icon icon-size-60 icon-loving-home icon-white"></i> </div>
           <h1>About Convention center</h1>
           <p>Convention Centre offers one of the most beautiful settings in the world and convenient access to all the major visitor amenities in the downtown core.</p>
         </div>
