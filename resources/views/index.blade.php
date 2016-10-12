@@ -232,7 +232,7 @@
         </div>
       </div>
       <!-- /.feature block -->
-      
+     
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
