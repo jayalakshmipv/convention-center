@@ -23,32 +23,41 @@
           <div class="finderform">
             <form>
               <div class="row">
-                <div class="form-group col-md-4">
+                <div class="form-group col-md-3">
                   <select class="form-control">
-                    <option>Select Vendor Category</option>
+                    <option>Select Category</option>
                     <option value="Venue">Venue</option>
+                    <option value="Car Rent">Car Rent</option>
+					<option value="Catering">Catering</option>
                     <option value="Photographer">Photographer</option>
-                    <option value="Cake">Cake</option>
-                    <option value="Dj">Dj</option>
-                    <option value="Florist">Florist</option>
                     <option value="Videography">Videography</option>
                     <option value="jewellery">Jewellery</option>
-                    <option value="Gifts">Gifts</option>
-                    <option value="Dresses">Dresses</option>
                   </select>
                 </div>
                 <div class="form-group col-md-4">
                   <select class="form-control">
                     <option>Select City</option>
-                    <option value="Ahmedabad">Ahmedabad</option>
-                    <option value="Gandhinagar">Gandhinagar</option>
-                    <option value="Rajkot">Rajkot</option>
-                    <option value="Surat">Surat</option>
-                    <option value="Vadodara">Vadodara</option>
+                    <option value="Trivandrum">Trivandrum</option>
+                    <option value="Kollam">Kollam</option>
+                    <option value="Pathanamthitta">Pathanamthitta</option>
+                    <option value="Alappuzha">Alappuzha</option>
+                    <option value="Kottayam">Kottayam</option>
+					<option value="Idukki">Idukki</option>
+					<option value="Ernakulam">Ernakulam</option>
+					<option value="Thrissur">Thrissur</option>
+					<option value="Palakkad">Palakkad</option>
+					<option value="Malappuram">Malappuram</option>
+					<option value="Kozhikode">Kozhikode</option>
+					<option value="Wayanad">Wayanad</option>
+					<option value="Kannur">Kannur</option>
+					<option value="Kasargod">Kasargod</option>
                   </select>
                 </div>
+				<div class="form-group form-button col-md-1">
+                    <button class="btn btn-warning"><i class="fa fa-globe fa-style"></i></button> <p class="text ">Kazhakootam</p>
+				</div>
                 <div class="form-group col-md-4">
-                  <button type="submit" class="btn btn-primary btn-lg btn-block">Find Vendors</button>
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
                 </div>
               </div>
             </form>
@@ -68,7 +77,7 @@
         <div class="section-title mb60 text-center">
           <h1>OUR VISION</h1>
           <p class="italic">
-"Our site is aim to provide all the informations of convention center in <span> God's own country"</span>
+"<b>A</b>im of <b>O</b>ur site is to provide all the information regarding <b>C</b>onvention <b>C</b>enters in <span><b> God's own country" </b></span>
 </p>        </div>
       </div>
     </div>
@@ -76,7 +85,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
-          <h2><a href="find Conventioncentre.html">Find Convention centre</a></h2>
+          <h2><a href="#">Find Convention centre</a></h2>
           <p>Here you can find all the convention centers in kerala </p><br>
         </div>
       </div>
@@ -85,7 +94,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
-          <h2><a href="find Contact.html">Contact</a></h2>
+          <h2><a href="#">Contact</a></h2>
           <p>24hrs we were here for the clarifications of your doubts.</p>
         </div>
       </div>
@@ -93,7 +102,7 @@
       <div class="col-md-4">
         <div class="feature-block feature-center"><!-- feature block -->
           <div class="feature-icon"><img src="images/couple.svg" alt=""></div>
-          <h2><a href="find Contact.html">Special Events</a></h2>
+          <h2><a href="#">Special Events</a></h2>
           <p>All the special event through our hands.. You can check and join.</p>
         </div>
       </div>
@@ -108,8 +117,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="section-title mb60 text-center">
-          <h1>Featured Convention centre</h1>
-          <p>Many desktop publishing packages and web page editors now use orem psum as their default model text.</p>
+          <h1>Featured Convention center</h1>
+          <p>Are you looking for the perfect place to hold your next event? Accessible, compact, dynamic, inspirational – we can connect with all the elements you need for a great comfortable destination.</p>
         </div>
       </div>
     </div>
@@ -196,23 +205,23 @@
     </div>
     <div class="row">
       <div class="col-md-4 location-block"> 
-        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-trivandrum-al saj-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Trivandrum </span></a> </div>
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-trivandrum-al saj-conventions.jpg" alt="" class="img-responsive"></a>  <a href="#" class="venue-lable"><span class="label label-default">Trivandrum </span></a> <p class="text">Al Saj Convention Center, NH.47 Kazhakoottam, Thiruvananthapuram, Kerala 695585</p> </div>
       </div>
         
       <div class="col-md-4 location-block">  
-        <div class="vendor-image"><a href="#"><img src="images/convention-center-kerala-kollam-raviz-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kollam</span></a> </div>
+        <div class="vendor-image"><a href="#"><img src="images/convention-center-kerala-kollam-raviz-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kollam</span></a> <p class="text">Raviz Convention Center, Thevally, Mathilil, Kerala 691601</p></div>
       </div>
         
       <div class="col-md-4 location-block">  
-        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-kottayam-pala-sunstar-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kottayam</span></a> </div>
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-kottayam-pala-sunstar-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kottayam</span></a> <p class="text">SunStar Convention Center, oorassala ,Olikandam Road,Pala, Arunapuram, Pala, Kerala 686574</p></div>
       </div>
         
       <div class="col-md-8 location-block"> 
-        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-alappuzha-camelot-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Alappuzha</span></a> </div>
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-alappuzha-camelot-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Alappuzha</span></a> <p class="text">Camelot Convention Center, NH 47, Pathirappally, Poomkavu, Alappuzha, Kerala 688521</p></div>
       </div>
        
       <div class="col-md-4 location-block">  
-        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-ernakulam-lee meridian-kochi-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kochi</span></a> </div>
+        <div class="vendor-image"> <a href="#"><img src="images/convention-center-kerala-ernakulam-lee meridian-kochi-conventions.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Kochi</span></a> <p class="text">Le Meridien Convention Center, Maradu, Kochi, Kerala 68230</p></div>
       </div>
          
     </div>

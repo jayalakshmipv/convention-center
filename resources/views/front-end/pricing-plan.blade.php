@@ -67,7 +67,7 @@
     <div class="row pricing-container">
       <div class="col-md-4 pricing-box pricing-box-regualr">
         <div class="well-box">
-          <h2 class="price-title">silver</h2>
+          <h2 class="price-title">Silver</h2>
           <h1 class="price-plan"><span class="dollor-sign">₹&nbsp</span>1000<span class="permonth">/month</span></h1>
           <p>As a <strong>Silver Member</strong>, you can enjoy exclusive options of making your convention center upto mark... </p>
           <a href="#" class="btn btn-default btn-sm">Select Plan</a> </div>
@@ -80,9 +80,9 @@
       </div>
       <div class="col-md-4 pricing-box pricing-box-top">
         <div class="well-box">
-          <h2 class="price-title">gold</h2>
+          <h2 class="price-title">Platinum</h2>
           <h1 class="price-plan"><span class="dollor-sign">₹&nbsp</span>3500<span class="permonth">/month</span></h1>
-          <p>As a <strong>Gold Member</strong>, you can enjoy exclusive options of making your convention center upto mark... </p>
+          <p>As a <strong>Platinum Member</strong>, more enhanced support and other facilities are provided... </p>
           <a href="#" class="btn btn-primary btn-sm">Select Plan</a> </div>
         <ul class="check-circle list-group">
           <li class="list-group-item">24x7 Email Support</li>
@@ -93,9 +93,9 @@
       </div>
       <div class="col-md-4 pricing-box pricing-box-regualr">
         <div class="well-box">
-          <h2 class="price-title">Platinum</h2>
+          <h2 class="price-title">Gold</h2>
           <h1 class="price-plan"><span class="dollor-sign">₹&nbsp</span>2500<span class="permonth">/month</span></h1>
-          <p>As a <strong>Platinum Member</strong>, you can enjoy exclusive options of making your convention center upto mark... </p>
+          <p>As a <strong>Gold Member</strong>, you can access latest blog details and other facilities are provided..</p>
           <a href="#" class="btn btn-default btn-sm">Select Plan</a> </div>
         <ul class="check-circle list-group">
           <li class="list-group-item">24x7 Email Support</li>

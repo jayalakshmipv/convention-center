@@ -48,8 +48,8 @@
     <div class="row">
       <div class="col-md-8">
         <ol class="breadcrumb">
-          <li><a href="{{ url('/') }}>Home</a></li>
-          <li class="active">News</li>
+          <li><a href="#">News</a></li>
+          <li class="active">Home</li>
         </ol>
       </div>
     </div>
@@ -144,11 +144,10 @@
             <div class="well-box">
               <h2 class="widget-title">Categories</h2>
               <ul class="listnone angle-double-right">
-                <li><a href="#">Waterside</a> <span>(4)</span></li>
-                <li><a href="#">Romantic</a> <span>(2)</span></li>
-                <li><a href="#">Outside Weddings</a> <span>(6)</span></li>
-                <li><a href="#">Palace</a> <span>(4)</span></li>
-                <li><a href="#">Manor House</a> <span>(8)</span></li>
+                <li><a href="#">MARRAIGE</a> <span>(4)</span></li>
+                <li><a href="#">FOOD FEAST</a> <span>(2)</span></li>
+                <li><a href="#">CONFERENCE</a> <span>(6)</span></li>
+                
               </ul>
             </div>
           </div>
@@ -158,28 +157,28 @@
               <h2 class="widget-title">Recent Posts</h2>
               <div class="rc-post-holder row">
                 <div class="col-md-5">
-                  <div class="post-image"><a href="#"><img src="images/convention-center-kerala-trivandrum-catering-auditorium.jpg" class="img-responsive" alt=""></a></div>
+                  <div class="post-image"><a href="#"><img src="images/1.jpg" class="img-responsive" alt=""></a></div>
                 </div>
                 <div class="rc-post col-md-7">
-                  <h3><a href="#" class="link">Isro Annual Meet 2016</a></h3>
+                  <h3><a href="#" class="link">BOLLYWOOD ICON RESHMA MARRAIGE</a></h3>
                   <div class="post-meta"> <span class="date-meta">ON <a href="#">October 7, 2015</a></span> </div>
                 </div>
               </div>
               <div class="rc-post-holder row">
                 <div class="col-md-5">
-                  <div class="post-image"><a href="#"><img src="images/convention-center-kerala-trivandrum-marriage-ring exchange.jpg" class="img-responsive" alt=""></a></div>
+                  <div class="post-image"><a href="#"><img src="images/Fotolia_4727411_M-735006.jpg" class="img-responsive" alt=""></a></div>
                 </div>
                 <div class="rc-post col-md-7">
-                  <h3><a href="#" class="link">Heera babu son's marraige</a></h3>
+                  <h3><a href="#" class="link">FOOD FEAST</a></h3>
                   <div class="post-meta"> <span class="date-meta">ON <a href="#">October 6, 2015</a></span> </div>
                 </div>
               </div>
               <div class="rc-post-holder row">
                 <div class="col-md-5">
-                  <div class="post-image"><a href="#"><img src="images/convention-center-kerala-alappuzha-camelot-conference-conventions.jpg" class="img-responsive" alt=""></a></div>
+                  <div class="post-image"><a href="#"><img src="images/convention-cnter-kerala-trivandrum-conerence-hall (1).jpg" class="img-responsive" alt=""></a></div>
                 </div>
                 <div class="rc-post col-md-7">
-                  <h3><a href="#" class="link">Amazon web service seminar 2016</a></h3>
+                  <h3><a href="#" class="link">10TH ANNUAL MEETING FOR WOMEN FORUM</a></h3>
                   <div class="post-meta"> <span class="date-meta">ON <a href="#">October 5, 2015</a></span> </div>
                 </div>
               </div>

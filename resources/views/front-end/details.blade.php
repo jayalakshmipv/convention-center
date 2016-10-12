@@ -7,8 +7,8 @@
       <div class="col-md-offset-2 col-md-8">
         <div class="page-header text-center">
           
-          <h1>Venue Single Tab Style</h1>
-          <p>You can present your item detail page with tab style.</p>
+          <h1>Al Saj International microsite</h1>
+          <p>Microsite only available for premium members only.</p>
          
         </div>
       </div>
@@ -21,7 +21,7 @@
       <div class="col-md-8">
         <ol class="breadcrumb">
           <li><a href="{{ url('/') }}">Home</a></li>
-          <li class="active">Convention Center Title Goes Here</li>
+          <li class="active">Al Saj International</li>
         </ol>
       </div>
     </div>
@@ -40,7 +40,7 @@
         <div class="venue-info"><!-- venue-info-->
           <div class="capacity">
             <div>Capacity:</div>
-            <span class="cap-people"> 100 - 500 </span> </div>
+            <span class="cap-people"> 50000 - 100000 </span> </div>
           <div class="pricebox">
             <div>Avg price:</div>
             <span class="price">₹100000</span></div>
@@ -114,7 +114,7 @@
           <div role="tabpanel" class="tab-pane fade" id="video"> 
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9"> 
-              <!--<iframe class="embed-responsive-item" src=" Video URL HERE"></iframe>--> 
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/djT7wgrMzZY" frameborder="0" allowfullscreen></iframe>"></iframe>
               <a href="javascript:void(0)"><img src="images/video.jpg" alt="" class="img-responsive"></a> </div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="amenities">
@@ -144,7 +144,7 @@
                     <!-- First Comment -->
                     <div class="row">
                       <div class="col-md-2 col-sm-2 hidden-xs">
-                        <div class="user-pic"> <img class="img-responsive img-circle" src="images/userpic.jpg" alt=""> </div>
+                        <div class="user-pic"> <img class="img-responsive img-circle" src="images/convention-center-microsite-image1.jpg" alt=""> </div>
                       </div>
                       <div class="col-md-10 col-sm-10">
                         <div class="panel panel-default arrow left">
@@ -154,7 +154,7 @@
                               <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
                             </div>
                             <div class="review-post">
-                              <p> From initially being shown round through booking to breakfast the next morning. Nam eu enim mollis urna egestas interdum eget quis nisl. Ut sem velit, scelerisque nec commodo consequat, imperdiet non diam. </p>
+                              <p> One of the prominent venues in trivandrum. Great for marriages, out door events, engagements, parties, etc. More than enough parking space for cars and buses. </p>
                             </div>
                             <div class="review-user">By <a href="#">Jaisy and Kartin</a>, on <span class="review-date"></span>04 Apr 2015</div>
                           </div>
@@ -162,9 +162,9 @@
                       </div>
                     </div>
                     <!-- Second Comment -->
-                   <!-- <div class="row">
+                    <div class="row">
                       <div class="col-md-2 col-sm-2 hidden-xs">
-                        <div class="user-pic"> <img class="img-responsive img-circle" src="images/userpic.jpg" alt=""> </div>
+                        <div class="user-pic"> <img class="img-responsive img-circle" src="images/convention-center-microsite-image2.jpg" alt=""> </div>
                       </div>
                       <div class="col-md-10 col-sm-10">
                         <div class="panel panel-default arrow left">
@@ -174,17 +174,17 @@
                               <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
                             </div>
                             <div class="review-post">
-                              <p> Curabitur mattis congue consectetur. Nulla facilisis dictum velit, ultrices imperdiet diam luctus quis. Vestibulum in volutpat purus, quis accumsan diam. The pastry heart on the pie was such a lovely touch that you could easily not have done. </p>
+                              <p> Nyc place...spacious...helping staff...quite atmosphere and good rooms....splendid open space and parking area...even we can have a barbeque part outside.. </p>
                             </div>
                             <div class="review-user">By <a href="#">Jaisy and Kartin</a>, on <span class="review-date"></span>04 Apr 2015</div>
                           </div>
                         </div>
                       </div>
-                    </div>-->
+                    </div>
                     <!-- Third Comment -->
-                   <!-- <div class="row">
+                    <div class="row">
                       <div class="col-md-2 col-sm-2 hidden-xs">
-                        <div class="user-pic"> <img class="img-responsive img-circle" src="images/userpic.jpg" alt=""> </div>
+                        <div class="user-pic"> <img class="img-responsive img-circle" src="images/convention-center-microsite-image3.jpg" alt=""> </div>
                       </div>
                       <div class="col-md-10 col-sm-10">
                         <div class="panel panel-default arrow left">
@@ -194,14 +194,14 @@
                               <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
                             </div>
                             <div class="review-post">
-                              <p> Vivamus condimentum orci non tellus tincidunt volutpat. Suspendisse gravida gravida arcu a pellentesque. Duis aliquet ut justo et accumsan. </p>
+                              <p>Nyc place...spacious...helping staff...quite atmosphere and good rooms....splendid open space and parking area...even we can have a barbeque part outside..</p>
                             </div>
                             <div class="review-user">By <a href="#">Jaisy and Kartin</a>, on <span class="review-date"></span>04 Apr 2015</div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>-->
+                  </div>
                   <div class="review"> <a class="btn tp-btn-primary btn-block tp-btn-lg" role="button" data-toggle="collapse" href="#review" aria-expanded="false" aria-controls="review"> Write A Review </a> </div>
                   <div class="collapse review-list review-form" id="review">
                     <div class="panel panel-default">
