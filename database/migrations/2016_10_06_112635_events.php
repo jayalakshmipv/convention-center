@@ -18,7 +18,7 @@ class Events extends Migration
             $table->date('event_date_from');
 			 $table->date('event_date_to');
 			 $table->string('event_hoster',200);
-			 $table->integer('hoster_phno',11);
+			 $table->string('hoster_phno',11);
 			 $table->string('hoster_emailid',100);
 			 $table->string('event_featured_image',100);
 			 $table->string('event_details',100);
