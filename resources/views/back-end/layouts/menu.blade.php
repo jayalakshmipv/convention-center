@@ -23,9 +23,21 @@
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
-            <li class="header">Settings</li>
-            <li><a href="#"><i class="fa fa-circle-o text-orange"></i> <span>Change Password</span></a></li>
-       
+            
+	   <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <span>Convention Center</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Add Convention Center</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> List Convention Center</a></li>
+					<li><a href="#"><i class="fa fa-circle-o"></i> Delete Convention Center</a></li>
+                </ul>
+            </li>
         
         <li class="treeview">
                 <a href="#">
@@ -40,7 +52,10 @@
                     <li><a href="#"><i class="fa fa-circle-o"></i> List Events</a></li>
                 </ul>
             </li>
-             </ul>
+             
+			 <li class="header">Settings</li>
+            <li><a href="#"><i class="fa fa-circle-o text-orange"></i> <span>Change Password</span></a></li></ul>
+       
     </section>
     <!-- /.sidebar -->
 </aside>

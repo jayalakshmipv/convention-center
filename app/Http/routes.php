@@ -34,6 +34,8 @@ Route::get('/listing-row-map', function () {
 });
     
   Route::resource('events', 'EventsController');
+  Route::resource('conventions', 'ConventionsController');
+  
 
 Route::get('/details', function () {
     return view('front-end.details');
