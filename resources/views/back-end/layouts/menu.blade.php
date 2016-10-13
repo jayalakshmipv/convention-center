@@ -35,7 +35,6 @@
                 <ul class="treeview-menu">
                     <li><a href="#"><i class="fa fa-circle-o"></i> Add Convention Center</a></li>
                     <li><a href="#"><i class="fa fa-circle-o"></i> List Convention Center</a></li>
-					<li><a href="#"><i class="fa fa-circle-o"></i> Delete Convention Center</a></li>
                 </ul>
             </li>
         
