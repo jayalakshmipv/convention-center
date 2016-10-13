@@ -12,13 +12,13 @@ class Events extends Migration
      */
     public function up()
     {
-       Schema::create('events', function (Blueprint $table) {
+       Schema::create('event', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('event_name',100);
+            $table->string('event_name',200);
             $table->date('event_date_from');
 			 $table->date('event_date_to');
-			 $table->string('event_hoster',100);
-			 $table->string('hoster_phno',100);
+			 $table->string('event_hoster',200);
+			 $table->integer('hoster_phno',11);
 			 $table->string('hoster_emailid',100);
 			 $table->string('event_featured_image',100);
 			 $table->string('event_details',100);
@@ -32,6 +32,6 @@ class Events extends Migration
      */
     public function down()
     {
-         Schema::drop('events');
+         Schema::drop('event');
     }
 }
