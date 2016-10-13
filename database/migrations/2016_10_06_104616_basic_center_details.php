@@ -18,8 +18,8 @@ class BasicCenterDetails extends Migration
             $table->string('address',250);
 			$table->string('location',255);
 			$table->string('name_owner',50);
-			$table->integer('phone_no',20)->unique();
-            $table->integer('mobile_no',20)->unique();
+			$table->string('phone_no',20)->unique();
+            $table->string('mobile_no',20)->unique();
 			$table->string('mail_id',30)->unique();
 			$table->string('website_address',30)->unique();
 			$table->string('maplocation',100);
