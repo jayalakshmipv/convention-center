@@ -17,7 +17,7 @@ class Rating extends Migration
 			$table->integer('stars');
 			$table->string('user_name',100);
 			$table->string('user_email_id',100)->unique();
-			$table->string('user_review',255);
+			$table->string('user_review',300);
             $table->timestamps();        });
     }
 
