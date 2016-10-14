@@ -48,3 +48,4 @@ Route::get('/details', function () {
 //Route::resource('/admin/Events', function () {
 //    return view('back-end');
 //    });
+

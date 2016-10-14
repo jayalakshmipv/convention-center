@@ -445,7 +445,8 @@ font-size: 12px;}
 .oldie.ie7 .flexnav li {
   width: 19.9%; }
 /*----- Homepage Template Slider --------*/
-#slider .item img {display: block;width: 50%;height:365px;width:2000px}
+#slider .item img {display: block;width: 50%;height:565px;width:2000px}
+.owl-wrapper-outer{height:565px !important;}
 .slider-bg{position: relative; background: #eee;}
 .slider-shade{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0.44+100;Neutral+Density */
 background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.44) 100%); /* FF3.6-15 */

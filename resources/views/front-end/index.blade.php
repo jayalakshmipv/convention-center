@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-md-offset-1 col-md-10 finder-block">
           <div class="finder-caption">
-            <h1>CONVENTION CENTER</h1>
+            <h1>WEDDING HUB</h1>
             <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
           </div>
           <div class="finderform">
