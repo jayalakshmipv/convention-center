@@ -148,8 +148,9 @@ padding space
 
 .section-space20{padding-top: 20px;padding-bottom: 20px;}
 .section-space40{padding-top: 40px;padding-bottom: 40px;}
+.section-space30{padding-top: 30px;padding-bottom: 30px;}
 .section-space60{padding-top: 60px;padding-bottom: 60px;}
-.section-space80{padding-top: 80px;padding-bottom: 80px;}
+.section-space80{padding-top: 50px;padding-bottom: 50px;}
 .section-space100{padding-top: 100px;padding-bottom: 100px;}
 
 /*-----------------------------------------
@@ -445,7 +446,7 @@ font-size: 12px;}
 .oldie.ie7 .flexnav li {
   width: 19.9%; }
 /*----- Homepage Template Slider --------*/
-#slider .item img {display: block;width: 50%;height:565px;width:2000px}
+#slider .item img {display: block;width: 100%;height:565px;}
 .owl-wrapper-outer{height:565px !important;}
 .slider-bg{position: relative; background: #eee;}
 .slider-shade{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0.44+100;Neutral+Density */
@@ -862,6 +863,8 @@ ul.follow-icon li a{ font-size: 32px;}
   .timeline li .timeline-panel {
     width: 44%;
   }
+  #slider .item img {height:500px;}
+  .owl-wrapper-outer{height:500px !important;}
 }
 
 @media (max-width: 700px) {
@@ -898,6 +901,10 @@ ul.follow-icon li a{ font-size: 32px;}
     right: auto;
   }
 }
+@media only screen and (min-width:320px) and (max-width: 480px) {
+	#slider .item img {height:265px;}
+    .owl-wrapper-outer{height:265px !important;}
+}
 /*------ Team Section ---------*/
 .team-section{margin-top: 60px;}
 .team-block{margin-bottom: 30px; margin-top: 30px;}
@@ -905,6 +912,21 @@ ul.follow-icon li a{ font-size: 32px;}
 .team-pic img{ border-radius: 100%; height: 200px; width: 200px; margin: 0 auto;}
 .team-pic img{border-radius: 100%; height: 200px; width: 200px; margin: 0 auto; border: 5px solid #eaeaea; filter: grayscale(100%); -webkit-filter: grayscale(100%);  /* For Webkit browsers */ filter: gray;  /* For IE 6 - 9 */ -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */}
 .team-pic img:hover { filter: grayscale(0%); -webkit-filter: grayscale(0%); filter: none;}
+
+
+/*------ Extra CSS Section ---------*/
+.wedding-vision{color:#00aeaf;}
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------------
 	06. - Blog Page 
 ---------------------------*/
@@ -2034,9 +2056,9 @@ section.module.parallax h1 { color: #fff; font-size: 38px; font-weight: 700; tex
 }
 .more{
 	background-color: #0fb3b4; 
-	padding:5px 15px 5px 15px;
-	border-radius:5px;
-	font-size:18px;
+	padding:5px 18px;
+	border-radius:none;
+	font-size:14px;
 	color:#fff;
 }
 .more:hover{
