@@ -123,7 +123,7 @@
             <h1>Convention Center</h1>
 		</div>
 		<div class="col-md-6 studio-mr">
-		    <h4><a href="#" class="more"> more </a></h4>
+		    <h4><a href="{{ url('/vendor-listing-bubba') }}" class="more"> more </a></h4>
 		</div>
       </div>
     </div>
@@ -210,13 +210,10 @@
             <h1>Car Rental</h1>
 		</div>
 		<div class="col-md-6 studio-mr">
-		    <h4><a href="#" class="more"> more </a></h4>
+		    <h4><a href="{{ url('/carrental-listing') }}" class="more"> more </a></h4>
 		</div>
-        <div class="section-title mb60 text-center">
-          <h1> Car Rentals</h1>
-          <p>A Car can make your delighted occasions wonderfull and memorable...We provide you the best car rental services in town for your lovable occasion. </p>
-        </div>
-      </div>
+         
+	      </div>
     </div>
     <div class="row ">
       <div class="col-md-4"><!-- vendor box start-->
@@ -302,7 +299,7 @@
             <h1>Studio</h1>
 		</div>
 		<div class="col-md-6 studio-mr">
-		    <h4><a href="#" class="more"> more </a></h4>
+		    <h4><a href="{{ url('/studio-listing') }}" class="more"> more </a></h4>
 		</div>
       </div>
     </div>

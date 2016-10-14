@@ -32,7 +32,12 @@ Route::get('/vendor-listing-bubba', function () {
 Route::get('/listing-row-map', function () {
     return view('front-end.listing-row-map');
 });
-    
+   Route::get('/carrental-listing', function () {
+    return view('front-end.carrental-listing');
+}); 
+Route::get('/studio-listing', function () {
+    return view('front-end.studio-listing');
+}); 
   Route::resource('events', 'EventsController');
 
   Route::resource('conventions', 'ConventionsController');

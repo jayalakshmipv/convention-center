@@ -45,7 +45,7 @@
       <div class="col-md-offset-2 col-md-8">
         <div class="page-header text-center">
           <div class="icon-circle"> 
-              <i class="icon icon-size-60  icon-list icon-white"></i>
+              <i class="fa icon1 fa-building-o"></i>
           </div>
           <h1>All Convention Center</h1>
           <!--<p>Venue Listing Bubba Style for multiple use.</p>-->
