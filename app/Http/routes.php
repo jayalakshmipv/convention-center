@@ -41,6 +41,7 @@ Route::get('/listing-row-map', function () {
 
    Route::resource('dashboard', 'dashboardController');
 
+Route::resource('category', 'categoryController');
 Route::get('/details', function () {
     return view('front-end.details');
 });

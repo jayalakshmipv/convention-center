@@ -24,7 +24,11 @@
 	position: relative;
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
+.owl-wrapper-outer{
+	height: 365px;
+}
 .owl-carousel .owl-wrapper-outer{
+	
 	overflow: hidden;
 	position: relative;
 	width: 100%;

@@ -3,9 +3,9 @@
 
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
-    <div class="item"><img src="images/convention-center-marriagee.jpg" alt="Wedding couple just married"></div>
-    <div class="item"><img src="images/convention-center-catering.jpg" alt="Wedding couple just married"></div>
-    <div class="item"><img src="images/convention-center-marriages-photo.jpg" alt="Wedding couple just married"></div>
+    <div class="item"><img class="img-responsive" src="images/convention-center-marriage.jpg"  alt=" Wedding couple just married"></div>
+    <div class="item"><img class="img-responsive" src="images/convention-center-catering.jpg"  alt=" Wedding couple just married"></div>
+    <div class="item"><img class="img-responsive" src="images/convention-center-marriages.jpg"  alt=" Wedding couple just married"></div>
   </div>
   <div class="find-section"><!-- Find search section-->
     <div class="container">
@@ -383,6 +383,6 @@
   </div>
 </div>-->
 <!-- /. Call to action -->
-@include('front-end.layouts.footer')
 </body>
 </html>
+@include('front-end.layouts.footer')

@@ -7,7 +7,10 @@
     <div class="row">
       <div class="col-md-offset-2 col-md-8">
         <div class="page-header text-center">
-          <div class="icon-circle"><i class="icon icon-size-60 icon-loving-home icon-white"></i> </div>
+ 
+
+          <div class="icon-circle"> <i class="icon icon-size-60 icon-loving-home icon-white"></i> </div>
+
           <h1>About Convention center</h1>
           <p>Convention Centre offers one of the most beautiful settings in the world and convenient access to all the major visitor amenities in the downtown core.</p>
         </div>
@@ -35,7 +38,10 @@
         <div class="hide-side">
           <ul class="listnone nav" id="sidebar">
             <li class="active">{{ Html::link('#aboutus', 'About us')}}</li>
+
           <!--  <li>{{ Html::link('#team', 'Meet The Team')}}-->
+
+            <li>{{ Html::link('#team', 'Meet The Team')}}
 <!--            <li>{{ Html::link('#howwork', 'How it works')}}-->
             <li>{{ Html::link('#history', 'Our History')}}
           </ul> 
@@ -45,6 +51,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="aboutus" id="aboutus">
+
               <h1>We Make Your Dreams.</h1>
               <p>Welcome to convention, launch in 2015. We pride our selves on being a trusted friend someone to take on this journey with you making it fun from the start.</p>
               <p>We will  support you and advise you. We are never short of suggestions or inspiring ideas.Our matchless, which makes finding beautiful wedding venue easier and one less thing for you to worry about.With our inspir blog, suggestions and sensational offers, no one understands weddings better than we do.</p>
@@ -58,6 +65,9 @@
               <img src="images/cycle-graphic.png" alt="" class="graphic img-responsive"> <a href="#" class="btn btn-default btn-lg">Get start today</a> </div>
           </div>-->
         <!--  <div class="col-md-12 team-section" id="team">
+
+          <div class="col-md-12 team-section" id="team">
+
             <h1>Our Founder</h1>
             <div class="row">
               <div class="col-md-4"><img src="images/convention-center-trivandrum-officials.jpg" alt="" class="img-responsive img-circle"></div>
@@ -73,14 +83,25 @@
              <!--     <a href="#"><img src="images/convention-center-trivandrum-officials-women.jpg" class="img-responsive" alt=""></a> </div>
                 <!-- /.team pic -->
             <!--    <h2><a href="#">Zella Drake</a></h2>
+
+                  <a href="#"><img src="images/convention-center-trivandrum-officials-women.jpg" class="img-responsive" alt=""></a> </div>
+                <!-- /.team pic -->
+                <h2><a href="#">Zella Drake</a></h2>
+
                 <span>Chief Executive Officer</span>
                 <div class=""> <a href="#"><i class="fa fa-twitter-square"></i></a> <a href="#"><i class="fa fa-linkedin-square"></i></a> </div>
               </div>
               <div class="col-md-3 text-center team-block">
                 <div class="team-pic"><!-- team pic --> 
+
                <!--   <a href="#"><img src="images/convention-center-kerala-trivandrum2-owners.jpg" class="img-responsive" alt=""></a> </div>
                 <!-- /.team pic -->
           <!--      <h2><a href="#">Marie Ashcroft</a></h2>
+
+                  <a href="#"><img src="images/convention-center-kerala-trivandrum2-owners.jpg" class="img-responsive" alt=""></a> </div>
+                <!-- /.team pic -->
+                <h2><a href="#">Marie Ashcroft</a></h2>
+
                 <span>Chief Executive Officer</span>
                 <div class=""> <a href="#"><i class="fa fa-twitter-square"></i></a> <a href="#"><i class="fa fa-linkedin-square"></i></a> </div>
               </div>   
@@ -89,6 +110,10 @@
           <!--        <a href="#"><img src="images/convention-center-kerala-trivandrum1-officials.jpg" class="img-responsive" alt=""></a> </div>
                 <!-- /.team pic -->
             <!--    <h2><a href="#">Avery Moseley</a></h2>
+
+                  <a href="#"><img src="images/convention-center-kerala-trivandrum1-officials.jpg" class="img-responsive" alt=""></a> </div>
+                <!-- /.team pic -->
+                <h2><a href="#">Avery Moseley</a></h2>
                 <span>Chief Executive Officer</span>
                 <div class=""> <a href="#"><i class="fa fa-twitter-square"></i></a> <a href="#"><i class="fa fa-linkedin-square"></i></a> </div>
               </div>
@@ -97,6 +122,10 @@
         <!--          <a href="#"><img src="images/convention-center-trivandrum-officials.jpg" class="img-responsive" alt=""></a> </div>
                 <!-- /.team pic -->
       <!--          <h2><a href="#">Jimmie Tucker</a></h2>
+
+                  <a href="#"><img src="images/convention-center-trivandrum-officials.jpg" class="img-responsive" alt=""></a> </div>
+                <!-- /.team pic -->
+                <h2><a href="#">Jimmie Tucker</a></h2>
                 <span>Chief Executive Officer</span>
                 <div class=""> <a href="#"><i class="fa fa-twitter-square"></i></a> <a href="#"><i class="fa fa-linkedin-square"></i></a> </div>
               </div>
@@ -144,6 +173,16 @@
           <div class="col-md-12">
             <ul class="timeline">
             <!--  <li>
+
+        <div class="row">
+          <div class="col-md-12 history" id="history">
+            <h1>History</h1>
+            <p>Cras acmetus sed arcu posuere interdu murabitur nunc sapienravida nec tempus eumn fermentum vitae erat raesent hendrerit ligula urnaonsec teturipsum estibulum justo ligula.</p>
+          </div>
+          <div class="col-md-12">
+            <ul class="timeline">
+              <li>
+
                 <div class="tl-circ"></div>
                 <div class="timeline-panel">
                   <div class="history-pic"> <img src="images/convention-center-kerala-trivandrum-history.jpg" class="img-responsive" alt=""> </div>
@@ -158,6 +197,8 @@
                 </div>
               </li>
             <!--  <li class="timeline-inverted">
+
+              <li class="timeline-inverted">
                 <div class="tl-circ"></div>
                 <div class="timeline-panel">
                   <div class="history-pic"> <img src="images/convention-center-kerala-trivandrum-first-office.Jpg" class="img-responsive" alt=""> </div>
@@ -183,11 +224,17 @@
                     <p>Our lean approach towards application development and providing solutions is what differentiates Imrokraft from various other businesses and helps us go the extra mile in increasing client satisfaction and accelerating our own growth</p>
                   </div>
                 </div>
+
               </li>-->
               <li class="timeline-inverted">
                 <div class="tl-circ"></div>
                 <div class="timeline-panel">
                  <div class="history-pic"> <img src="images/convention-center-kerala-trivandrum-first-office.Jpg" class="img-responsive" alt=""> </div>
+
+              </li>
+              <li class="timeline-inverted">
+                <div class="tl-circ"></div>
+                <div class="timeline-panel">
                   <div class="tl-heading">
                     <h1>2016</h1>
                   </div>
@@ -207,4 +254,5 @@
 </div>
 </body>
 </html>
+
 @include('front-end.layouts.footer')
