@@ -117,6 +117,16 @@
         </div>
       </div>
     </div>
+	<div class="row">
+      <div class="col-md-12">
+        <div class="section-title mb60 col-md-6">
+            <h1>Convention Center</h1>
+		</div>
+		<div class="col-md-6 studio-mr">
+		    <h4><a href="#" class="more"> more </a></h4>
+		</div>
+      </div>
+    </div>
     <div class="row ">
       <div class="col-md-4"><!-- vendor box start-->
         <div class="vendor-box">
@@ -189,22 +199,25 @@
   </div>
   <div class="clearfix"></div>
 </div>
+<!-- car rentel-->
 <div class="hr1"></div>
 <div class="section-space80 bg-light cars">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="section-title mb60 text-center">
-          <h1> Car Rentals</h1>
-          <p>A Car can make your delighted occasions wonderfull and memorable...We provide you the best car rental services in town for your lovable occasion. </p>
-        </div>
+        <div class="section-title mb60 col-md-6">
+            <h1>Car Rental</h1>
+		</div>
+		<div class="col-md-6 studio-mr">
+		    <h4><a href="#" class="more"> more </a></h4>
+		</div>
       </div>
     </div>
     <div class="row ">
       <div class="col-md-4"><!-- vendor box start-->
         <div class="vendor-box">
           <div class="vendor-image"><!-- vendor pic --> 
-            <a href="{{url('details')}}"><img src="images/wedding-car-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <a href="{{url('details')}}"><img src="images/convention-center-car1.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="feature-label"></div>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
           </div>
@@ -228,7 +241,7 @@
       <div class="col-md-4"><!-- vendor box start-->
         <div class="vendor-box">
           <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/wedding-car-2.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <a href="#"><img src="images/convention-center-car2.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="rated-label"></div>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
           </div>
@@ -250,7 +263,7 @@
       <!-- /.vendor box start-->
       <div class="col-md-4 vendor-box"><!-- vendor box start-->
         <div class="vendor-image"><!-- vendor pic --> 
-          <a href="#"><img src="images/weddinghub-happyjourney.jpg" alt="wedding vendor" class="img-responsive"></a>
+          <a href="#"><img src="images/convention-center-car3.jpg" alt="wedding vendor" class="img-responsive"></a>
           <div class="popular-label"></div>
           <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
         </div>
@@ -272,9 +285,11 @@
   </div>
   <div class="clearfix"></div>
 </div>
+<!--/car rentel-->
+<div class="hr1"></div>
 <!-- Studio -->
 
-<div class="section-space80 bg-light">
+<div class="section-space80 bg-light cars">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -292,7 +307,7 @@
           <div class="vendor-image"><!-- vendor pic --> 
             <a href="{{url('details')}}"><img src="images/convention-center-studio1.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="feature-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
           </div>
           <!-- /.vendor pic -->
           <div class="vendor-detail"><!-- vendor details -->
@@ -316,7 +331,7 @@
           <div class="vendor-image"><!-- vendor pic --> 
             <a href="#"><img src="images/convention-center-studio2.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="rated-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
           </div>
           <!-- /.vendor pic -->
           <div class="vendor-detail"><!-- vendor details -->
@@ -338,7 +353,7 @@
         <div class="vendor-image"><!-- vendor pic --> 
           <a href="#"><img src="images/convention-center-studio3.jpg" alt="wedding vendor" class="img-responsive"></a>
           <div class="popular-label"></div>
-          <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+          <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
         </div>
         <!-- /.vendor pic -->
         <div class="vendor-detail"><!-- vendor details -->
