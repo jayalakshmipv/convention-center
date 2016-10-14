@@ -199,6 +199,7 @@
   </div>
   <div class="clearfix"></div>
 </div>
+
 <!-- car rentel-->
 <div class="hr1"></div>
 <div class="section-space80 bg-light cars">
@@ -211,13 +212,17 @@
 		<div class="col-md-6 studio-mr">
 		    <h4><a href="#" class="more"> more </a></h4>
 		</div>
+        <div class="section-title mb60 text-center">
+          <h1> Car Rentals</h1>
+          <p>A Car can make your delighted occasions wonderfull and memorable...We provide you the best car rental services in town for your lovable occasion. </p>
+        </div>
       </div>
     </div>
     <div class="row ">
       <div class="col-md-4"><!-- vendor box start-->
         <div class="vendor-box">
           <div class="vendor-image"><!-- vendor pic --> 
-            <a href="{{url('details')}}"><img src="images/convention-center-car1.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <a href="{{url('details')}}"><img src="images/wedding-car-1.jpg" alt="wedding vendor" class="img-responsive"></a>
             <div class="feature-label"></div>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
           </div>
