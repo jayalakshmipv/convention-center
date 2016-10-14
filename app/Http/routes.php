@@ -34,13 +34,17 @@ Route::get('/listing-row-map', function () {
 });
     
   Route::resource('events', 'EventsController');
+
   Route::resource('conventions', 'ConventionsController');
   
+
+
+   Route::resource('dashboard', 'dashboardController');
 
 Route::get('/details', function () {
     return view('front-end.details');
 });
-
+ 
 //Route::resource('/admin/Events', function () {
 //    return view('back-end');
 //    });

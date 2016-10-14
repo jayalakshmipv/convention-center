@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* CSS Document */
 /*
 
@@ -2016,3 +2016,12 @@ section.module.parallax h1 { color: #fff; font-size: 38px; font-weight: 700; tex
 	osition:relative; left:0px; color:#fff; visibility:hidden; text-align:center;
 }
 .form-button:hover .text{visibility:visible;}
+.hr1 {
+    
+    border: 0;
+    border-top: 1px solid #e9e6e0;
+}
+.cars {
+    padding-top: 40px;
+    padding-top: 60px;
+}

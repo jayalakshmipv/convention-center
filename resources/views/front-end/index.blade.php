@@ -107,7 +107,7 @@
   </div>
 </div>
 <!-- Feature Blog End -->
-<div class="section-space80 bg-light">
+<div class="section-space80 bg-light cars">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -187,6 +187,90 @@
       </div>
     </div>
   </div>
+  <div class="clearfix"></div>
+</div>
+<div class="hr1"></div>
+<div class="section-space80 bg-light cars">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title mb60 text-center">
+          <h1> Car Rentals</h1>
+          <p>A Car can make your delighted occasions wonderfull and memorable...We provide you the best car rental services in town for your lovable occasion. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-md-4"><!-- vendor box start-->
+        <div class="vendor-box">
+          <div class="vendor-image"><!-- vendor pic --> 
+            <a href="{{url('details')}}"><img src="images/wedding-car-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <div class="feature-label"></div>
+            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
+          </div>
+          <!-- /.vendor pic -->
+          <div class="vendor-detail"><!-- vendor details -->
+            <div class="caption"><!-- caption -->
+              <h2><a href="{{url('details')}}" class="title">Southgate Travels</h2>
+              <p class="location"><i class="fa fa-map-marker"></i> Mukalel Building, VL- 43, Vikas Lane, Kunnukuzhy, Thiruvananthapuram </p>
+              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+            </div>
+            <!-- /.caption -->
+            <div class="vendor-price">
+              <div class="price">₹10,000 - ₹20,000</div>
+            </div>
+          </div>
+          <!-- vendor details --> 
+        </div>
+      </div>
+      
+      <!-- /.vendor box start-->
+      <div class="col-md-4"><!-- vendor box start-->
+        <div class="vendor-box">
+          <div class="vendor-image"><!-- vendor pic --> 
+            <a href="#"><img src="images/wedding-car-2.jpg" alt="wedding vendor" class="img-responsive"></a>
+            <div class="rated-label"></div>
+            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
+          </div>
+          <!-- /.vendor pic -->
+          <div class="vendor-detail"><!-- vendor details -->
+            <div class="caption"><!-- caption -->
+              <h2><a href="#" class="title"> Kerala Luxury Cars</a></h2>
+              <p class="location"><i class="fa fa-map-marker"></i> Kerala Luxury Cars, Tc-234/24,Jacobs building, Vytilla,Ernakulam, India.</p>
+              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+            </div>
+            <!-- /.caption -->
+            <div class="vendor-price">
+              <div class="price">₹20,000 ABOVE</div>
+            </div>
+          </div>
+        </div>
+        <!-- vendor details --> 
+      </div>
+      <!-- /.vendor box start-->
+      <div class="col-md-4 vendor-box"><!-- vendor box start-->
+        <div class="vendor-image"><!-- vendor pic --> 
+          <a href="#"><img src="images/weddinghub-happyjourney.jpg" alt="wedding vendor" class="img-responsive"></a>
+          <div class="popular-label"></div>
+          <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
+        </div>
+        <!-- /.vendor pic -->
+        <div class="vendor-detail"><!-- vendor details -->
+          <div class="caption"><!-- caption -->
+            <h2><a href="#" class="title">Happy Journey Travels</a></h2>
+            <p class="location"><i class="fa fa-map-marker"></i> Happy Journey Travels, Cherot Ln, Chakkorathukulam, Kozhikode, India.</p>
+            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+          </div>
+          <!-- /.caption -->
+          <div class="vendor-price">
+            <div class="price">₹9,000 - ₹30000</div>
+          </div>
+        </div>
+        <!-- vendor details --> 
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
 </div>
 <div class="section-space80">
   <div class="container">
