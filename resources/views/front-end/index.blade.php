@@ -124,8 +124,7 @@
             <h1>Convention Center</h1>
 		</div>
 		<div class="col-md-6 studio-mr">
-		    <h4><a href="{{ url('/vendor-listing-bubba') }}" class="more"> more </a></h4>
-		    <h4><a href="#" class="more"> More </a></h4>
+		    <h4><a href="{{ url('/vendor-listing-bubba') }}" class="more"> More </a></h4>
 		</div>
       </div>
     </div>
@@ -212,11 +211,7 @@
             <h1>Car Rental</h1>
 		</div>
 		<div class="col-md-6 studio-mr">
-		    <h4><a href="{{ url('/carrental-listing') }}" class="more"> more </a></h4>
-		</div>
-         
-	      </div>
-		    <h4><a href="#" class="more"> More </a></h4>
+		    <h4><a href="{{ url('/carrental-listing') }}" class="more"> More </a></h4>
 		</div>
       </div>
     </div>
@@ -304,8 +299,7 @@
             <h1>Studio</h1>
 		</div>
 		<div class="col-md-6 studio-mr">
-		    <h4><a href="{{ url('/studio-listing') }}" class="more"> more </a></h4>
-		    <h4><a href="#" class="more"> More </a></h4>
+		    <h4><a href="{{ url('/studio-listing') }}" class="more"> More </a></h4>
 		</div>
       </div>
     </div>
