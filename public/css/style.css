@@ -2013,7 +2013,7 @@ section.module.parallax h1 { color: #fff; font-size: 38px; font-weight: 700; tex
 	font-size:28px !important;
 }
 .form-button .text{
-	osition:relative; left:0px; color:#fff; visibility:hidden; text-align:center;
+	position:relative; left:0px; color:#fff; visibility:hidden; text-align:center;
 }
 .form-button:hover .text{visibility:visible;}
 .hr1 {
@@ -2024,4 +2024,22 @@ section.module.parallax h1 { color: #fff; font-size: 38px; font-weight: 700; tex
 .cars {
     padding-top: 40px;
     padding-top: 60px;
+.studio-mr{
+	float:left;
+	text-align:right;
+	margin-top: 35px;
+	margin-bottom: 5px;
+}
+.more{
+	background-color: #0fb3b4; 
+	padding:5px 15px 5px 15px;
+	border-radius:5px;
+	font-size:18px;
+	color:#fff;
+}
+.more:hover{
+	background-color: #ff7200; 
+	color:#fff;
+	border:none;
+
 }

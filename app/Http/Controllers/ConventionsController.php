@@ -43,6 +43,7 @@ class ConventionsController extends Controller
      */
     public function store(Requests\PublishConventionsRequest $request)
     {
+		
       $center = new center;
        $center->name= $request->input('name');
 	   $center->address=$request->input('address');
@@ -52,50 +53,18 @@ class ConventionsController extends Controller
 	   $center->mobile_no=$request->input('mobile_no');
 	   $center->mail_id=$request->input('mail_id');
 	   $center->website_address=$request->input('website_address');
-	   $center->maplocation=$request->input('maplocation');
-	   $image = $request->file('conventioncenter_img');
-	   $timestamp = $this->getFormattedTimestamp();
-        $savedImageName = $this->getSavedImageName( $timestamp, $image );
-        $savedImageName = 'conventioncenter/'.$savedImageName;
-        $imageUploaded = $this->uploadImage( $image, $savedImageName, $storage );
-	   
-           if ( $imageUploaded )
-            {
-				$center->conventioncenter_img = $savedImageName;
-				$center->save();
+	  // $center->maplocation=$request->input('maplocation');
+	  // $image = $request->file('conventioncenter_img');
+	  // $timestamp = $this->getFormattedTimestamp();
+      //  $savedImageName = $this->getSavedImageName( $timestamp, $image );
+      //  $savedImageName = 'conventioncenter/'.$savedImageName;
+      //  $imageUploaded = $this->uploadImage( $image, $savedImageName, $request );
+	  $center->save();
 				return redirect('Convention Center/new')
 				->withFlashMessage('Convention Center Added Succesfully')
 				->withType('success');
-            }
-
-            return redirect('Convention Center/new')
-				->withFlashMessage('Convention Center Addition Failed!')
-				->withType('danger');		
+	   
 	}
-
-	public function uploadImage( $image, $imageFullName, $storage )
-    {
-        $filesystem = new Filesystem;
-        return $storage->disk( 'image' )->put( $imageFullName, $filesystem->get( $image ) );
-    }
-
-    /**
-     * @return string
-     */
-    protected function getFormattedTimestamp()
-    {
-        return str_replace( ['-',' ', ':'], '', Carbon::now()->toDateTimeString() );
-    }
-	
-	 /**
-     * @param $timestamp
-     * @param $image
-     * @return string
-     */
-    protected function getSavedImageName( $timestamp, $image )
-    {
-        return $timestamp . '-' . $image->getClientOriginalName();
-    }
 
     /**
      * Display the specified resource.
