@@ -39,13 +39,11 @@ Route::get('/studio-listing', function () {
     return view('front-end.studio-listing');
 }); 
   Route::resource('events', 'EventsController');
-
-  Route::resource('conventions', 'ConventionsController');
   
-   Route::resource('dashboard', 'dashboardController');
+Route::get('dashboard', 'dashboardController@index');
+
 Route::resource('category', 'categoryController');
-   Route::resource('dashboard', 'dashboardController');
-   Route::resource('dashboard', 'dashboardController');
+
 Route::get('/details', function () {
     return view('front-end.details');
 });
@@ -54,3 +52,10 @@ Route::get('/details', function () {
 //    return view('back-end');
 //    });
 
+# Admin Routes.
+//Route::group(['middleware' => ['auth','admin']], function (){
+  # Home
+  //Route::get('admin', ['as' => 'admin_dashboard', 'uses' => 'Admin\AdminComtroller@getHome']);
+ // });
+
+Route::get('login', 'sessionsController@create');

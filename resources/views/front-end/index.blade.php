@@ -1,379 +1,380 @@
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
 
+
+
 <div class="slider-bg"><!-- slider start-->
-  <div id="slider" class="owl-carousel owl-theme slider">
-    <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
-    <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>
-    <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
-	<div class="item"><img class="img-responsive" src="images/wedding-hub-5.jpg"  alt=" Wedding couple just married"></div>
-  </div>
-  <div class="find-section"><!-- Find search section-->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-1 col-md-10 finder-block">
-          <div class="finder-caption">
-            <h1>WEDDING HUB</h1>
-            <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
-          </div>
-          <div class="finderform">
-            <form>
-              <div class="row">
-                <div class="form-group col-md-3">
-                  <select class="form-control custom-select">
-                    <option>Select Category</option>
-                    <option value="Venue">Venue</option>
-                    <option value="Car Rent">Car Rent</option>
-					<option value="Catering">Catering</option>
-                    <option value="Photographer">Photographer</option>
-                    <option value="Videography">Videography</option>
-                    <option value="jewellery">Jewellery</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-4">
-                  <select class="form-control">
-                    <option>Select City</option>
-                    <option value="Trivandrum">Trivandrum</option>
-                    <option value="Kollam">Kollam</option>
-                    <option value="Pathanamthitta">Pathanamthitta</option>
-                    <option value="Alappuzha">Alappuzha</option>
-                    <option value="Kottayam">Kottayam</option>
-					<option value="Idukki">Idukki</option>
-					<option value="Ernakulam">Ernakulam</option>
-					<option value="Thrissur">Thrissur</option>
-					<option value="Palakkad">Palakkad</option>
-					<option value="Malappuram">Malappuram</option>
-					<option value="Kozhikode">Kozhikode</option>
-					<option value="Wayanad">Wayanad</option>
-					<option value="Kannur">Kannur</option>
-					<option value="Kasargod">Kasargod</option>
-                  </select>
-                </div>
-				<div class="form-group form-button col-md-1">
-                    <button class="btn btn-warning"><i class="fa fa-globe fa-style"></i></button> <p class="text ">Kazhakootam</p>
-				</div>
-                <div class="form-group col-md-4">
-                  <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+    <div id="slider" class="owl-carousel owl-theme slider">
+        <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
+        <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>
+        <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
     </div>
-  </div>
-  <!-- /.Find search section--> 
+    <div class="find-section"><!-- Find search section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10 finder-block">
+                    <div class="finder-caption">
+                        <h1>WEDDING HUB</h1>
+                        <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
+                    </div>
+                    <div class="finderform">
+                        <form>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <select class="form-control">
+                                        <option>Select Category</option>
+                                        <option value="Venue">Venue</option>
+                                        <option value="Car Rent">Car Rent</option>
+                                        <option value="Catering">Catering</option>
+                                        <option value="Photographer">Photographer</option>
+                                        <option value="Videography">Videography</option>
+                                        <option value="jewellery">Jewellery</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select class="form-control">
+                                        <option>Select City</option>
+                                        <option value="Trivandrum">Trivandrum</option>
+                                        <option value="Kollam">Kollam</option>
+                                        <option value="Pathanamthitta">Pathanamthitta</option>
+                                        <option value="Alappuzha">Alappuzha</option>
+                                        <option value="Kottayam">Kottayam</option>
+                                        <option value="Idukki">Idukki</option>
+                                        <option value="Ernakulam">Ernakulam</option>
+                                        <option value="Thrissur">Thrissur</option>
+                                        <option value="Palakkad">Palakkad</option>
+                                        <option value="Malappuram">Malappuram</option>
+                                        <option value="Kozhikode">Kozhikode</option>
+                                        <option value="Wayanad">Wayanad</option>
+                                        <option value="Kannur">Kannur</option>
+                                        <option value="Kasargod">Kasargod</option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-button col-md-1">
+                                    <button class="btn btn-warning"><i class="fa fa-globe fa-style"></i></button> <p class="text ">Kazhakootam</p>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Find search section--> 
 </div>
 <!-- slider end-->
 
 <div class="section-space80"><!-- Feature Blog Start -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-title mb60 text-center">
-          <h1>OUR<span class="wedding-vision"> VISION</span></h1>
-          <p class="italic">
-"<b>A</b>im of <b>O</b>ur site is to provide all the information regarding <b>C</b>onvention <b>C</b>enters in <span><b> God's own country" </b></span>
-</p>        </div>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb60 text-center">
+                    <h1>OUR<span class="wedding-vision"> VISION</span></h1>
+                    <p class="italic">
+                        "<b>A</b>im of <b>O</b>ur site is to provide all the information regarding <b>C</b>onvention <b>C</b>enters in <span><b> God's own country" </b></span>
+                    </p>        </div>
+            </div>
+        </div>
+        <div class="row"><!-- feature center -->
+            <div class="col-md-4">
+                <div class="feature-block feature-center"><!-- feature block -->
+                    <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
+                    <h2><a href="{{ url('/vendor-listing-bubba') }}">Find Convention Centre</a></h2>
+                    <p>Here you can find all the convention centers in kerala </p><br>
+                </div>
+            </div>
+            <!-- /.feature block -->
+
+            <div class="col-md-4">
+                <div class="feature-block feature-center"><!-- feature block -->
+                    <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
+                    <h2><a href="{{ url('/contact-us') }}">Contact</a></h2>
+                    <p>24hrs we were here for the clarifications of your doubts.</p>
+                </div>
+            </div>
+            <!-- /.feature block -->
+            <div class="col-md-4">
+                <div class="feature-block feature-center"><!-- feature block -->
+                    <div class="feature-icon"><img src="images/couple.svg" alt=""></div>
+                    <h2><a href="#">Special Events</a></h2>
+                    <p>All the special event through our hands.. You can check and join.</p>
+                </div>
+            </div>
+            <!-- /.feature block --> 
+        </div>
+        <!-- /.feature center --> 
     </div>
-    <div class="row"><!-- feature center -->
-      <div class="col-md-4">
-        <div class="feature-block feature-center"><!-- feature block -->
-          <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
-          <h2><a href="{{ url('/vendor-listing-bubba') }}">Find Convention Centre</a></h2>
-          <p>Here you can find all the convention centers in kerala </p><br>
-        </div>
-      </div>
-      <!-- /.feature block -->
-      
-      <div class="col-md-4">
-        <div class="feature-block feature-center"><!-- feature block -->
-          <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
-          <h2><a href="{{ url('/contact-us') }}">Contact</a></h2>
-          <p>24hrs we were here for the clarifications of your doubts.</p>
-        </div>
-      </div>
-      <!-- /.feature block -->
-      <div class="col-md-4">
-        <div class="feature-block feature-center"><!-- feature block -->
-          <div class="feature-icon"><img src="images/couple.svg" alt=""></div>
-          <h2><a href="#">Special Events</a></h2>
-          <p>All the special event through our hands.. You can check and join.</p>
-        </div>
-      </div>
-      <!-- /.feature block --> 
-    </div>
-    <!-- /.feature center --> 
-  </div>
 </div>
 <!-- Feature Blog End -->
 <div class="section-space80 bg-light cars">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-title mb60 text-center">
-          <h1>FEATURED<span class="wedding-vision"><strong> WEDDING </strong></span>MOMENTS</h1>
-          <p>Are you looking for the perfect place to hold your next event? Accessible, compact, dynamic, inspirational – we can connect with all the elements you need for a great comfortable destination.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb60 text-center">
+                    <h1>FEATURED<span class="wedding-vision"><strong> WEDDING </strong></span>MOMENTS</h1>
+                    <p>Are you looking for the perfect place to hold your next event? Accessible, compact, dynamic, inspirational – we can connect with all the elements you need for a great comfortable destination.</p>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Convention Center</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/vendor-listing-bubba') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/convention-center-event-venue.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Al Saj Convention Centre</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Al Saj Convention Centre, Kazhakuttam, Trivandrum, India.</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹85000 - ₹500000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/convention-center-stage-decoration--arrangement.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> RDR Convention Centre</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> RDR Convention Centre, Palayam, Trivandrum, India.</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/convention-center-TVMClub.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Trivandrum Club</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Trivandrum Club, v, 12345, Vazhuthacadu, Trivandrm, India.</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹90000 - ₹300000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
     </div>
-	<div class="row">
-      <div class="col-md-12">
-        <div class="section-title mb20 col-md-6">
-            <h1>Convention Center</h1>
-		</div>
-		<div class="col-md-6 studio-mr">
-		    <h4><a href="{{ url('/vendor-listing-bubba') }}" class="more"> More </a></h4>
-		</div>
-      </div>
-    </div>
-    <div class="row ">
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="{{url('details')}}"><img src="images/convention-center-event-venue.jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="feature-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="{{url('details')}}" class="title">Al Saj Convention Centre</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> Al Saj Convention Centre, Kazhakuttam, Trivandrum, India.</p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹85000 - ₹500000</div>
-            </div>
-          </div>
-          <!-- vendor details --> 
-        </div>
-      </div>
-      
-      <!-- /.vendor box start-->
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/convention-center-stage-decoration--arrangement.jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="rated-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title"> RDR Convention Centre</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> RDR Convention Centre, Palayam, Trivandrum, India.</p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹69000 - ₹200000</div>
-            </div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-      <!-- /.vendor box start-->
-      <div class="col-md-4 vendor-box"><!-- vendor box start-->
-        <div class="vendor-image"><!-- vendor pic --> 
-          <a href="#"><img src="images/convention-center-TVMClub.jpg" alt="wedding vendor" class="img-responsive"></a>
-          <div class="popular-label"></div>
-          <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
-        </div>
-        <!-- /.vendor pic -->
-        <div class="vendor-detail"><!-- vendor details -->
-          <div class="caption"><!-- caption -->
-            <h2><a href="#" class="title">Trivandrum Club</a></h2>
-            <p class="location"><i class="fa fa-map-marker"></i> Trivandrum Club, v, 12345, Vazhuthacadu, Trivandrm, India.</p>
-            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
-          </div>
-          <!-- /.caption -->
-          <div class="vendor-price">
-            <div class="price">₹90000 - ₹300000</div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-    </div>
-  </div>
-  <div class="clearfix"></div>
+    <div class="clearfix"></div>
 </div>
 
 <!-- car rentel-->
 <div class="hr1"></div>
 <div class="section-space30 bg-light cars">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-title mb20 col-md-6">
-            <h1>Car Rental</h1>
-		</div>
-		<div class="col-md-6 studio-mr">
-		    <h4><a href="{{ url('/carrental-listing') }}" class="more"> More </a></h4>
-		</div>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Car Rental</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/carrental-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/wedding-car-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Southgate Travels</h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Mukalel Building, VL- 43, Vikas Lane, Kunnukuzhy, Thiruvananthapuram </p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹10,000 - ₹20,000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/convention-center-car2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Kerala Luxury Cars</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Kerala Luxury Cars, Tc-234/24,Jacobs building, Vytilla,Ernakulam, India.</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹20,000 ABOVE</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/convention-center-car3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Happy Journey Travels</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Happy Journey Travels, Cherot Ln, Chakkorathukulam, Kozhikode, India.</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹9,000 - ₹30000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
     </div>
-    <div class="row ">
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="{{url('details')}}"><img src="images/wedding-car-1.jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="feature-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="{{url('details')}}" class="title">Southgate Travels</h2>
-              <p class="location"><i class="fa fa-map-marker"></i> Mukalel Building, VL- 43, Vikas Lane, Kunnukuzhy, Thiruvananthapuram </p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹10,000 - ₹20,000</div>
-            </div>
-          </div>
-          <!-- vendor details --> 
-        </div>
-      </div>
-      
-      <!-- /.vendor box start-->
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/convention-center-car2.jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="rated-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title"> Kerala Luxury Cars</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> Kerala Luxury Cars, Tc-234/24,Jacobs building, Vytilla,Ernakulam, India.</p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹20,000 ABOVE</div>
-            </div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-      <!-- /.vendor box start-->
-      <div class="col-md-4 vendor-box"><!-- vendor box start-->
-        <div class="vendor-image"><!-- vendor pic --> 
-          <a href="#"><img src="images/convention-center-car3.jpg" alt="wedding vendor" class="img-responsive"></a>
-          <div class="popular-label"></div>
-          <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cab"></i></a></div>
-        </div>
-        <!-- /.vendor pic -->
-        <div class="vendor-detail"><!-- vendor details -->
-          <div class="caption"><!-- caption -->
-            <h2><a href="#" class="title">Happy Journey Travels</a></h2>
-            <p class="location"><i class="fa fa-map-marker"></i> Happy Journey Travels, Cherot Ln, Chakkorathukulam, Kozhikode, India.</p>
-            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
-          </div>
-          <!-- /.caption -->
-          <div class="vendor-price">
-            <div class="price">₹9,000 - ₹30000</div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-    </div>
-  </div>
-  <div class="clearfix"></div>
+    <div class="clearfix"></div>
 </div>
 <!--/car rentel-->
 <div class="hr1"></div>
 <!-- Studio -->
 
 <div class="section-space30 bg-light cars">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-title mb20 col-md-6">
-            <h1>Studio</h1>
-		</div>
-		<div class="col-md-6 studio-mr">
-		    <h4><a href="{{ url('/studio-listing') }}" class="more"> More </a></h4>
-		</div>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Studio</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/studio-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/convention-center-studio1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">iris Studio</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> iris Studio, Tirur Thuchan Parambu Rd, Tirur, Kerala 676101</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/convention-center-studio2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> babas Studio</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> babas, Saraswathy Bhavan,Pazhavangadi, Thiruvananthapuram, Kerala 695036</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/convention-center-studio3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Tween Studio</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Tween Studios,Anjili Rd, Cantonment South, Kollam, Kerala 691001
+                            Phone: 098093 13161.</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
     </div>
-    <div class="row ">
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="{{url('details')}}"><img src="images/convention-center-studio1.jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="feature-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="{{url('details')}}" class="title">iris Studio</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> iris Studio, Tirur Thuchan Parambu Rd, Tirur, Kerala 676101</p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹25000 - ₹100000</div>
-            </div>
-          </div>
-          <!-- vendor details --> 
-        </div>
-      </div>
-      
-      <!-- /.vendor box start-->
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/convention-center-studio2.jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="rated-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title"> babas Studio</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> babas, Saraswathy Bhavan,Pazhavangadi, Thiruvananthapuram, Kerala 695036</p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹69000 - ₹200000</div>
-            </div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-      <!-- /.vendor box start-->
-      <div class="col-md-4 vendor-box"><!-- vendor box start-->
-        <div class="vendor-image"><!-- vendor pic --> 
-          <a href="#"><img src="images/convention-center-studio3.jpg" alt="wedding vendor" class="img-responsive"></a>
-          <div class="popular-label"></div>
-          <div class="favourite-bg"><a href="#" class=""><i class="fa fa-camera"></i></a></div>
-        </div>
-        <!-- /.vendor pic -->
-        <div class="vendor-detail"><!-- vendor details -->
-          <div class="caption"><!-- caption -->
-            <h2><a href="#" class="title">Tween Studio</a></h2>
-            <p class="location"><i class="fa fa-map-marker"></i> Tween Studios,Anjili Rd, Cantonment South, Kollam, Kerala 691001
-Phone: 098093 13161.</p>
-            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
-          </div>
-          <!-- /.caption -->
-          <div class="vendor-price">
-            <div class="price">₹40000 - ₹100000</div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-    </div>
-  </div>
 </div>
 
 <!--\ Studio  -->
@@ -381,91 +382,90 @@ Phone: 098093 13161.</p>
 <!-- catering -->
 
 <div class="section-space30 bg-light cars">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-title mb20 col-md-6">
-            <h1>Catering</h1>
-		</div>
-		<div class="col-md-6 studio-mr">
-		    <h4><a href="#" class="more"> More </a></h4>
-		</div>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Catering</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="#" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/weddinghubcat (1).jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cutlery"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">B-Six Catering</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i>B-Six Catering, Sasthamangalam Rd, Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/weddinghubcat (2).jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cutlery"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Akshaya Catering</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Akshaya Catering, Sankar Road, Thiruvananthapuram, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/weddinghubcat (3).jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cutlery"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Noushad Catering</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i>Noushad Catering, Sree Nadesha Complex, Step Junction, Nalanchira, Thiruvananthapuram, Kerala 695015</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
     </div>
-    <div class="row ">
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="{{url('details')}}"><img src="images/weddinghubcat (1).jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="feature-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cutlery"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="{{url('details')}}" class="title">B-Six Catering</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i>B-Six Catering, Sasthamangalam Rd, Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹25000 - ₹100000</div>
-            </div>
-          </div>
-          <!-- vendor details --> 
-        </div>
-      </div>
-      
-      <!-- /.vendor box start-->
-      <div class="col-md-4"><!-- vendor box start-->
-        <div class="vendor-box">
-          <div class="vendor-image"><!-- vendor pic --> 
-            <a href="#"><img src="images/weddinghubcat (2).jpg" alt="wedding vendor" class="img-responsive"></a>
-            <div class="rated-label"></div>
-            <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cutlery"></i></a></div>
-          </div>
-          <!-- /.vendor pic -->
-          <div class="vendor-detail"><!-- vendor details -->
-            <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title"> Akshaya Catering</a></h2>
-              <p class="location"><i class="fa fa-map-marker"></i> Akshaya Catering, Sankar Road, Thiruvananthapuram, Kerala 695010 Phone: 0471 272 2501</p>
-              <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
-            </div>
-            <!-- /.caption -->
-            <div class="vendor-price">
-              <div class="price">₹69000 - ₹200000</div>
-            </div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-      <!-- /.vendor box start-->
-      <div class="col-md-4 vendor-box"><!-- vendor box start-->
-        <div class="vendor-image"><!-- vendor pic --> 
-          <a href="#"><img src="images/weddinghubcat (3).jpg" alt="wedding vendor" class="img-responsive"></a>
-          <div class="popular-label"></div>
-          <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cutlery"></i></a></div>
-        </div>
-        <!-- /.vendor pic -->
-        <div class="vendor-detail"><!-- vendor details -->
-          <div class="caption"><!-- caption -->
-            <h2><a href="#" class="title">Noushad Catering</a></h2>
-            <p class="location"><i class="fa fa-map-marker"></i>Noushad Catering, Sree Nadesha Complex, Step Junction, Nalanchira, Thiruvananthapuram, Kerala 695015</p>
-            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
-          </div>
-          <!-- /.caption -->
-          <div class="vendor-price">
-            <div class="price">₹40000 - ₹100000</div>
-          </div>
-        </div>
-        <!-- vendor details --> 
-      </div>
-    </div>
-  </div>
 </div>
-
+@include('front-end.layouts.footer')
 <!--\ catering  -->
-
 <!--div class="section-space80">
   <div class="container">
     <div class="row">
@@ -579,4 +579,3 @@ Phone: 098093 13161.</p>
 <!-- /. Call to action -->
 </body>
 </html>
-@include('front-end.layouts.footer')
