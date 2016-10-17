@@ -49,8 +49,8 @@ $(window).load(function() {
              
             </li>
 <!--            <li><a href="#">Event</a></li>-->
-            <li><a href="{{ url('/pricing-plan') }}">Pricing List</a></li>
-            <li><a href="{{ url('/about-us') }}">About us</a></li>
+<!--            <li><a href="{{ url('/pricing-plan') }}">Pricing List</a></li>
+            <li><a href="{{ url('/about-us') }}">About us</a></li>-->
              <li><a href="{{ url('/contact-us') }}">Contact us</a></li>
 <!--              <ul>
                 <li><a href="vendor-details.html">Vendor Simple</a></li>
