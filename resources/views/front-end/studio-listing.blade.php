@@ -2,7 +2,7 @@
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">	
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- favicon icon -->
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -45,9 +45,9 @@
       <div class="col-md-offset-2 col-md-8">
         <div class="page-header text-center">
           <div class="icon-circle"> 
-              <i class="fa icon1 fa-building-o"></i>
+              <i class="fa icon1 fa-camera-retro"></i>
           </div>
-          <h1>All Convention Center</h1>
+          <h1>Studio</h1>
           <!--<p>Venue Listing Bubba Style for multiple use.</p>-->
         
         </div>
@@ -62,7 +62,7 @@
       <div class="col-md-12">
         <ol class="breadcrumb">
           <li><a href="{{ url('/') }}">Home</a></li>
-          <li class="active">All Convention Center</li>
+          <li class="active">Studio</li>
         </ol>
       </div>
     
@@ -75,9 +75,9 @@
     <div class="row">
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-1.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy1.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-             <h2><a href="{{url('details')}}"><font color="white">Al Saj International</font></a></h2>
+             <h2><a href="{{url('details')}}"><font color="white">Tweens&nbsp&nbsp&nbsp&nbspStudios</font></a></h2>
               <p> <a href="{{url('details')}}"><font color="white">NH.47 Kazhakoottam, Thiruvananthapuram, Kerala.</font></a></p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -86,9 +86,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-8.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy2.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>CRYSTAL</h2>
+              <h2>babas&nbsp&nbsp&nbsp&nbspstudios</h2>
               <p>Crystal Convention Center ,Nagaroor Attingal, Trivandrum.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -97,9 +97,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-3.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy3.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Soorya Prabha</h2>
+              <h2>SooryaPrabha&nbsp&nbsp&nbsp&nbspstudios</h2>
               <p>Electrical Section KSEB, Mannanthala, Thiruvananthapuram,Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -108,9 +108,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-4.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy1.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Kottackattu</h2>
+              <h2>Basunas&nbsp&nbsp&nbsp&nbspStudios</h2>
               <p>MC Road, Nava Jeevan, Thiruvananthapuram, Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -119,9 +119,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-5.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy2.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Girideepam</h2>
+              <h2>Bankid&nbsp&nbsp&nbsp&nbspPhotography</h2>
               <p>Mar Ivanios, Thiruvananthapuram, Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -130,9 +130,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-6.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy3.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Quilon Beach</h2>
+              <h2>Quilon&nbsp&nbsp&nbsp&nbspstudios</h2>
               <p>Beach Road, Thamarakulam, Kollam, Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -141,9 +141,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-7.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy1.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>C.S.I</h2>
+              <h2>Paramount&nbsp&nbsp&nbsp&nbspStudios </h2>
               <p>Chinnakada, Kollam, Kerala, 691001.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -152,9 +152,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-8.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy2.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Younus</h2>
+              <h2>Younus&nbsp&nbsp&nbsp&nbspPhotography</h2>
               <p>Asramam, Kollam, Kerala, 691001.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -163,9 +163,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-9.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/phtgrphy3.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Camelot</h2>
+              <h2>Jeevan&nbsp&nbsp&nbsp&nbspPhotography</h2>
               <p>NH 47, Pathirapally, Alleppey, kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>

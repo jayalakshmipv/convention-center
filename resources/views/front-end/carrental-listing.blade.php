@@ -45,9 +45,9 @@
       <div class="col-md-offset-2 col-md-8">
         <div class="page-header text-center">
           <div class="icon-circle"> 
-              <i class="fa icon1 fa-building-o"></i>
+              <i class="fa icon1 fa-car"></i>
           </div>
-          <h1>All Convention Center</h1>
+          <h1>Car Rentals</h1>
           <!--<p>Venue Listing Bubba Style for multiple use.</p>-->
         
         </div>
@@ -62,7 +62,7 @@
       <div class="col-md-12">
         <ol class="breadcrumb">
           <li><a href="{{ url('/') }}">Home</a></li>
-          <li class="active">All Convention Center</li>
+          <li class="active">Car Rentals</li>
         </ol>
       </div>
     
@@ -75,9 +75,9 @@
     <div class="row">
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-1.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c1.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-             <h2><a href="{{url('details')}}"><font color="white">Al Saj International</font></a></h2>
+             <h2><a href="{{url('details')}}"><font color="white">Southgate Travels</font></a></h2>
               <p> <a href="{{url('details')}}"><font color="white">NH.47 Kazhakoottam, Thiruvananthapuram, Kerala.</font></a></p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -86,10 +86,10 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-8.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c2.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>CRYSTAL</h2>
-              <p>Crystal Convention Center ,Nagaroor Attingal, Trivandrum.</p>
+              <h2>Happy Journey Travels</h2>
+              <p>Happy Journey Travels ,Nagaroor Attingal, Trivandrum.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
           </figure>
@@ -97,9 +97,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-3.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c3.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Soorya Prabha</h2>
+              <h2>Luxury Travels</h2>
               <p>Electrical Section KSEB, Mannanthala, Thiruvananthapuram,Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -108,9 +108,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-4.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c1.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Kottackattu</h2>
+              <h2>Divya Travels and Tours</h2>
               <p>MC Road, Nava Jeevan, Thiruvananthapuram, Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -119,9 +119,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-5.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c2.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Girideepam</h2>
+              <h2>Girideepam Travels</h2>
               <p>Mar Ivanios, Thiruvananthapuram, Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -130,9 +130,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-6.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c3.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Quilon Beach</h2>
+              <h2>Beachman Tours</h2>
               <p>Beach Road, Thamarakulam, Kollam, Kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -141,7 +141,7 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-7.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c1.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
               <h2>C.S.I</h2>
               <p>Chinnakada, Kollam, Kerala, 691001.</p>
@@ -152,9 +152,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-8.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c2.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Younus</h2>
+              <h2>Younus Luxury Cars</h2>
               <p>Asramam, Kollam, Kerala, 691001.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>
@@ -163,9 +163,9 @@
       </div>
       <div class="col-md-4 vendor-box">
         <div class="grid">
-          <figure class="effect-bubba"> <img src="images/vendor-9.jpg" alt="wedding venue" class="img-responsive">
+          <figure class="effect-bubba"> <img src="images/c3.jpg" alt="wedding venue" class="img-responsive">
             <figcaption>
-              <h2>Camelot</h2>
+              <h2>Camelot Tours and Travels</h2>
               <p>NH 47, Pathirapally, Alleppey, kerala.</p>
               <p class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
             </figcaption>

@@ -7,7 +7,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(300,300,300);
+	background: url('images/weddinghub.gif') 50% 50% no-repeat rgb(249,249,249);
 }
 </style>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
