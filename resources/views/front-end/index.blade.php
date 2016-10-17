@@ -20,7 +20,7 @@
             <form>
               <div class="row">
                 <div class="form-group col-md-3">
-                  <select class="form-control">
+                  <select class="form-control custom-select">
                     <option>Select Category</option>
                     <option value="Venue">Venue</option>
                     <option value="Car Rent">Car Rent</option>
