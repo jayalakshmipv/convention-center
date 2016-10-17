@@ -4,61 +4,58 @@
 
 
 <div class="slider-bg"><!-- slider start-->
-    <div id="slider" class="owl-carousel owl-theme slider">
-        <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
-        <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>
-        <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
-    </div>
-    <div class="find-section"><!-- Find search section-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-10 finder-block">
-                    <div class="finder-caption">
-                        <h1>WEDDING HUB</h1>
-                        <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
-                    </div>
-                    <div class="finderform">
-                        <form>
-                            <div class="row">
-                                <div class="form-group col-md-3">
-                                    <select class="form-control">
-                                        <option>Select Category</option>
-                                        <option value="Venue">Venue</option>
-                                        <option value="Car Rent">Car Rent</option>
-                                        <option value="Catering">Catering</option>
-                                        <option value="Photographer">Photographer</option>
-                                        <option value="Videography">Videography</option>
-                                        <option value="jewellery">Jewellery</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <select class="form-control">
-                                        <option>Select City</option>
-                                        <option value="Trivandrum">Trivandrum</option>
-                                        <option value="Kollam">Kollam</option>
-                                        <option value="Pathanamthitta">Pathanamthitta</option>
-                                        <option value="Alappuzha">Alappuzha</option>
-                                        <option value="Kottayam">Kottayam</option>
-                                        <option value="Idukki">Idukki</option>
-                                        <option value="Ernakulam">Ernakulam</option>
-                                        <option value="Thrissur">Thrissur</option>
-                                        <option value="Palakkad">Palakkad</option>
-                                        <option value="Malappuram">Malappuram</option>
-                                        <option value="Kozhikode">Kozhikode</option>
-                                        <option value="Wayanad">Wayanad</option>
-                                        <option value="Kannur">Kannur</option>
-                                        <option value="Kasargod">Kasargod</option>
-                                    </select>
-                                </div>
-                                <div class="form-group form-button col-md-1">
-                                    <button class="btn btn-warning"><i class="fa fa-globe fa-style"></i></button> <p class="text ">Kazhakootam</p>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+  <div id="slider" class="owl-carousel owl-theme slider">
+    <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
+    <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>
+    <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
+	<div class="item"><img class="img-responsive" src="images/wedding-hub-5.jpg"  alt=" Wedding couple just married"></div>
+  </div>
+  <div class="find-section"><!-- Find search section-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10 finder-block">
+          <div class="finder-caption">
+            <h1>WEDDING HUB</h1>
+            <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
+          </div>
+          <div class="finderform">
+            <form>
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <select class="form-control custom-select">
+                    <option class="drop">Select Category</option>
+                    <option class="drop" value="Venue">Venue</option>
+                    <option class="drop" value="Car Rent">Car Rent</option>
+					<option class="drop" value="Catering">Catering</option>
+                    <option class="drop" value="Photographer">Photographer</option>
+                    <option class="drop" value="Videography">Videography</option>
+                    <option class="drop" value="jewellery">Jewellery</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <select class="form-control">
+                    <option class="drop">Select City</option>
+                    <option class="drop" value="Trivandrum">Trivandrum</option>
+                    <option class="drop" value="Kollam">Kollam</option>
+                    <option class="drop" value="Pathanamthitta">Pathanamthitta</option>
+                    <option class="drop" value="Alappuzha">Alappuzha</option>
+                    <option class="drop" value="Kottayam">Kottayam</option>
+					<option class="drop" value="Idukki">Idukki</option>
+					<option class="drop" value="Ernakulam">Ernakulam</option>
+					<option class="drop" value="Thrissur">Thrissur</option>
+					<option class="drop" value="Palakkad">Palakkad</option>
+					<option class="drop" value="Malappuram">Malappuram</option>
+					<option class="drop" value="Kozhikode">Kozhikode</option>
+					<option class="drop" value="Wayanad">Wayanad</option>
+					<option class="drop" value="Kannur">Kannur</option>
+					<option class="drop" value="Kasargod">Kasargod</option>
+                  </select>
+                </div>
+				<div class="form-group form-button col-md-1">
+                    <button class="btn btn-warning"><i class="fa fa-globe fa-style"></i></button> <p class="text ">Kazhakootam</p>
+				</div>
+                <div class="form-group col-md-4">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
                 </div>
             </div>
         </div>
