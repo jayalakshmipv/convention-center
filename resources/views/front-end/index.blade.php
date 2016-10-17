@@ -8,7 +8,6 @@
         <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
         <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>
         <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
-<!--        <div class="item"><img class="img-responsive" src="images/wedding-hub-5.jpg"  alt=" Wedding couple just married"></div>-->
     </div>
     <div class="find-section"><!-- Find search section-->
         <div class="container">
@@ -467,7 +466,6 @@
 </div>
 @include('front-end.layouts.footer')
 <!--\ catering  -->
-
 <!--div class="section-space80">
   <div class="container">
     <div class="row">
