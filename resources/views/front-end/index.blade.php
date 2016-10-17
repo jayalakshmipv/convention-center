@@ -1,6 +1,8 @@
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
 
+
+
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
     <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
