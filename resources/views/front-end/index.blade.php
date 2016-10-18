@@ -5,11 +5,13 @@
 
 <div class="slider-bg"><!-- slider start-->
   <div id="slider" class="owl-carousel owl-theme slider">
-    <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
-    <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>
-    <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
-	<div class="item"><img class="img-responsive" src="images/wedding-hub-5.jpg"  alt=" Wedding couple just married"></div>
-  </div>
+        <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
+        <div class="item"><img class="img-responsive" src="images/weddinghub-photography.jpg"  alt=" wedding-hub-photography"></div>
+        <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
+        <div class="item"><img class="img-responsive" src="images/weddinghub-carrental.jpg"  alt=" wedding-hub-carrental"></div>
+        <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>            
+        <div class="item"><img class="img-responsive" src="images/weddinghub-bouquet.jpg"  alt=" wedding-hub-bouquet"></div>        
+    </div>
   <div class="find-section"><!-- Find search section-->
     <div class="container">
       <div class="row">
@@ -26,7 +28,7 @@
                     <option class="drop">Select Category</option>
                     <option class="drop" value="Venue">Venue</option>
                     <option class="drop" value="Car Rent">Car Rent</option>
-					<option class="drop" value="Catering">Catering</option>
+                    <option class="drop" value="Catering">Catering</option>
                     <option class="drop" value="Photographer">Photographer</option>
                     <option class="drop" value="Videography">Videography</option>
                     <option class="drop" value="jewellery">Jewellery</option>
@@ -56,6 +58,10 @@
 				</div>
                 <div class="form-group col-md-4">
                   <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -461,7 +467,6 @@
         </div>
     </div>
 </div>
-@include('front-end.layouts.footer')
 <!--\ catering  -->
 <!--div class="section-space80">
   <div class="container">
@@ -574,5 +579,6 @@
   </div>
 </div>-->
 <!-- /. Call to action -->
+@include('front-end.layouts.footer')
 </body>
 </html>
