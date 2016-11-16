@@ -1,148 +1,126 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\PublishConventionsRequest;
+use App\Convention;
+use Carbon\Carbon;
+use App\Images;
+use Illuminate\Contracts\Filesystem\Factory as Storage;
+use Illuminate\Filesystem\Filesystem;
 
 class ConventionsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return Response
-     */
     public function index()
     {
-        return view('back-end.Conventions.add-convention-center');
-//        $allEvents = \App\Events::all();    //Eloquent ORM method to return all matching results
-//        //Redirecting to list_faculty.blade.php with $allFaculties  
-////         foreach( $allExamtype as $Examtype ){
-////             $Examtype->enc_id = Encrypt::encrypt($Examtype->id);
-//   
-//         }
-//        return View('Examdetails.list_Examtype', compact('allExamtype'));
+        $conventions = new convention;
+        $conventions = $conventions -> get();
+        return view('back-end.Conventions.list-convention-center',['conventions'=>$conventions]);       
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
+  
     public function create()
     {
         return view('back-end.conventions.add-convention-center');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @return Response
-     */
-    public function store(Requests\PublishConventionsRequest $request)
+    public function store(PublishConventionsRequest $request, Storage $storage)
     {
 		
-      $center = new center;
-       $center->name= $request->input('name');
-	   $center->address=$request->input('address');
-	   $center->location=$request->input('location');
-	   $center->name_owner=$request->input('name_owner');
-	   $center->phone_no=$request->input('phone_no');
-	   $center->mobile_no=$request->input('mobile_no');
-	   $center->mail_id=$request->input('mail_id');
-	   $center->website_address=$request->input('website_address');
-	  // $center->maplocation=$request->input('maplocation');
-	  // $image = $request->file('conventioncenter_img');
-	  // $timestamp = $this->getFormattedTimestamp();
-      //  $savedImageName = $this->getSavedImageName( $timestamp, $image );
-      //  $savedImageName = 'conventioncenter/'.$savedImageName;
-      //  $imageUploaded = $this->uploadImage( $image, $savedImageName, $request );
-	  $center->save();
-				return redirect('Convention Center/new')
+     $convention = new Convention;
+     $convention->name = $request->input('name');
+	   $convention->address=$request->input('address');
+	   $convention->location=$request->input('location');
+	   $convention->name_owner=$request->input('name_owner');
+	   $convention->phone_no=$request->input('phone_no');
+	   $convention->mobile_no=$request->input('mobile_no');
+	   $convention->mail_id=$request->input('mail_id');
+	   $convention->website_address=$request->input('website_address');
+	   $convention->latitude=$request->input('latitude');
+	   $convention->longitude=$request->input('longitude');
+	   $image = $request->file('featured_image');
+	   $timestamp = $this->getFormattedTimestamp();
+       $savedImageName = $this->getSavedImageName( $timestamp, $image );
+       $savedImageName = 'conventioncenter/'.$savedImageName;
+       $imageUploaded = $this->uploadImage( $image, $savedImageName, $storage);
+  
+       if ( $imageUploaded )
+       {
+       	$convention->featured_image = $savedImageName;
+       	$convention->save();
+				return redirect('conventions/create')
 				->withFlashMessage('Convention Center Added Succesfully')
 				->withType('success');
+       }
+       else{
+       return redirect('conventions/create')
+				->withFlashMessage('Convention Center Added Succesfully')
+				->withType('danger');
+      }
 	   
 	}
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int $id
-     * @return Response
-     */
-//    public function show($id)
-//    {
-//         $enc_id=$id;
-//        $id = Encrypt::decrypt($id);
-//        $Examtype = Examtypes::find($id);
-//
-//        //Redirecting to showBook.blade.php with $book variable
-//        return view('Examdetails.list_Examtype')->with('Examtype', $Examtype);  //
-//    }
-//
-//    /**
-//     * Show the form for editing the specified resource.
-//     *
-//     * @param  int $id
-//     * @return Response
-//     */
-//    public function edit($id)
-//    {
-//         $enc_id=$id;
-//        $id = Encrypt::decrypt($id);
-//        $Examtype = \App\Examtypes::find($id);
-//
-//
-//        return view('Examdetails.edit_Examtype')->with('Examtype', $Examtype); //
-//    }
-//
-//    /**
-//     * Update the specified resource in storage.
-//     *
-//     * @param  int $id
-//     * @return Response
-//     */
-//    public function update($id, Requests\PublishExamtypeRequest $requestData)
-//    {
-//        $Examtype = \App\Examtypes::find($id);
-//        $Examtype->name = $requestData['name'];
-//        $Examtype->save();
-//
-//        //Send control to index() method
-//        return redirect()->route('ExamType.index')
-//                         ->withFlashMessage('Examtype updated successfully!')
-//                         ->withType('success');
-//    //
-//
-//    }
-//
-//    /**
-//     * Remove the specified resource from storage.
-//     *
-//     * @param  int $id
-//     * @return Response
-//     */
-//    public function destroy($id)
-//    {
-//         $enc_id=$id;
-//        $id = Encrypt::decrypt($id);
-//        //find result by id and delete
-//        \App\Examtypes::find($id)->delete();
-//
-//        //Redirecting to index() method
-//        return redirect()->route('ExamType.index');
-//    } //
+	protected function uploadImage($image, $imageFullName, $storage )
+	{
+		$filesystem = new Filesystem;
+		return $storage->disk('images')->put( $imageFullName, $filesystem->get( $image ) );
+	}
+
+	protected function getFormattedTimestamp()
+	{
+		return str_replace( ['',':','-',' '],'',Carbon::now()->toDateTimeString());
+	}
+
+	protected function getSavedImageName( $timestamp, $image )
+	{
+
+		return $timestamp . '-' .$image->getClientOriginalName();
+	}
+
+    public function show($id)
+      {
+      $conventions = new Convention;
+   	  $conventions = $conventions -> where ('id',$id) -> first();
+
+   	  return view('back-end.Conventions.show-convention-center',['convention'=>$conventions]);
+      }
+
+    public function edit($id)
+     {
+       $conventions = new Convention;
+   	   $conventions = $conventions -> where ('id',$id) -> first();
+       return view('back-end.Conventions.edit-convention-center',['convention'=>$conventions]);
+     }
+
+   public function update($id, PublishConventionsRequest $request, Storage $storage)
+     { 
+       $convention = Convention::find($id);
+       $convention->name= $request->input('name');
+	     $convention->address=$request->input('address');
+	     $convention->location=$request->input('location');
+	     $convention->name_owner=$request->input('name_owner');
+	     $convention->phone_no=$request->input('phone_no');
+	     $convention->mobile_no=$request->input('mobile_no');
+	     $convention->mail_id=$request->input('mail_id');
+	     $convention->website_address=$request->input('website_address');
+	     $convention->latitude=$request->input('latitude');
+	     $convention->longitude=$request->input('longitude');
+       $image = $request->file('featured_image');
+	     $convention->save();
+				return redirect('conventions')
+				->withFlashMessage(' Updated Succesfully')
+				->withType('success');
+     }
+
+   public function destroy($id)
+   {
+   $conventions = new convention;
+   $conventions = $conventions -> where ('id',$id) -> delete();
+   return redirect()->route('conventions.index');    
+   } 
 
 }
-
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 
 

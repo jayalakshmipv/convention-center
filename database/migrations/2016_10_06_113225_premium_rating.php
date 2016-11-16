@@ -5,11 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class PremiumRating extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+   
     public function up()
     {
         Schema::create('premium_rating', function (Blueprint $table) {
@@ -19,11 +15,7 @@ class PremiumRating extends Migration
             $table->timestamps();        });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+   
     public function down()
     {
         Schema::drop('premium_rating');

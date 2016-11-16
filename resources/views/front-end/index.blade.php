@@ -4,38 +4,39 @@
 
 
 <div class="slider-bg"><!-- slider start-->
-  <div id="slider" class="owl-carousel owl-theme slider">
+    <div id="slider" class="owl-carousel owl-theme slider">
         <div class="item"><img class="img-responsive" src="images/wedding-hub-1.jpg"  alt=" Wedding couple just married"></div>
-        <div class="item"><img class="img-responsive" src="images/weddinghub-photography.jpg"  alt=" wedding-hub-photography"></div>
+        <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>
         <div class="item"><img class="img-responsive" src="images/wedding-hub-2.jpg"  alt=" Wedding couple just married"></div>
-        <div class="item"><img class="img-responsive" src="images/weddinghub-carrental.jpg"  alt=" wedding-hub-carrental"></div>
-        <div class="item"><img class="img-responsive" src="images/wedding-hub-4.jpg"  alt=" Wedding couple just married"></div>            
-        <div class="item"><img class="img-responsive" src="images/weddinghub-bouquet.jpg"  alt=" wedding-hub-bouquet"></div>        
     </div>
-  <div class="find-section"><!-- Find search section-->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-1 col-md-10 finder-block">
-          <div class="finder-caption">
-            <h1>WEDDING HUB</h1>
-            <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
-          </div>
-          <div class="finderform">
-            <form>
-              <div class="row">
-                <div class="form-group col-md-3">
-                  <select class="form-control custom-select">
-                    <option class="drop">Select Category</option>
-                    <option class="drop" value="Venue">Venue</option>
-                    <option class="drop" value="Car Rent">Car Rent</option>
-                    <option class="drop" value="Catering">Catering</option>
-                    <option class="drop" value="Photographer">Photographer</option>
-                    <option class="drop" value="Videography">Videography</option>
-                    <option class="drop" value="jewellery">Jewellery</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-4">
-                  <select class="form-control">
+    <div class="find-section"><!-- Find search section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10 finder-block">
+                    <div class="finder-caption">
+                        <h1>WEDDING HUB</h1>
+                        <p>Over <strong>1200+ Wedding Vendor </strong>for you special date &amp; Find the perfect venue &amp; save you date.</p>
+                    </div>
+                    <div class="finderform">
+                        <form action="{{ url('/search')}}" method="get">
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <select class="form-control" id="options" name="options">
+                                        <option>Select Category</option>
+                                        <option class="drop" value="Venue">Convention Center</option>
+                                        <option class="drop" value="Car Rent">Car Rentals</option>
+                                        <option class="drop" value="Catering">Caterers</option>
+                                        <option class="drop" value="Photographer">Photography & Videography</option>
+                                        <option class="drop" value="Decorators">Decorators</option>
+                                        <option class="drop" value="jewellery">Jewellers</option>
+					                    <option class="drop" value="Invites">Invites</option>
+					                    <option class="drop" value="Beauty and grooming">Beauty & Grooming</option>
+                                        <option class="drop" value="Entertainment">Entertainment</option>
+                                        <option class="drop" value="Giveways">Giveways</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select class="form-control" id="city" name="city">
                     <option class="drop">Select City</option>
                     <option class="drop" value="Trivandrum">Trivandrum</option>
                     <option class="drop" value="Kollam">Kollam</option>
@@ -52,12 +53,12 @@
 					<option class="drop" value="Kannur">Kannur</option>
 					<option class="drop" value="Kasargod">Kasargod</option>
                   </select>
-                </div>
-				<div class="form-group form-button col-md-1">
-                    <button class="btn btn-warning"><i class="fa fa-globe fa-style"></i></button> <p class="text ">Kazhakootam</p>
-				</div>
-                <div class="form-group col-md-4">
-                  <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
+                                </div>
+								<!-- <div class="form-group form-button col-md-1">
+                                    <button class="btn btn-warning"><i class="fa fa-globe fa-style"></i></button> <p class="text ">Kazhakootam</p>
+                                </div>-->
+                                <div class="form-group col-md-4">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Let's Go</button>
                                 </div>
                             </div>
                         </form>
@@ -70,47 +71,49 @@
 </div>
 <!-- slider end-->
 
-<div class="section-space80"><!-- Feature Blog Start -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+<!--<div class="section-space80"><!-- Feature Blog Start -->
+  <!--  <div class="container">
+       <!-- <div class="row">
+           <div class="col-md-12">
                 <div class="section-title mb60 text-center">
                     <h1>OUR<span class="wedding-vision"> VISION</span></h1>
                     <p class="italic">
                         "<b>A</b>im of <b>O</b>ur site is to provide all the information regarding <b>C</b>onvention <b>C</b>enters in <span><b> God's own country" </b></span>
                     </p>        </div>
             </div>
-        </div>
-        <div class="row"><!-- feature center -->
-            <div class="col-md-4">
+
+
+        </div>-->
+      <!--  <div class="row"><!-- feature center -->
+        <!--    <div class="col-md-4">
                 <div class="feature-block feature-center"><!-- feature block -->
-                    <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
+           <!--         <div class="feature-icon"><img src="images/vendor.svg" alt=""></div>
                     <h2><a href="{{ url('/vendor-listing-bubba') }}">Find Convention Centre</a></h2>
                     <p>Here you can find all the convention centers in kerala </p><br>
                 </div>
             </div>
             <!-- /.feature block -->
 
-            <div class="col-md-4">
+         <!--   <div class="col-md-4">
                 <div class="feature-block feature-center"><!-- feature block -->
-                    <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
-                    <h2><a href="{{ url('/contact-us') }}">Contact</a></h2>
+             <!--       <div class="feature-icon"><img src="images/mail.svg" alt=""></div>
+                    <h2><a href="{{ url('/contactus') }}">-Contact</a></h2>
                     <p>24hrs we were here for the clarifications of your doubts.</p>
                 </div>
             </div>
             <!-- /.feature block -->
-            <div class="col-md-4">
+        <!--    <div class="col-md-4">
                 <div class="feature-block feature-center"><!-- feature block -->
-                    <div class="feature-icon"><img src="images/couple.svg" alt=""></div>
+            <!--        <div class="feature-icon"><img src="images/couple.svg" alt=""></div>
                     <h2><a href="#">Special Events</a></h2>
                     <p>All the special event through our hands.. You can check and join.</p>
                 </div>
             </div>
-            <!-- /.feature block --> 
-        </div>
-        <!-- /.feature center --> 
-    </div>
-</div>
+            <!-- /.feature block -->
+       <!-- </div>
+        <!-- /.feature center -->
+    <!--</div>
+</div>-->
 <!-- Feature Blog End -->
 <div class="section-space80 bg-light cars">
     <div class="container">
@@ -212,7 +215,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title mb20 col-md-6">
-                    <h1>Car Rental</h1>
+                    <h1>Car Rentals</h1>
                 </div>
                 <div class="col-md-6 studio-mr">
                     <h4><a href="{{ url('/carrental-listing') }}" class="more"> More </a></h4>
@@ -300,7 +303,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title mb20 col-md-6">
-                    <h1>Studio</h1>
+                    <h1>Photography & Videography</h1>
                 </div>
                 <div class="col-md-6 studio-mr">
                     <h4><a href="{{ url('/studio-listing') }}" class="more"> More </a></h4>
@@ -389,10 +392,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title mb20 col-md-6">
-                    <h1>Catering</h1>
+                    <h1>Caterers</h1>
                 </div>
                 <div class="col-md-6 studio-mr">
-                    <h4><a href="#" class="more"> More </a></h4>
+                    <h4><a href="{{ url('/catering-listing') }}" class="more"> More </a></h4>
                 </div>
             </div>
         </div>
@@ -468,6 +471,610 @@
     </div>
 </div>
 <!--\ catering  -->
+<div class="hr1"></div>
+<!-- Jewellers -->
+<div class="section-space30 bg-light cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Jewellers</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/jewellery-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/wedding-hub-jewllery1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-diamond"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Bhima Jewellers</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i>MG Road,Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/wedding-hub-jewllery2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-diamond"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Kalyan Jewellers</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Palayam, SM Street,Kozhikode, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/wedding-hub-jewllery3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-diamond"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Joy Allukas</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i>Swaraj Round, Nalanchira, Thrissur, Kerala 695515</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--\ Jewellers  -->
+<div class="hr1"></div>
+<!--Invites -->
+<div class="section-space30 bg-light cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Invites</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/invites-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/wedding-hub-invites1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-envelope-o"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Valavi Cards</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/wedding-hub-invites2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-envelope-o"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Jayaram Cards</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Sankar Road,Kozhikode, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/wedding-hub-invites3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-envelope-o"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Orbit The Card Planet</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Sree Nadesha Complex, Step Junction, Kochi, Kerala 695015</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--\ Invities  -->
+<div class="hr1"></div>
+<!--Decoraters -->
+<div class="section-space30 bg-light cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Decorators</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/decorators-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/wedding-hub-decorators1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-ge"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Royal Decorators</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/wedding-hub-decorators2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-ge"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Tamarind Decorators</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Sankar Road,Kozhikode, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/wedding-hub-decorators3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-ge"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Kochin Decorators</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Sree Nadesha Complex, Step Junction, Kochi, Kerala 695015</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--\ Decorators  -->
+<div class="hr1"></div>
+<!--Beauty and Grooming -->
+<div class="section-space30 bg-light cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Beauty & Grooming</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/beauty-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/beauty_&_grooming-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cut"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Red Rose</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/beauty_&_grooming-2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cut"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Catalyst Spa & Saloon</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Sankar Road,Kozhikode, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/beauty_&_grooming-3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-cut"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Diana Beauty Clinic</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Sree Nadesha Complex, Step Junction, Kochi, Kerala 695015</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--\ Beauty & Grooming  -->
+<div class="hr1"></div>
+<!--Apparel -->
+<div class="section-space30 bg-light cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Apparel</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/apparel-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/skill-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-shopping-bag"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Jayalakshmi Silks</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/skill-2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-shopping-bag"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Kalyan Silks</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Sankar Road,Kozhikode, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/skill-3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-shopping-bag"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Aswathy Silks</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Sree Nadesha Complex, Step Junction, Kochi, Kerala 695015</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--\ Apparel  -->
+<div class="hr1"></div>
+<!--Entertainment -->
+<div class="section-space30 bg-light cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Entertainment</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/entertainment-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/entertainment-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-music"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Jacobs Entertainments</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/entertainment-2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-music"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Aswins DJ House</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Sankar Road,Kozhikode, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/entertainment-3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-music"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Diana Entertainments</a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Sree Nadesha Complex, Step Junction, Kochi, Kerala 695015</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--\ Entertainment -->
+<div class="hr1"></div>
+<!--Giveaways -->
+<div class="section-space30 bg-light cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb20 col-md-6">
+                    <h1>Giveaways</h1>
+                </div>
+                <div class="col-md-6 studio-mr">
+                    <h4><a href="{{ url('/giveways-listing') }}" class="more"> More </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="{{url('details')}}"><img src="images/gift-2.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="feature-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-gift"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="{{url('details')}}" class="title">Archies</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Vellayambalam, Thiruvananthapuram, Kerala 695003 Phone:0471 272 4030</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹25000 - ₹100000</div>
+                        </div>-->
+                    </div>
+                    <!-- vendor details --> 
+                </div>
+            </div>
+
+            <!-- /.vendor box start-->
+            <div class="col-md-4"><!-- vendor box start-->
+                <div class="vendor-box">
+                    <div class="vendor-image"><!-- vendor pic --> 
+                        <a href="#"><img src="images/gift-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                        <div class="rated-label"></div>
+                        <div class="favourite-bg"><a href="#" class=""><i class="fa fa-gift"></i></a></div>
+                    </div>
+                    <!-- /.vendor pic -->
+                    <div class="vendor-detail"><!-- vendor details -->
+                        <div class="caption"><!-- caption -->
+                            <h2><a href="#" class="title"> Catalyst Giveaways</a></h2>
+                            <p class="location"><i class="fa fa-map-marker"></i> Sankar Road,Kozhikode, Kerala 695010 Phone: 0471 272 2501</p>
+                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                        </div>
+                        <!-- /.caption -->
+<!--                        <div class="vendor-price">
+                            <div class="price">₹69000 - ₹200000</div>
+                        </div>-->
+                    </div>
+                </div>
+                <!-- vendor details --> 
+            </div>
+            <!-- /.vendor box start-->
+            <div class="col-md-4 vendor-box"><!-- vendor box start-->
+                <div class="vendor-image"><!-- vendor pic --> 
+                    <a href="#"><img src="images/gift3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                    <div class="popular-label"></div>
+                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-gift"></i></a></div>
+                </div>
+                <!-- /.vendor pic -->
+                <div class="vendor-detail"><!-- vendor details -->
+                    <div class="caption"><!-- caption -->
+                        <h2><a href="#" class="title">Diana gifts </a></h2>
+                        <p class="location"><i class="fa fa-map-marker"></i> Sree Nadesha Complex, Step Junction, Kochi, Kerala 695015</p>
+                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                    </div>
+                    <!-- /.caption -->
+<!--                    <div class="vendor-price">
+                        <div class="price">₹40000 - ₹100000</div>
+                    </div>-->
+                </div>
+                <!-- vendor details --> 
+            </div>
+        </div>
+    </div>
+</div>
+<!--\ Giveaways -->
+@include('front-end.layouts.footer')
+
 <!--div class="section-space80">
   <div class="container">
     <div class="row">
@@ -579,6 +1186,5 @@
   </div>
 </div>-->
 <!-- /. Call to action -->
-@include('front-end.layouts.footer')
 </body>
 </html>

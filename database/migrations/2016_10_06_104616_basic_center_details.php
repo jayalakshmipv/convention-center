@@ -5,11 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class BasicCenterDetails extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+    
     public function up()
     {
         Schema::create('basic_center_details', function (Blueprint $table) {
@@ -24,16 +20,13 @@ class BasicCenterDetails extends Migration
 			$table->string('website_address',30)->unique();
 			$table->string('maplocation',100);
 			$table->string('featured_image',50);
-            $table->timestamps();        });
+            $table->timestamps(); 
+        });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::drop('basic_center_details');
     }
 }
+

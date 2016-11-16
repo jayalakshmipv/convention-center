@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +12,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+      Eloquent::unguard();
+
+      $this->call(SentinelRoleSeeder::class);
+      $this->call(SentinelUserSeeder::class);
+      $this->call(SentinelUserRoleSeeder::class);
+
+      $this->command->info('All tables seeded!');
+
+      Eloquent::reguard();
     }
 }

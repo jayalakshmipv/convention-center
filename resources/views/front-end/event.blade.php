@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Convention center| Find The Best convention centers</title>
+<title>Wedding Hub | Find The Best That Suits For Your Wedding </title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">

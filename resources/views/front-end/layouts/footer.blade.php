@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 ft-aboutus">
-        <h2>Convention Center</h2>
-        <p>At Convention Center our purpose is to help people find great online network connecting of the Convention Center. <a href="{{ url('/vendor-listing-bubba') }}">Start Find Convention Center!</a></p>
-        <a href="{{ url('/vendor-listing-bubba') }}" class="btn btn-default">Find a Convention Center</a> </div>
+        <h2>Wedding Hub</h2>
+        <p>At Wedding Hub our purpose is to help people find what is best for there wedding. <a href="{{ url('/vendor-listing-bubba') }}">Start Finding The Best That Suits Your Function!</a></p>
+        <a href="{{ url('/vendor-listing-bubba') }}" class="btn btn-default">Find Out The Best </a> </div>
       <div class="col-md-3 ft-link">
         <h2>Useful links</h2>
         <ul>
-          <!--<li><a href="{{ url('/about-us') }}">About Us</a></li>-->
+         <!-- <li><a href="{{ url('/about-us') }}">About Us</a></li>-->
           <li><a href="{{ url('/contact-us') }}">Contact us</a></li>
          <!-- <li><a href="#">News</a></li>-->
           <!--<li><a href="#">Career</a></li>-->
@@ -46,8 +46,9 @@
 <div class="tiny-footer"><!-- Tiny footer -->
   <div class="container">
     <div class="row">
+	<div class="footer12">
       <div class="col-md-12">
-	  Powered by {{ Html::link('http://imrokraft.com' ,'Imrokraft' ) }} 2016. All Rights Reserved</div>
+	  Powered by {{ Html::link('http://imrokraft.com' ,'Imrokraft' ) }} 2016. All Rights Reserved</div></div>
 	  </div>
     </div>
   </div>

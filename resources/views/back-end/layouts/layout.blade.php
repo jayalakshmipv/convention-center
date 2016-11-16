@@ -165,7 +165,7 @@ body {font-family: Verdana,sans-serif;}
         <div class="wrapper">
             <header class="main-header">
                 <!-- Logo -->
-                <a href="../../index2.html" class="logo">
+                <a href="#" class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
                     <span class="logo-mini"><b>Admin</b></span>
                     <!-- logo for regular state and mobile devices -->
@@ -187,7 +187,11 @@ body {font-family: Verdana,sans-serif;}
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <span class="hidden-xs">Welcome 
-                                       
+                                        @if(Sentinel::check())
+                                        {{ Sentinel::getUser()->first_name }}
+                                        @else
+                                        Guest
+                                        @endif
                                     </span>
 
                                 </a>
@@ -204,7 +208,7 @@ body {font-family: Verdana,sans-serif;}
                                             <a href="{{url('profile')}}" class="btn btn-default profile_new btn-flat">Profile</a>
                                         </div-->
                                         <div class="pull-right">
-                                            <a href="#" class="btn btn-default sign_new btn-flat">Sign out</a>
+                                            <a href="{{ url('/logout') }}" class="btn btn-default sign_new btn-flat">Sign out</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -229,7 +233,7 @@ body {font-family: Verdana,sans-serif;}
 
                 <!-- Main content -->
                 <section class="content">
-
+                    @include('flash')
                     @yield('body')
 
                 </section>
@@ -283,9 +287,9 @@ body {font-family: Verdana,sans-serif;}
         <!-- AdminLTE for demo purposes -->
         <script src="{{ URL::asset('backend-style/dist/js/demo.js') }}"></script>
 
-        <script src="{{ URL::asset('backend-style/dist/js/bootstrap-datepicker.js') }}"></script>
-
-
+        <script src="{{ URL::asset('backend-style/dist/js/bootstrap-datepicker.js') }}"></script>        
+        @yield('pagescript')
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM8kLe7lRwqsOP0UeJy4HJKVKqe4yv65g&callback=initialize"></script>
   
     </body>
 </html>

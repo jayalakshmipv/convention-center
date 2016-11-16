@@ -5,11 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class Aminities extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+   
     public function up()
     {
        Schema::create('aminities', function (Blueprint $table) {
@@ -19,11 +15,7 @@ class Aminities extends Migration
 			});
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+    
     public function down()
     {
        Schema::drop('aminities');

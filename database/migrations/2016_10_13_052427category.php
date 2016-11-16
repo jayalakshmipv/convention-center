@@ -5,26 +5,14 @@ use Illuminate\Database\Migrations\Migration;
 
 class Createcategory extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
-Schema::create('category', function (Blueprint $table) 
- {
-    $table->increments('id');
+Schema::create('category', function (Blueprint $table) {
+ $table->increments('id');
             $table->string('category',255);
-             $table->timestamps();        });
+             $table->timestamps();       });
 
     }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
     Schema::drop('category');

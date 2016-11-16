@@ -1,4 +1,3 @@
-
 @extends('front-end.layouts.header')
 @include('front-end.layouts.menu')
 <!DOCTYPE html>
@@ -8,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Convention Center | Find The Best Convention Center</title>
+<title>Wedding Hub | Find The Best That Suits For Your Wedding </title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">

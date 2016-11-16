@@ -5,11 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class PremiumPhoto extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+
     public function up()
     {
         Schema::create('premium_photo', function (Blueprint $table) {
@@ -20,11 +16,6 @@ class PremiumPhoto extends Migration
             $table->timestamps();        });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::drop('premium_photo');

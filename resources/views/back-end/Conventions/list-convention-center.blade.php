@@ -2,38 +2,70 @@
 
 @section('title', 'List Convention Center')
 
-@section('content')
+@section('body')
 
+@include('flash')
 
-<table class="table table-striped table-bordered table-hover">
+<div class="box box-primary">
+<div class="box-body">
+
+<table id="example2" class="table table-striped table-bordered table-hover">
 <thead>
-<tr class="bg-info">
-<th>Id</th>
+<tr>
+<th>Sl.No</th>
 <th>Name</th>
 <th>Address</th>
 <th>Location</th>
 <th>Owner</th>
 <th>Phone Number</th>
-<th colspan="2">Action</th>
+<th>More</th>
+<th>Edit</th>
+<th>Delete</th>
 </tr>
 </thead>
 <tbody>
-@foreach ($centers as $center)
+<?php $i=1 ?>
+@foreach ($conventions as $convention)
 <tr>
-<td>{{ $center->id }}</td>
-<td>{{ $center->name }}</td>
-<td>{{ $center->address }}</td>
-<td>{{ $center->location }}</td>
-<td>{{ $center->name_owner }}</td>
-<td>{{ $center->phone_no }}</td>
-<td><a href="{{route('',$center->id)}}" class="btn btn-warning">Update</a></td>
-<td>
-   {!! Form::open(['method' => 'Delete','route'=>['']]) !!}
-   {!! Form::submit( 'Delete', ['class'=>'btn btn-primary']) !!} 
+<td>{{ $i }}</td>
+<td>{{ $convention->name }}</td>
+<td>{{ $convention->address }}</td>
+<td>{{ $convention->location }}</td>
+<td>{{ $convention->name_owner }}</td>
+<td>{{ $convention->phone_no }}</td>
+<td class=center>
+	<a href="{{route('conventions.show',$convention->id)}}" class="btn btn-primary">More</a>
+</td>
+<td class=center>
+<a href="{{route('conventions.edit',$convention->id)}}" class="btn btn-primary">Edit</a>
+</td>
+ <td class=center>
+   {!! Form::open(['method' => 'Delete','route'=>['conventions.destroy',$convention->id]]) !!}
+   {!! Form::submit( 'Delete', ['class'=>'btn btn-warning']) !!} 
    {!! Form::close() !!}
-  </td>
+    </td>
 	</tr>
+   <?php $i++ ?>
 	@endforeach
 	</tbody>
 	</table>
+	</div>
+	</div>
+	@endsection
+	@section('pagescript')
+	<script>    
+    $(".delete").on("submit", function(){
+        return confirm("Do you want to delete this item?");
+    });
+    $(function () {
+        $('#example2').dataTable({
+            "bPaginate": true,
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true,
+            "bInfo": true,
+            "bAutoWidth": false
+        });
+    });
+</script>
 @endsection

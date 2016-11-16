@@ -5,11 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class PremiumCenterDetails extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+    
     public function up()
     {
         Schema::create('premium_center_details', function (Blueprint $table) {
@@ -23,11 +19,6 @@ class PremiumCenterDetails extends Migration
             $table->timestamps();        });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::drop('premium_center_details');

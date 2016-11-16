@@ -2,12 +2,9 @@
 
 @section('title', 'Add Convention Center')
 
-@section('content')
-
-
-
 @section('body')
 
+@include('flash')
 
 {!! Form::open(['route' => 'conventions.store','method'=>'post','enctype' => 'multipart/form-data']) !!}
 <div class="box box-primary">
@@ -35,11 +32,11 @@
         </div>
         <div class="form-group">
             {!! Form::label('phone_no', 'Phone number') !!}
-            {!! Form::text('phone_no', null, ['class' => 'form-control', 'placeholder'=>'Enter Phone Number']) !!}
+            {!! Form::text('phone_no', null, ['class' => 'form-control', 'maxlength'=>'10','placeholder'=>'Enter Phone Number']) !!}
         </div>
 		<div class="form-group">
             {!! Form::label('mobile_no', 'Mobile number') !!}
-            {!! Form::text('mobile_no', null, ['class' => 'form-control', 'placeholder'=>'Enter Mobile Number']) !!}
+            {!! Form::text('mobile_no', null, ['class' => 'form-control','maxlength'=>'10','placeholder'=>'Enter Mobile Number']) !!}
         </div>
 		<div class="form-group">
             {!! Form::label('mail_id', 'Email id') !!}
@@ -50,16 +47,16 @@
             {!! Form::text('website_address', null, ['class' => 'form-control', 'placeholder'=>'Enter Website Address Here']) !!}
         </div>
         <div class="form-group">
-            {!! Form::label('maplocation', 'Map Location') !!}
-            {!! Form::text('maplocation', null, ['class' => 'form-control', 'placeholder'=>'Enter Maplocation']) !!}
+            <div id="map_canvas" class="col-md-12" style="height: 300px;"></div>
+            <div id="latlong" style="display: none;">
+                <p class="col-md-6">Latitude: <input size="20" type="text" id="latbox" name="latitude" class="form-control" readonly></p>
+                <p class="col-md-6">Longitude: <input size="20" type="text" id="lngbox" name="longitude" class="form-control" readonly></p>
+            </div>
         </div>
         <div class="form-group">
             {!! Form::label('featured_image', 'Featured image') !!}
             {!! Form::file('featured_image', null, ['class' => 'form-control', 'placeholder'=>'Put Image']) !!}
         </div>
-        
-       
-
        
         <br>
         <div class="form-group">
@@ -71,11 +68,33 @@
     </div>
 
 </div>
+@endsection
+@section('pagescript')
 
+<script type="text/javascript">
+  var map;
+  function initialize() {
+  var myLatlng = new google.maps.LatLng(8.558347270306417, 76.88123720581052);
 
+  var myOptions = {
+     zoom: 13,
+     center: myLatlng,
+     mapTypeId: google.maps.MapTypeId.ROADMAP
+     }
+  map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
 
+  var marker = new google.maps.Marker({
+  draggable: true,
+  position: myLatlng, 
+  map: map,
+  title: "Your location"
+  });
 
+  google.maps.event.addListener(marker, 'dragend', function (event) {
+    document.getElementById("latbox").value = this.getPosition().lat();
+    document.getElementById("lngbox").value = this.getPosition().lng();
+});
 
-@stop
-
+}
+</script> 
 @endsection

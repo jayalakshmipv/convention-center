@@ -61,6 +61,11 @@ return [
             'region' => 'your-region',
             'bucket' => 'your-bucket',
         ],
+        'images'=>[
+            'driver'=>'local',
+            'root'=>storage_path('../public/images'),
+            'visibility' => 'public',
+        ],
 
     ],
 
